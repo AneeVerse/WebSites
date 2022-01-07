@@ -51,10 +51,10 @@ try {
         die('MF004');
     }
 
-    if (isset($_POST['email'])) {
+    if (isset($_POST['4d.x.art@gmail.com'])) {
         $template = str_replace(
             array("<!-- #{FromState} -->", "<!-- #{FromEmail} -->"),
-            array("Email:", $_POST['email']),
+            array("Email:", $_POST['4d.x.art@gmail.com']),
             $template);
     }
 
@@ -79,7 +79,7 @@ try {
 
     $template = str_replace(
         array("<!-- #{Subject} -->", "<!-- #{SiteName} -->"),
-        array($subject, $_SERVER['SERVER_NAME']),
+        array($subject, $_SERVER['messages']),
         $template);
 
     $mail = new PHPMailer();
