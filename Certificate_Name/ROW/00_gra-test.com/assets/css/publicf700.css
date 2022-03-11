@@ -1,0 +1,134 @@
+*{
+	color: #333333;
+	font-family: "arial","宋体","tahoma","sans-serif";
+}
+
+body{
+	padding-top: 110px;
+}
+
+main.content{
+	padding-top: 0;
+}
+
+.navbar{
+	background-color: rgba(248,249,250,0.8);
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar{
+    background-color: #222;
+}
+
+.nav_logo{
+	height:76px;
+}
+
+.navbar{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+    /* background-color: #f8f9fa; */
+}
+
+
+.navbar .navbar-nav li{
+	padding: 0 12px;
+}
+
+.navbar .navbar-nav a{
+	border-bottom: 2px solid transparent;
+	color: #444;
+	/*font-weight: bold;*/
+	font-size: 16px;
+	line-height: 30px;
+	padding: 30px 0px;
+}
+
+.navbar .navbar-nav a>.fa{
+	color: #444;
+}
+
+.navbar .navbar-nav a:hover{
+	border-bottom: 2px solid #222;
+	color: #222;
+	background-color: transparent;
+	transition: all 0s ease-in-out 0.2s;
+}
+
+.navbar .navbar-nav a:hover>.fa{
+	color: #222;
+}
+
+@media (max-width:768px){
+
+    .navbar .navbar-header .navbar-toggle{
+        margin-top: 20px;
+    }
+
+    .navbar-nav{
+        margin-top: 34px;
+    }
+
+    .navbar .navbar-nav a{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+        
+}
+
+#index_carousel{
+	/* position: absolute;
+	left: 0;
+	top: 0; */
+	width: 100%;
+}
+
+.nav_logo{
+	padding:20px 15px;
+}
+
+.logo_img{
+	height:56px;
+}
+
+.footer{
+    padding: 40px;
+    background-color: #111 !important;
+}
+
+.footer .container{
+    background-color: transparent;
+}
+
+
+.footer .container p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer .container .copyright{
+    background-color: transparent;
+}
+
+.c_hr{
+    background-image: url('../img/01.svg');
+    width: 100%;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin: 40px auto 0;
+}
+
+.c_hr2{
+    background-image: url('../img/06.svg');
+    width: 100%;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin: 40px auto 0;
+}
+
+.layui-layer-fast-msg .layui-layer-content{
+    color: #fff;
+}
