@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Name</title>
+
+    <link rel="shortcut icon" href="/GRA/assets/img/1favicon.ico" />
+    <link href="/GRA/assets/css/frontend.minf700.css?v=1.0.1" rel="stylesheet">
+    <link href="/GRA/assets/css/publicf700.css?v=1.0.1" rel="stylesheet">
+    <link rel="stylesheet" href="/GRA/assets/css/home.css">
+    <link rel="stylesheet" href="/GRA/assets/css/style.css">
+    <link rel="stylesheet" href="/GRA/assets/css/style1.css">
+</head>
+
+
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav_logo" href="/GRA/"><img class="logo_img" src="/GRA/assets/img/logo.png" alt=""></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="header-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/GRA/">Home</a></li>
+                <li><a href="/GRA/About">About</a></li>
+                <li><a href="/GRA/Certificate">Identification certificate</a></li>
+                <li><a href="/GRA/Contact">Contact</a></li>
+
+                <div class="search" style="position:relative; margin-top:25px; left:50px;">
+                    <form action="/GRA/Certificate/result.html" method="get" target="_blank">
+                    <span><input type="text" id="title" name="kw" class="txt c-9" placeholder="Please enter the identification report number" style="margin-left: 35px; margin-top: -7px; color:#999;"/></span>
+                    <input type="submit" name="submit" id="submit" value=" " style="background:url(/GRA/assets/img/header/search.png) no-repeat; width:21px; height:20px; float:right; position:absolute; top:9px; right:10px;">
+                    </form>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Nav -->
+
+
+<div style="text-align:center;">
+	<!-- <img src="/GRA/assets/img/cert/Bk.jpg" alt="" />  -->
+    <img style="width: 100%;" src="/GRA/assets/img/bg/CerBg.jpg" alt="" />
+</div>
+
+
+<!-- <div class="webbox">
+    <div class="banner"><img src="/GRA/assets/img/bg/ConBg.jpg" width="1160" height="200" /> </div>
+</div> -->
+
+<div>
+    <table width="100%" height="400" border="0" cellspacing="0" cellpadding="0" class="ke-zeroborder">
+    <tbody>
+        <tr>
+            <td width="20%" align="center" style="background:url(images/bj_01.html) left top no-repeat;">
+                <img src="/GRA/assets/img/icons/long_Logo_.png" alt="" /><br />
+            </td>
+
+            <td align="center" width="30%">
+                <div class="f30 blue" style="color:#a7947a;">Contact Us</div>
+                <div class="f14 m_top20">
+                <p><span style="font-size:20px;">Mailbox：Email<br />
+                    Address Line One<br />
+                    New York&nbsp;&nbsp;Manhattan</span>
+                </p>
+                </div>
+            
+            </td>
+
+            <td width="50%">
+                
+    <section style="margin-top: 20px;">
+
+        <div class="container1">
+          <form action="https://formspree.io/f/mgedygko" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="5"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div id="status"></div>
+      </section>
+
+            </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+        
+
+
+
+
+
+
+<style>
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+section {
+  height: 80%;
+  width: 85%;
+  
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+.container1 {
+  
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.form-group {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+</style>
+
+
+<Script>
+    window.addEventListener("DOMContentLoaded", function () {
+  // get the form elements defined in your form HTML above
+
+  var form = document.getElementById("my-form");
+  // var button = document.getElementById("my-form-button");
+  var status = document.getElementById("status");
+
+  // Success and Error functions for after the form is submitted
+
+  function success() {
+    form.reset();
+    status.classList.add("success");
+    status.innerHTML = "Thanks!";
+  }
+
+  function error() {
+    status.classList.add("error");
+    status.innerHTML = "Oops! There was a problem.";
+  }
+
+  // handle the form submission event
+
+  form.addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var data = new FormData(form);
+    ajax(form.method, form.action, data, success, error);
+  });
+});
+
+// helper function for sending an AJAX request
+
+function ajax(method, url, data, success, error) {
+  var xhr = new XMLHttpRequest();
+  xhr.open(method, url);
+  xhr.setRequestHeader("Accept", "application/json");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    if (xhr.status === 200) {
+      success(xhr.response, xhr.responseType);
+    } else {
+      error(xhr.status, xhr.response, xhr.responseType);
+    }
+  };
+  xhr.send(data);
+}
+
+</Script>
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer w1200 c-9" style="clear:both">
+    <div class="container">
+        <p class="left"> &copy; 2022 GLOBAL GEMOLOGICAL RESEARCH ASSOCIATION</p>
+        <p class="right">All Rights Reserved</p>
+        <!-- <p align="center">aa：<a href="#">aa</a></p> -->
+        
+        <!-- <p class="copyright col-xs-12">Copyright ©2022 GLOBAL GEMOLOGICAL RESEARCH ASSOCIATION All Rights Reserved.</p> -->
+    </div>
+</footer>
+
+<!-- Script -->
+<script src="/GRA/assets/js/require.min.js" data-main="assets/js/require-frontend.minf700.js?v=1.0.1"></script>
+<script src="/GRA/assets/js/script.js"></script>
+<script src="/GRA/assets/js/script1.js"></script>
+<script src="/GRA/assets/js/script2.js"></script>
+<script src="/GRA/assets/js/script3.js"></script>
+
+</body>
+</html>
+
+
+
+

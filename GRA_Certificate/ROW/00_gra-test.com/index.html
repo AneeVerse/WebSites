@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Name</title>
+
+    <link rel="shortcut icon" href="assets/img/1favicon.ico" />
+    <link href="assets/css/frontend.minf700.css?v=1.0.1" rel="stylesheet">
+    <link href="assets/css/publicf700.css?v=1.0.1" rel="stylesheet">
+
+
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.js"></script>
+  <script src="/assets/js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav_logo" href="index.html"><img class="logo_img" src="assets/img/logo.png" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse" id="header-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><i class="fa fa-diamond"></i> Home</a></li>
+                <li><a href="index/index/about.html"><i class="fa fa-handshake-o"></i> About us</a></li>
+                <li><a href="index/index/contact.html"><i class="fa fa-comment"></i> Contact us</a></li>
+                <li><a href="index/index/certificate.html"><i class="fa fa-certificate"></i> Identification certificate</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<main class="content">
+    <link rel="stylesheet" href="assets/css/home.css">
+
+    <div id="content-container" class="container" style="padding:0 0 0;">
+        <div id="index_carousel" class="carousel slide">
+        <!--  （Carousel）  -->
+        <ol class="carousel-indicators">
+            <li data-target="#index_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#index_carousel" data-slide-to="1"></li>
+            <li data-target="#index_carousel" data-slide-to="2"></li>
+        </ol>   
+        <!--  （Carousel）  -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"><div class="carousel_img" style="background-image:url('assets/img/index_carousel1.jpg')"></div></a>
+            </div>
+            <div class="item">
+                <a href="#"><div class="carousel_img" style="background-image:url('assets/img/index_carousel2.jpg')"></div></a>
+            </div>
+            <div class="item">
+                <a href="#"><div class="carousel_img" style="background-image:url('assets/img/index_carousel3.jpg')"></div></a>
+            </div>
+        </div>
+        <!--  （Carousel）  -->
+        <a class="left carousel-control" href="#index_carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#index_carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="col-xs-12">
+        <div class="c_hr"></div>
+        <h3 class="col-xs-12 title1"><hr>GEM DISPLAY<hr></h3>
+        <p class="col-xs-12 title2">The certification authority can test the following gems for you</p>
+    </div>
+
+
+
+    <div class="col-xs-12 gems_box">
+        <div class="col-xs-12 col-sm-3">
+            <img src="assets/img/gem1.jpg">
+            <p>MOISSANITE</p>
+            <span>Moissanite is a synthetic gem that shines better than diamonds.</span>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <img src="assets/img/gem2.jpg">
+            <p>LAB GROWN DIAMOND</p>
+            <span>und in lava, meteorites, and deep in the earth's mantle, yellow-green peridot is the extreme gem.</span>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <img src="assets/img/gem3.jpg">
+            <p>LAB GROWN EMERALD</p>
+            <span>Diamonds are among nature’s most precious and beautiful creations.</span>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <img src="assets/img/gem4.png">
+            <p>EMERALD CUT MOISSANITE</p>
+            <span>One of the most popular cutting methods for moissanite, It is used in precious jewelry.</span>
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <div class="c_hr2"></div>
+        <h3 class="col-xs-12 title1"><hr>CHECK CERTIFICATE<hr></h3>
+        <p class="col-xs-12 title2">Please enter your code,and click the search button.</p>
+        <p class="col-xs-12 title2">Search results will show the following:</p>
+        <p class="col-xs-12 title2">1.If the results are correct, product information will appear.</p>
+        <p class="col-xs-12 title2">2.If the results are wrong, there will be no product information. </p>
+    </div>
+
+    <div class="col-xs-12">
+        <div class="input-group search_box">
+            <span class="input-group-addon">CODE:</span>
+            <input type="text" class="form-control" id="certid_input">
+            <span class="input-group-btn">
+                <button class="btn btn-success" type="button" id="search_btn"><i class="fa fa-search"></i> Search</button>
+            </span>
+        </div>
+        
+    </div>
+
+    <div class="col-xs-12">
+        <div class="col-xs-12 gem_info">
+            <!-- <h3>certificate info:</h3> -->
+            <table class="table table-hover table-striped">
+                <tbody>
+                    <tr>
+                        <th>GRA REPORT NUMBER：</th>
+                        <td id="val1"></td>
+                    </tr>
+                    <tr>
+                        <th>DESCRIPTION：</th>
+                        <td id="val2"></td>
+                    </tr>
+                    <tr>
+                        <th>GRA Laboratory Area：</th>
+                        <td id="val3"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover table-striped">
+                <caption>GRADING REPORT</caption>
+                <tbody>
+                    <tr>
+                        <th>Measurements：</th>
+                        <td id="val4"></td>
+                    </tr>
+                    <tr>
+                        <th>Carat Weight：</th>
+                        <td id="val5"></td>
+                    </tr>
+                    <tr>
+                        <th>Color Weight：</th>
+                        <td id="val6"></td>
+                    </tr>
+                    <tr>
+                        <th>Clarity Grade：</th>
+                        <td id="val7"></td>
+                    </tr>
+                    <tr>
+                        <th>Shape And Cutting Style：</th>
+                        <td id="val8"></td>
+                    </tr>
+                    <tr>
+                        <th>Cut Grade：</th>
+                        <td id="val9"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover table-striped">
+                <caption>PROPORTIONS</caption>
+                <tbody>
+                    <tr>
+                        <th>Depth：</th>
+                        <td id="val10"></td>
+                    </tr>
+                    <tr>
+                        <th>Table：</th>
+                        <td id="val11"></td>
+                    </tr>
+                    <tr>
+                        <th>CROWN HEIGHT - ANGLE：</th>
+                        <td id="val12"></td>
+                    </tr>
+                    <tr>
+                        <th>PAVILION DEPTH - ANGLE：</th>
+                        <td id="val13"></td>
+                    </tr>
+                    <tr>
+                        <th>GIRDLE THICKNESS：</th>
+                        <td id="val14"></td>
+                    </tr>
+                    <tr>
+                        <th>CULET：</th>
+                        <td id="val15"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover table-striped">
+                <caption>FINISH</caption>
+                <tbody>
+                    <tr>
+                        <th>Polish：</th>
+                        <td id="val16"></td>
+                    </tr>
+                    <tr>
+                        <th>Symmetry：</th>
+                        <td id="val17"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover table-striped">
+                <caption>FLUORESCENCE</caption>
+                <tbody>
+                    <tr>
+                        <th>FLUORESCENCE：</th>
+                        <td id="val18"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-hover table-striped">
+                <caption> INSCRIPTION（S）</caption>
+                <tbody>
+                    <tr>
+                        <th>INSCRIPTION（S）：</th>
+                        <td id="val19"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- <div class="col-xs-12 cert_box">
+        <h3>certificate view:</h3>
+        <div class="cert_bg">
+            <span class="val val1" id="val1"></span>
+            <span class="val val2" id="val2"></span>
+            <span class="val val3" id="val3"></span>
+            <div class="val val4"><span class="val" id="val4"></span>mm</div>
+            <div class="val val5"><span class="val" id="val5"></span>carat*</div>
+            <span class="val val6" id="val6"></span>
+            <span class="val val7" id="val7"></span>
+            <span class="val val8" id="val8"></span>
+            <span class="val val9" id="val9"></span>
+            <span class="val val10" id="val10"></span>
+            <span class="val val11" id="val11"></span>
+            <span class="val val12" id="val12"></span>
+            <div class="val val13">*Diamond weight in same size real weight:<span class="val" id="val3"></span>Carat</div>
+            <div class="a_img" id="a_img"></div>
+            <div class="b_img" id="b_img"></div>
+        </div>
+    </div> -->
+
+    <!-- <div class="col-xs-12 explanation">
+        <p>How To Use:</p>
+        <p>Please enter your code,and click the search button. </p>
+        <p style="margin: 20px 0;">If you want to search again,please click the refresh button. </p>
+        <p>Search results will show the following:</p>
+        <p>1.If the results are correct, product information will appear. </p>
+        <p style="margin: 20px 0;">2.If the results are wrong, there will be no product information. </p>
+
+    </div> -->
+
+</div>
+        </main>
+
+        <footer class="footer" style="clear:both">
+            <div class="container">
+                
+                <p class="copyright col-xs-12">Copyright ©2018-2022 Gales Search Center All Rights Reserved.</p>
+            </div>
+        </footer>
+
+
+        <script src="assets/js/require.min.js" data-main="assets/js/require-frontend.minf700.js?v=1.0.1"></script>
+
+    </body>
+
+
+<!-- Mirrored from www.gra-test.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2022 10:53:45 GMT -->
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+        
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css">
+
+
+</head>
+
+<body>
+
+
+
+        
+    <div class="content m_top30">
+    <div class="f22">GEM DISPLAY </div>
+    <div class="f14 m_top10">The certification authority can test the following gems for you</div>
+
+    <div class="rollBox m_top30">
+    <div class="aal" onMouseDown="ISL_GoUp()" onMouseUp="ISL_StopUp()" onMouseOut="ISL_StopUp()"></div>
+    <div class="Cont" id="ISL_Cont">
+        <div class="ScrCont">
+                    
+            <div id="List1">
+              <dl>
+                <dt><img src="themes/default/images/20186721352395.png" /></dt>
+                <dd class="f14">PERIDOT</dd>
+                <dd class="f12">Found in lava, meteorites, and deep in the earth&#39;s mantle, yellow-green peridot is the extreme gem.</dd>
+              </dl>
+          
+              <dl>
+                <dt><img src="themes/default/images/2018672146583.png" /></dt>
+                <dd class="f14">FANCY COLOR DIAMOND</dd>
+                <dd class="f12">Dazzling brilliance. Captivating color. These are the planet&rsquo;s most valued gems.</dd>
+              </dl>
+
+              <dl>
+                <dt><img src="themes/default/images/20186721418407.png" /></dt>
+                <dd class="f14">DIAMOND</dd>
+                <dd class="f12">Diamonds are among nature&rsquo;s most precious and beautiful creations.</dd>
+              </dl>
+
+              <dl>
+                <dt><img src="themes/default/images/20186721429914.png" /></dt>
+                <dd class="f14">EMERALD</dd>
+                <dd class="f12">Emerald is the bluish green to green variety of beryl, a mineral species that includes aquamarine.</dd>
+              </dl>
+
+              <dl>
+                <dt><img src="themes/default/images/20186721442801.png" /></dt>
+                <dd class="f14">CITRINE</dd>
+                <dd class="f12">Citrine is the transparent, pale yellow to brownish orange variety of quartz</dd>
+              </dl>
+            </div>
+                  
+            <div id="List2"></div>
+        </div>
+    </div>
+    <div class="RightBotton" onMouseDown="ISL_GoDown()" onMouseUp="ISL_StopDown()" onMouseOut="ISL_StopDown()"></div>
+    </div>
+    </div>
+
+    
+    </body>
+
+
+
+
+
+
+<style>
+
+
+
+</style>
+
+
+
+<script>
+  var Speed = 1; //speed(ms)
+var Space = 5; //move(px)
+var PageWidth =280; //pagewidth
+var fill = 0; 
+var MoveLock = false;
+var MoveTimeObj;
+var Comp = 0;
+var AutoPlayObj = null;
+GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+GetObj('ISL_Cont').scrollLeft = fill;
+GetObj("ISL_Cont").onmouseover = function(){clearInterval(AutoPlayObj);}
+GetObj("ISL_Cont").onmouseout = function(){AutoPlay();}
+AutoPlay();
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+function AutoPlay(){  
+ clearInterval(AutoPlayObj);
+ AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();',3000); //settime
+}
+function ISL_GoUp(){ //up
+ if(MoveLock) return;
+ clearInterval(AutoPlayObj);
+ MoveLock = true;
+ MoveTimeObj = setInterval('ISL_ScrUp();',Speed);
+}
+function ISL_StopUp(){ //up-stop
+ clearInterval(MoveTimeObj);
+ if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0){
+  Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);
+  CompScr();
+ }else{ 
+     MoveLock = false; 
+ }
+ AutoPlay();
+}
+function ISL_ScrUp(){ //up-act
+ if(GetObj('ISL_Cont').scrollLeft <= 0){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + GetObj('List1').offsetWidth}
+ GetObj('ISL_Cont').scrollLeft -= Space ;
+}
+function ISL_GoDown(){ //down
+ clearInterval(MoveTimeObj);
+ if(MoveLock) return;
+ clearInterval(AutoPlayObj);
+ MoveLock = true;
+ ISL_ScrDown();
+ MoveTimeObj = setInterval('ISL_ScrDown()',Speed);
+}
+function ISL_StopDown(){ //down-stop
+ clearInterval(MoveTimeObj);
+ if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0 ){
+  Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;
+  CompScr();
+ }else{
+  MoveLock = false;
+ }
+ AutoPlay();
+}
+function ISL_ScrDown(){ //down-act
+ if(GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth;}
+ GetObj('ISL_Cont').scrollLeft += Space ;
+}
+function CompScr(){
+ var num;
+ if(Comp == 0){MoveLock = false;return;}
+ if(Comp < 0){ //up
+  if(Comp < -Space){
+   Comp += Space;
+   num = Space;
+  }else{
+   num = -Comp;
+   Comp = 0;
+  }
+  GetObj('ISL_Cont').scrollLeft -= num;
+  setTimeout('CompScr()',Speed);
+ }else{ //down
+  if(Comp > Space){
+   Comp -= Space;
+   num = Space;
+  }else{
+   num = Comp;
+   Comp = 0;
+  }
+  GetObj('ISL_Cont').scrollLeft += num;
+  setTimeout('CompScr()',Speed);
+ }
+}
+</script>
+</html>

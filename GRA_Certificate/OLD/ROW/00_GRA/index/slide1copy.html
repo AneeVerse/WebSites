@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<div>
+	
+	  <!-- partial:index.partial.html -->
+	  
+		  
+		  <div id="contentContainer" class="trans3d"> 
+		  <section id="carouselContainer" class="trans3d">
+			  <figure id="item1" class="carouselItem trans3d"><a href="/"> <div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/7b1d796c-7c85-47d6-af56-625fab74875f_1900x_crop_center.progressive.jpg?v=1611033489">Round</div></a></figure>
+			  <figure id="item2" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/7_35094dfb-eb57-43e2-b67f-0702a97bbf01_1900x_crop_center.progressive.jpg?v=1607487340">Cushion</div></a></figure>
+			  <figure id="item3" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/2_fe72f4b2-9206-4880-8e87-156866a4463d_1900x_crop_center.progressive.jpg?v=1624260809">Emerald</div></a></figure>
+			  <figure id="item4" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/loosemossanite_1900x_crop_center.progressive.jpg?v=1624335539">Radiant</div></a></figure>
+			  <figure id="item5" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/loosemoissanite_d69f8cf0-0b48-415c-a933-82f68b543e17_1900x_crop_center.progressive.jpg?v=1624333531">Princess</div></a></figure>
+			  <figure id="item6" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/4febf323-4bdd-464c-9584-074ecd01fa9e_1900x_crop_center.progressive.jpg?v=1610451880">Pear</div></a></figure>
+			  <figure id="item7" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/loosemoissanite_b65c0d50-f42a-4e62-ba20-223f18ff2ac8_1900x_crop_center.progressive.jpg?v=1603274793">Asscher</div></a></figure>
+			  <figure id="item8" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/portuguesemoissanite_1900x_crop_center.progressive.jpg?v=1623725710">Portuguese </div></a></figure>
+			  <figure id="item9" class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/3_d4541531-e7a3-4443-bf28-b7a07b8fabe1_1900x_crop_center.progressive.jpg?v=1604377828">Criss Cut</div></a></figure>
+			  <figure id="item10"class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/true_moissanite_2c830df3-2cfc-47f6-ab67-8ded3a49ecf4_1900x_crop_center.progressive.jpg?v=1579676337">OEC</div></a></figure>
+			  <figure id="item11"class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/diamond_dccfd380-55f8-4b27-b0f0-3d0866906418_1900x_crop_center.progressive.jpg?v=1579676377">Blue Moissanite</div></a></figure>
+			  <figure id="item12"class="carouselItem trans3d"><a href="/"><div class="carouselItemInner trans3d"><img width="100%" height="100%" src="https://cdn.shopify.com/s/files/1/0274/5014/6891/products/loose_moissanite_1a80a0df-4374-4ed6-981c-1e9031bd4266_1900x_crop_center.progressive.jpg?v=1582696951">Black Diamond</div></a></figure>
+		  </section>
+		  </div>
+	  
+	  <!-- partial -->
+	  <script src='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/js/libs.min.js'></script>
+	  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+	  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	  
+	</div>
+	  
+	  
+	  
+	  
+	  <style>
+	  
+	  /* html, body{ background-color:turquoise; }	 */
+	  
+	  body
+	  { 
+		  
+		  background-image: url('/assets/img/bg.jpg');
+		  /* background-repeat: no-repeat; */
+		  /* background-position: top center; */
+		  width:100%;
+		  background-size:cover;
+		  height:100%;
+		  /* min-height:1000px; */
+		  /* overflow:hidden; */
+		  /* font-family: 'quicksandlight', Helvetica, Arial; */
+		  /* color:#FFFFFF; */
+		  /* text-shadow: -1px -1px 4px rgba(0, 0, 0, .35); */
+		  /* filter: dropshadow(color=#000000, offx=1, offy=1);  */
+	  }
+	/*   
+	  header
+	  {
+		  
+		  margin-top:30px;
+		  position:absolute;
+		  z-index:5;
+		  width:420px;
+		  padding-top:10px;
+		  padding-bottom:10px;
+	  
+	  }
+	  
+	  h1{
+		  
+		  font-size:36px;
+		  letter-spacing:-2.5px;
+		  margin-left:30px;
+	  }
+	  
+	  h3{
+		  
+		  font-size:16px;
+		  letter-spacing:-1.5px;
+		  margin-top:5px;
+		  margin-left:35px;
+	  }
+	  
+	  #fps
+	  {
+		  margin-top:5px;
+		  margin-left:35px;
+	  }
+	  
+	  a
+	  {
+		  color:rgba( 255, 255, 255, .65 );
+		  text-decoration: none;
+	  }
+	  
+	  a:hover
+	  {
+		  color:rgba( 255, 255, 255, 1 );
+	  }
+	   */
+	  /* hardware accelatator class */	
+		  .trans3d
+		  {
+			  -webkit-transform-style: preserve-3d;
+			  -webkit-transform: translate3d(0, 0, 0);
+			  -moz-transform-style: preserve-3d;
+			  -moz-transform: translate3d(0, 0, 0);
+			  -ms-transform-style:preserve-3d;
+			  -ms-transform: translate3d(0, 0, 0);
+			  transform-style:preserve-3d;
+			  transform: translate3d(0, 0, 0);
+	  
+			  /* -webkit-backface-visibility: hidden;
+			  -moz-backface-visibility: hidden;
+			  -ms-backface-visibility:hidden;
+			  backface-visibility:hidden; */
+		  }
+		  
+		   #contentContainer
+		  {
+			  padding-top: 10%;
+			  padding-bottom: 10%;
+			  /* position:absolute; */
+			  /* margin-left:-500px; */
+			  /* margin-top:-500px; */
+			  /* left:50%; */
+			  /* top:50%; */
+			  /* width:1000px; */
+			  /* height:1000px; */
+		  } 
+		  
+		  #carouselContainer
+		  {
+			  position:absolute;
+			  margin-left:-500px;
+			  margin-top:-500px;
+			  left:50%;
+			  top:50%;
+			  width:1000px;
+			  height:1000px;
+		  }
+		  
+		  .carouselItem
+		  {
+			  width:320px;
+			  height:130px;
+			  position:absolute;
+			  left:50%;
+			  top:50%;
+			  margin-left:-160px;
+			  margin-top:-90px;
+			  visibility:hidden;
+		  }
+		  
+		  .carouselItemInner
+		  {
+			  width:220px;
+			  height:230px;
+			  position:absolute;
+			  background-color:rgba(255, 255, 255, .75);
+			  border:10px solid rgba(255, 255, 255, .5);
+			  color:rgb(0, 0, 0);
+			  font-size:30px;
+			  left:50%;
+			  top:50%;
+			  margin-left:-160px;
+			  /* margin-top:-90px; */
+			  text-align:center;
+			  /* padding-top:50px; */
+			  
+		  }
+	  </style>
+	  
+	  <script>
+		  // set and cache variables
+		  var w, container, carousel, item, radius, itemLength, rY, ticker, fps; 
+			  var mouseX = 0;
+			  var mouseY = 0;
+			  var mouseZ = 0;
+			  var addX = 0;
+			  
+			  
+			  // fps counter created by: https://gist.github.com/sharkbrainguy/1156092,
+			  // no need to create my own :)
+			  var fps_counter = {
+				  
+				  tick: function () 
+				  {
+					  // this has to clone the array every tick so that
+					  // separate instances won't share state 
+					  this.times = this.times.concat(+new Date());
+					  var seconds, times = this.times;
+			  
+					  if (times.length > this.span + 1) 
+					  {
+						  times.shift(); // ditch the oldest time
+						  seconds = (times[times.length - 1] - times[0]) / 1000;
+						  return Math.round(this.span / seconds);
+					  } 
+					  else return null;
+				  },
+	   
+				  times: [],
+				  span: 20
+			  };
+			  var counter = Object.create(fps_counter);
+			  
+			  
+			  
+			  $(document).ready( init )
+			  
+			  function init()
+			  {
+				  w = $(window);
+				  container = $( '#contentContainer' );
+				  carousel = $( '#carouselContainer' );
+				  item = $( '.carouselItem' );
+				  itemLength = $( '.carouselItem' ).length;
+				  fps = $('#fps');
+				  rY = 360 / itemLength;
+				  radius = Math.round( (250) / Math.tan( Math.PI / itemLength ) );
+				  
+				  // set container 3d props
+				  TweenMax.set(container, {perspective:600})
+				  TweenMax.set(carousel, {z:-(radius)})
+				  
+				  // create carousel item props
+				  
+				  for ( var i = 0; i < itemLength; i++ )
+				  {
+					  var $item = item.eq(i);
+					  var $block = $item.find('.carouselItemInner');
+					  
+			  //thanks @chrisgannon!        
+			  TweenMax.set($item, {rotationY:rY * i, z:radius, transformOrigin:"50% 50% " + -radius + "px"});
+					  
+					  animateIn( $item, $block )						
+				  }
+				  
+				  // set mouse x and y props and looper ticker
+				  window.addEventListener( "mousemove", onMouseMove, false );
+				  ticker = setInterval( looper, 1000/60 );			
+			  }
+			  
+			  function animateIn( $item, $block )
+			  {
+				  var $nrX = 360 * getRandomInt(2);
+				  var $nrY = 360 * getRandomInt(2);
+					  
+				  var $nx = -(2000) + getRandomInt( 4000 )
+				  var $ny = -(2000) + getRandomInt( 4000 )
+				  var $nz = -4000 +  getRandomInt( 4000 )
+					  
+				  var $s = 1.5 + (getRandomInt( 10 ) * .1)
+				  var $d = 1 - (getRandomInt( 8 ) * .1)
+				  
+				  TweenMax.set( $item, { autoAlpha:1, delay:$d } )	
+				  TweenMax.set( $block, { z:$nz, rotationY:$nrY, rotationX:$nrX, x:$nx, y:$ny, autoAlpha:0} )
+				  TweenMax.to( $block, $s, { delay:$d, rotationY:0, rotationX:0, z:0,  ease:Expo.easeInOut} )
+				  TweenMax.to( $block, $s-.5, { delay:$d, x:0, y:0, autoAlpha:1, ease:Expo.easeInOut} )
+			  }
+			  
+			  function onMouseMove(event)
+			  {
+				  mouseX = -(-(window.innerWidth * .5) + event.pageX) * .0025;
+				  mouseY = -(-(window.innerHeight * .5) + event.pageY ) * .01;
+				  mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY ) - 200);
+			  }
+			  
+			  // loops and sets the carousel 3d properties
+			  function looper()
+			  {
+				  addX += mouseX
+				  TweenMax.to( carousel, 1, { rotationY:addX, rotationX:mouseY, ease:Quint.easeOut } )
+				  TweenMax.set( carousel, {z:mouseZ } )
+				  fps.text( 'Framerate: ' + counter.tick() + '/60 FPS' )	
+			  }
+			  
+			  function getRandomInt( $n )
+			  {
+				  return Math.floor((Math.random()*$n)+1);	
+			  }
+	  </script>
+</body>
+</html>

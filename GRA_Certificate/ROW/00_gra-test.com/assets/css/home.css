@@ -1,0 +1,232 @@
+#index_carousel{
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+#index_carousel .carousel-inner{
+	height: 500px;
+}
+
+#index_carousel .carousel_img{
+	height: 500px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#index_carousel .carousel-control{
+	width: 50px;
+}
+
+#index_carousel .carousel-control .glyphicon{
+	color: #fff;
+}
+
+@media (max-width:768px){
+    #index_carousel{
+        height: 200px;
+    }
+    
+    #index_carousel .carousel-inner{
+        height: 200px;
+    }
+    
+    #index_carousel .carousel_img{
+        height: 200px;
+
+    }
+}
+
+.title1{
+    text-align: center;
+    margin: 10px auto 10px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.title1 hr{
+    width: 300px;
+    display: inline-block;
+    margin: 8px 20px;
+
+}
+
+.title2{
+    text-align: center;
+    color: #777;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.gems_box>div>*{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.gems_box>div>img{
+    margin: 20px auto;
+    width: 120px;
+    display: inherit;
+}
+
+.gems_box>div>p{
+    /* color: #777; */
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.gems_box>div>span{
+    color: #777;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+
+.swiper-container{
+    /*--swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+    /*--swiper-navigation-color: #00ff33;/* 单独设置按钮颜色 */
+    --swiper-navigation-size: 30px;/* 设置按钮大小 */
+}
+
+
+.search_box{
+    margin: 20px auto 30px;
+}
+
+#search_btn{
+    background-color: #111;
+    
+}
+
+#search_btn>.fa{
+    color: #fff;
+    
+}
+
+.explanation{
+    margin: 30px 0;
+}
+
+.explanation p{
+    font-size: 16px;
+}
+
+.gem_info{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    padding-top: 15px;
+}
+
+.gem_info caption{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(140, 118, 46);
+}
+
+.gem_info th{
+    width: 50%;
+}
+
+.gem_info td{
+    width: 50%;
+}
+
+.cert_bg{
+    background-image: url('../img/cert_bg_web.png');
+    width: 1170px;
+    height: 854px;
+    background-size: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.cert_bg>*{
+    position: absolute;
+}
+
+.cert_bg>*{
+    color: red;
+    font-family: "宋体","arial","tahoma","sans-serif";
+    font-size: 12px;
+}
+
+.cert_bg>.val>span{
+    color: red;
+}
+
+.cert_bg>.val1{top: 7%;left: 0;width: 100%;text-align: center;font-size: 140%;}
+.cert_bg>.val2{top: 30%;right: 69%;font-size: 80%;}
+.cert_bg>.val3{top: 32.5%;right: 69%;font-size: 80%;}
+.cert_bg>.val4{top: 34.5%;right: 69%;font-size: 80%;}
+.cert_bg>.val5{top: 43.9%;right: 69%;font-size: 80%;}
+.cert_bg>.val6{top: 46.1%;right: 69%;font-size: 80%;}
+.cert_bg>.val7{top: 48.5%;right: 69%;font-size: 80%;}
+.cert_bg>.val8{top: 50.8%;right: 69%;font-size: 80%;}
+.cert_bg>.val9{top: 59%;right: 69%;font-size: 80%;}
+.cert_bg>.val10{top: 61.5%;right: 69%;font-size: 80%;}
+.cert_bg>.val11{top: 63.7%;right: 69%;font-size: 80%;}
+.cert_bg>.val12{top: 68%;left: 14%;font-size: 80%;}
+.cert_bg>.val13{top: 71%;left: 4%;font-size: 80%;}
+
+.cert_bg>.a_img{top: 19%;left: 38.5%; width: 23%; height: 28%; background-size: contain; background-repeat: no-repeat;     background-position: center;}
+
+.cert_bg>.b_img{top: 57%;left: 38.5%; width: 23%; height: 28%; background-size: contain; background-repeat: no-repeat;     background-position: center;}
+
+
+.top_banner{
+    height: 243px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 100px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.left_logo{
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo2.png');
+    margin-bottom: 3em;
+}
+
+.right_about{
+    /* font-size: 14px; */
+    padding: 0 50px;
+    border-left: 1px solid #bbbbbb;
+}
+
+.right_about>h2{
+    color: rgb(140, 118, 46);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.right_about>p{
+    font-size: 14px;
+    text-indent:2em;
+    line-height: 1.8em;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.right_contact{
+    /* font-size: 14px; */
+    padding: 0 50px;
+    border-left: 1px solid #bbbbbb;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.right_contact>h2{
+    color: rgb(140, 118, 46);
+    margin: 0 0 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.right_contact>p{
+    font-size: 18px;
+    line-height: 1.8em;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.cert_back_bg>img{
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

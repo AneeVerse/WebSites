@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html> 
+    <body>
+        <input type="text" name="logsarchives" id="logsarchives" autocomplete="off"  placeholder="Enter Console Command" onkeydown="redirect(this)">
+    </body>
+    <script>
+        function redirect(ele) {
+            if(event.key === 'Enter') {
+                if(ele.value === 'google')
+                     window.location.href = 'https://google.com';
+                else
+                    alert("Invalid Input");
+            }
+        }
+    </script>
+</html>
+</body>
+</html>
