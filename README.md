@@ -3,7 +3,7 @@
 
 [Site List](https://aneeverse.github.io/WebSites/)
 
-[The_Brokerz](https://aneeverse.github.io/WebSites/The_Brokerz/) <br>
+[The_Brokerz](https://aneeverse.github.io/WebSites/The_Brokerz/){:target="_blank" rel="noopener noreferrer"} <br>
 [Creamery](https://aneeverse.github.io/WebSites/Creamery/) <br>
 [Meal1](https://aneeverse.github.io/WebSites/Meal1/) <br>
 [Meal2](https://aneeverse.github.io/WebSites/Meal2/) <br>
