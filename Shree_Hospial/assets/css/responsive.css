@@ -1,0 +1,1831 @@
+@media only screen and (min-width: 992px) and (max-width: 1680px){
+    .testimonial-section.style-02 .testimonials-carousel .testimonials-carousel-controller {
+        top: 7%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1450px){
+    header.plastic-header-style-02 .header-area {
+        background-color: #fff4;      
+        box-shadow: 0px 0px 5px 0px #8394A5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 9;
+    }
+    header.plastic-header-style-02 {
+        padding: 0;
+    }
+    header.plastic-header-style-02 .search-area .menu-toggle {
+        margin-right: 0px;    
+    }
+}
+@media only screen and (max-width: 1450px){ 
+    .modal-design .modal-wrapper {
+        width: 60%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 6%;
+    }   
+}
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px){ 
+    .about-our-doctor .about-doctor .carousel-item .slider-content {
+        padding-right: 40px;
+    }
+    .testimonial-section .common-title.sergery-heading.padding-bottom-30{
+        padding-bottom: 10px;
+    }
+    .testimonial-section.default-style .common-title.padding-bottom-30,  .testimonial-section.style-02 .common-title.padding-bottom-5{
+        padding-bottom: 10px;
+    }
+    .testimonial-section.default-style .common-title.padding-bottom-35 {
+        padding-bottom: 10px;
+    }
+    .why-choose-section.padding-100 {
+        padding-bottom: 60px;
+    }
+    .mission-tab-area.padding-top-100 {
+        padding-top: 50px;
+    }
+    .teeth-canel.padding-100 {
+        padding-bottom: 60px;
+    }
+    header .header-area {
+        padding: 0px 30px 0 30px;
+    }
+    .footer-area .footer-top {
+        padding: 60px 30px 30px 30px;
+    }
+    .breadcrumb-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .modal-design .modal-wrapper {
+        width: 70%;
+    } 
+    .login-section .login-form-wrap .login-form-area .login-form {
+        padding: 0 50px;
+    }
+    .testimonial-section .testimonials-carousel .testimonial-carousel-content .carousel-items .content,
+    .opening-popup, .location-popup, .form-popup, .about-us-section .about-content-area {
+        width: 80%;
+    }
+    .comming-soon .comming-soon-wrap .countdown-part {
+        width: 65%; 
+    }
+    .modal-design #google-map {
+        width: 60%;
+    } 
+    .home-slider .home-slider-wrapper .slider-items .slider-content-area .slider-content{
+        width: 70%;
+    }
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area {
+        width: 50%; margin-right: 0;
+    }
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 60%;
+    }
+    .header-bg {
+        width: 46%;  
+    }
+    .home-slider.slider-style-04 .paralax-slider-area .slider-wrapper .slider-items .slider-content-area .slider-content,
+    .home-slider.slider-style-03 .slider-content-area .slider-content,
+    .home-slider.slider-style-04 .slider-wrapper .slider-items .slider-content-area .slider-content{
+        width: 60% !important
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content {
+        width: 60%;
+        padding-right: 10px;
+    }
+    .modal-design .address-area, .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-child-img {
+        width: 40%;
+    }
+    .comming-soon .comming-soon-wrap .comming-soon-text {
+        width: 35%;
+    }  
+    .service .service-right .right-column-two {
+        margin-left: 0;
+    } 
+    .play-area {
+        padding-top: 0;
+    }
+    .login-section .login-form-wrap .login-form-area .login-form .create-new-member { 
+        margin-top: 20px; 
+    }
+    .blog-filter-section .content-item .content-area .blog-content,
+    .blog-filter-section .content-item:nth-child(2n) .content-area .blog-content {
+        padding: 20px;
+    }
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content p {
+        margin: 10px 0;
+    }
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu .menu-item-has-children > .sub-menu {
+        left: -100%; 
+    }  
+    .full-width-header {
+        background-position: inherit;
+    }
+    .footer-area .social-media-img .images {
+        max-width: 50px;
+    }
+    .testimonial-section .testimonials-carousel .testimonials-carousel-controller {
+      display: none;
+    }
+    .testimonial-section.style-02 .testimonials-carousel .testimonials-carousel-controller {
+        top: -0%; text-align: inherit;
+    }
+    .padding-90 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .countdown-part {
+        padding: 20px 0;
+    }
+    .comming-soon .comming-soon-wrap {
+        margin-top: 50px;
+    }
+    .our-mission-section .mission-img-area {
+        margin-top: -50px;
+    }
+    .mission-tab-area.padding-top-60 {
+        padding-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1025px){ 
+    .carousel-control-prev {
+        left: -5px;
+    }
+    .carousel-control-next {
+        right: -5px;
+    }
+    .subscribe-area .input-group .input-group-append .input-group-text {
+        padding: 0 25px;
+    }
+    .home-slider.slider-style-03 .slider-content-area .slider-content,
+    .home-slider.slider-style-04 .paralax-slider-area .paralax-slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 70%;
+    }
+    .single-couterup .content .count-num {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .testimonial-section.padding-100.sergery-style {
+        padding-bottom: 30px;
+    }
+    .testimonial-section.padding-100.style-02 {
+        padding-bottom: 25px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px){ 
+    .latest-stories .storiest-carousel .slick-next {
+        left: 66%;
+    }
+    .latest-stories .storiest-carousel .slick-prev {
+        left: 32%;
+    }
+ }
+/* Medium Layout: 1025px. */
+@media only screen and (max-width: 1025px){ 
+    .main-btn-wrap .main-btn, .main-btn-wrap-2 .main-btn, .main-btn-wrap-inactive .main-btn {
+        min-width: 180px;
+        padding: 10px 20px;
+    }
+    .side-form-icons {
+        right: 20px;
+    }
+    .latest-stories.padding-top-95.padding-bottom-100 {
+        padding-top: 30px;
+    }
+    .about-us-section .play-area {
+        padding-bottom: 40px;    
+    }
+    .teeth-canel .canel-content-area {
+        padding: 0;
+    }
+    .price-area .right-column ul {
+        padding-left: 0;
+    }
+    .latest-stories.padding-95 {
+        padding-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .subscribe-area .input-group .input-group-append .input-group-text {
+        padding: 0 25px;
+    }    
+    .service .service-right .right-column-two {
+        margin-left: -50px
+    }
+}
+
+
+
+/* Tablet Layout: 991px. */
+@media only screen  and (max-width: 991px){
+        .testimonial-section.default-style .common-title.padding-bottom-30,  .testimonial-section.style-02 .common-title.padding-bottom-5,
+        .testimonial-section .common-title.sergery-heading.padding-bottom-30 {
+            padding-bottom: 0px;
+        }
+        .about-our-doctor .common-title.padding-bottom-40 {
+            padding-bottom: 35px;
+        }
+        .home-slider.slider-style-02 .plastic-surgery-slider .slider-arrow-area .arrow-top {
+            top: 15%;
+        }
+        .teeth-canel.padding-100 {
+            padding-top: 90px;
+        }
+        .login-section.padding-top-5.padding-bottom-50 {
+            padding-top: 30px;
+        }
+        .coundown-section.padding-100 {
+            padding-top: 85px;
+            padding-bottom: 85px;        
+        }
+        .service.padding-100 {
+            padding-top: 91px;        
+        }
+        .latest-stories .storiest-carousel .slick-next {
+            left: 67%;
+        }
+        .latest-stories .storiest-carousel .slick-prev {
+            left: 33%;
+        }
+        .latest-stories.padding-95 {
+            padding-top: 55px;     
+        }
+        .testimonial-section.default-style .common-title.padding-bottom-35 {
+            padding-bottom: 0;        
+        }
+        header {
+            padding: 20px 0;
+        }
+        .mission-tab-area.padding-top-60 {
+            padding-top: 0px;
+        }
+        .login-section .login-form-wrap .login-form-area .login-form {
+            padding: 0 30px;
+            margin-top: 0px;
+        }
+        .ophtalmologue-img {
+            padding-right: 15px;
+        }
+        .author-section .author-area .post-date {
+            display: none;
+        } 
+        .author-section .author-area {
+            margin-left: 20px;
+        }
+        .teeth-canel .canel-img-area img {
+            border-radius: 20px;    
+        }
+        .carousel-control-prev {
+            left: 0px;
+        }
+        .carousel-control-next {
+            right: 0px;
+        }
+        .statistics-section .main-btn-wrap {
+            margin-bottom: 50px;
+        }
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children > a::before,
+        .navbar-area .nav-container .navbar-collapse .navbar-nav > li > a::after {
+            background-color: transparent;
+            display: none;
+        }
+        .pricing .pricing-wrap {
+            width: 96%;
+            margin: auto;
+        }
+        .testimonial-section .testimonials-carousel, .our-doctor, .latest-stories, .home-slider {
+            overflow-x: hidden;
+        }
+        .home-slider.slider-style-04, .home-slider.slider-style-02 .plastic-surgery-slider{
+            overflow: hidden;
+        }
+        .testimonial-section .testimonials-carousel .testimonial-carousel-img {
+            margin-top: 10px;
+        }
+        .our-mission-section .mission-img-area {
+            transform: inherit;
+        }
+        .our-mission-section .mission-tab-area .tab-navbar-area {
+            width: 100%;
+        }
+        .modal-design .address-area .address-content ul {
+            width: 100%;
+            padding: 0 20px;
+        }
+        .modal-design .appointment-section .appointment-content .tab-content .appointment-img-area {
+            display: none;
+        }
+        .modal-design .appointment-section .appointment-content .tab-content .appointment-form-area {
+            width: 100%;
+            padding-left: 0;
+        }
+        .modal-design .appointment-section .appointment-content .tab-content .appointment-form-area .col-lg-6 {
+            max-width: 50%;
+        }
+        .modal-design .appointment-section .appointment-content .tab-content .appointment-form-area {
+            padding: 0;
+        }
+        .side-form-icons {        
+            display: none;
+            position: fixed;
+            left: 70px;
+            top: auto;
+            bottom: -65px;
+            transform: rotate(90deg);
+            transition: all 0.3s ease;
+        }
+        .side-form-popup .logo-area, .modal-design .logo-area {
+            display: none;
+        }
+        .side-form-popup .address-area .address-content .items {
+            justify-content: space-around;
+        }
+        .appointment-section .appointment-content .tab-content .appointment-form-area {
+            padding: 0 5%;
+        }
+        .side-form-icons .icon {
+            transform: rotate(-90deg);
+         }
+         .appointment-section.style-02 .appointment-content .tab-content .appointment-img-area {
+             display: none;
+         }
+        .appointment-section.style-02 .container {
+            padding: 0;
+        }
+        .side-form-popup .address-area .address-content ul {
+            width: 100%;
+        }
+        .side-form-popup .address-area .address-content { 
+            position: inherit;
+            transform: translateY(-0%);        
+            padding: 20px;        
+            width: 100%;        
+            display: flex;        
+            flex-direction: column;        
+            height: 100%;        
+            align-content: center;        
+            align-items: center;        
+            justify-content: space-evenly;
+        }
+        .comming-soon .comming-soon-wrap .countdown-part, .about-us-section .about-content-area,
+        .about-our-doctor .container, header .header-area .navbar-area {
+            width: 100%;
+        }    
+        .side-form-popup #google-map, .side-form-popup #google-map2, .side-form-popup .modal-image {
+             height: 350px;
+             overflow: hidden;
+        }    
+         .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area {
+            width: 100%;
+            padding: 0;
+         }
+         .appointment-section.style-02 .row {
+            margin: 0;
+         }
+         .appointment-section.style-02 .col-md-6, .appointment-section.style-02  .col-md-12   
+         {
+             padding: 0;
+             margin: 0;
+         }
+         .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area .row .col-lg-6 {
+             max-width: 50%;
+         }
+         .opening-popup, .location-popup, .form-popup {
+             width: 80%;
+             min-height: 350px;        
+        } 
+        .side-form-popup .appointment-section .container .appointment-content {
+            padding: 70px 45px;
+        }
+    
+         .opening-popup, .location-popup, .form-popup {
+            max-width: 700px;   
+         }
+         .side-form-popup .address-area .address-content {
+             text-align: center;
+         }
+        .side-form-popup .address-area {
+            margin-top: 0;
+        } 
+        .address-area h4.heading-04.padding-10 {
+            padding: 0;
+        }
+        .address-content .main-btn-wrap-2 a {
+            margin: auto;    
+        }  
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li a, 
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li a {
+            display: inline-block;
+        }
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children > a::before {
+            top: 35%;
+        }
+        .navbar-area.nav-style-03 .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children a::before {
+            background-color: var(--paragraph-color);
+        }
+    
+        /* Display None */
+        .home-slider .scroll-down-area .scroll-down a, 
+        .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .slider-controller-wrapper,
+        .header-bg, .home-slider.slider-style-03 .slider-bottom-area .scroll-down-area, header .search-area,   
+        .home-slider .slick-arrow .arrow-down, .home-slider .slick-arrow .arrow-up,
+        .home-slider.slider-style-04 .paralax-slider-area .slider-bottom-area .scroll-down-area .scroll-down-btn,
+        .home-slider.slider-style-02 .plastic-surgery-slider .social-icon-area {
+            display: none
+        }
+
+        /* Width */
+        .pricing .container, .navbar-area .nav-container, .timeline-section .container {
+            max-width: 100%;
+        }
+        .ophtalmologue-section .container {  
+            width: 100%; margin: auto;  
+        }
+        .testimonial-section .testimonials-carousel .testimonial-carousel-content .carousel-items .content {
+            width: 99%
+        }
+        .modal-design .modal-wrapper,
+        .modal-design .address-area .address-content{
+            width: 80%;
+        }
+        .dental-section .dental-content-area { 
+            width: 80%; margin: 50px auto 0;  
+        }
+        .footer-area .social-media-img .images {
+            max-width: 75px;
+        }
+        .home-slider.slider-style-03 .slider-content-area .slider-content,  .home-slider.slider-style-04 .paralax-slider-area .paralax-slider-wrapper .slider-items .slider-content-area .slider-content,       
+        .home-slider .home-slider-wrapper .slider-items .slider-content-area .slider-content, .timeline-section .big-slider-area .timeline-slider-big .items-content,     
+        .home-slider.slider-style-01 .surgery-slide-wrapper .surgery-slider-items .slider-content-area .slider-content{
+            width: 70%;
+        }
+        .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area {
+            width: 60%;
+        }   
+        .home-slider.slider-style-04 .slider-wrapper .slider-items .slider-content-area .slider-content {
+            width: 55% !important;
+        } 
+        .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content,
+        .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content{
+            width: 50%; 
+        }  
+    
+        /* Text Center */ 
+        .why-choose-section .container .why-choose-img, .neurology-img-area, .ophtalmologue-img,
+        .our-mission-section .mission-img-area {
+            text-align: center;
+        }
+        .appointment-section .appointment-content ul {
+            justify-content: center;
+         }
+    
+        /* Padding */ 
+        .blog-filter-section .content-item .author-area .author-designation-area {
+            padding: 50px 80px;
+        }
+        .appointment-section .appointment-content {
+            padding: 50px 0;
+        }
+        .countdown-part 
+        .our-doctor .carousel-inner .carousel-item .doctor-slider-content p {
+            padding: 20px 0;
+        }
+        .our-mission-section .common-title, .modal-design .address-content p, .neurology-section .neurology-content-area, header .header-area,
+        .our-doctor .carousel-inner .carousel-item .doctor-slider-content, .appointment-section .appointment-content ul,
+        .comming-soon .comming-soon-wrap .countdown-part, .coundown-section.padding-top-50.padding-bottom-50, .help-section.padding-top-50.padding-bottom-80 {
+            padding: 0;
+        } 
+        .statistics-section .progress-content p {
+            margin: 0;
+        }
+        .mission-tab-area.padding-top-100 {
+            padding-top: 0;    
+        }
+        .comming-soon .comming-soon-wrap .comming-soon-text  {
+            padding-left: 0
+        } 
+        .service .service-right{
+            padding-left: 0px;
+        }
+        header .header-area .logo-area {
+            padding-left: 15px;
+        } 
+        .about-us-section .about-content-area .play-area{
+            padding-top: 15px;
+            padding-bottom: 40px;
+        }      
+        .timeline-section.padding-top-40.padding-bottom-110 {
+            padding-bottom: 50px;    
+        }
+        .our-mission-section .mission-tab-area .tab-content-area .tab-content .paragraph-wrap,
+        .about-our-doctor .container .about-doctor .carousel-item .slider-content {
+            padding-right: 0;
+        } 
+        .help-section .content-area {  
+            position: inherit; 
+            padding-left: 30px;
+            padding-top: 20px;
+        }  
+        .login-section .login-form-wrap .login-form-area .login-form .common-title { 
+            padding-bottom: 5px; 
+        }
+        .blog-filter-section .content-item:nth-child(2n) .content-area .blog-content, .blog-filter-section .content-item .content-area .blog-content {
+            padding: 20px;
+        }
+        .timeline-section .big-slider-area .timeline-slider-big .items-content {
+            padding: 25px 20px 0
+        }  
+
+        /*---Spacing Solved---*/
+        .membership-filter-section.padding-top-130.padding-bottom-100 {
+            padding-top: 0;
+            padding-bottom: 80px;
+        }      
+        .testimonial-section.padding-100 {
+            padding-bottom: 55px;
+        }
+         .appointment-section.padding-80 {
+            padding-top: 60px;
+            padding-bottom: 60px;        
+        }
+        .blog-filter-section .padding-bottom-100,
+        .latest-stories.padding-top-20.padding-bottom-100, .custom-date-picker.padding-top-70.padding-bottom-100, .pagination-two.padding-bottom-100 {
+            padding-bottom: 80px;        
+        }
+        .help-section .padding-top-20.padding-bottom-30 {
+            padding-top: 10px;
+            padding-bottom: 0px;        
+        }
+        .membership-filter-section.padding-top-90.padding-bottom-40 {
+            padding-top: 70px;
+            padding-bottom: 10px;
+        }
+        .why-choose-section .check-box-area {
+            padding-bottom: 0;
+        }
+        .testimonial-content-wrap .padding-90 {
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        .heading-two.padding-90 {
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+        .heading-three.padding-bottom-100, .rooth-canal-price-section.padding-bottom-100, .statistics-section.padding-top-100.padding-bottom-90 {
+            padding-bottom: 80px;
+        }
+
+        .common-title.padding-bottom-65 {
+            padding-bottom: 45px;
+        }
+        .quality-section .common-title {
+            padding-bottom: 20px;        
+        }
+        .quality-section .content-area {
+            padding: 0 0px 25px 0;       
+        }
+        .latest-stories .storiest-carousel .slick-next, .latest-stories .storiest-carousel .slick-prev {
+            z-index: 1;
+        }
+        .pricing.padding-130 {
+            padding-top: 110px;
+            padding-bottom: 110px;
+        }
+        .blog-filter-section.padding-top-130.padding-bottom-100 {
+            padding-top: 0;
+            padding-bottom: 80px;
+        }
+        .help-section.padding-top-140 {
+            padding-top: 0;
+        }
+        .another-question-section.padding-100 {
+            padding-top: 90px;
+        }        
+        .common-title.padding-bottom-90, .countdown-section.padding-bottom-100 {
+            padding-bottom: 80px;
+        }
+        .doctor-slider-content .padding-60 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .horizontal-scroll.padding-top-100.padding-bottom-50, .blog-details-section.padding-top-100,
+        .statistics-section.padding-top-100, .inline-element.padding-top-100 {
+            padding-top: 80px;
+        }
+        .blog-pagination.padding-bottom-100  {
+            padding-bottom: 80px;
+        }
+        .about-us-section.padding-top-140 {
+            padding-top: 10px;        
+        }
+        .about-our-doctor.our-doctor.padding-100 {
+            padding-top: 55px;     
+        }
+        .about-our-doctor .about-doctor .carousel-item .slider-content {
+            margin-top: 0;
+        }
+        .why-choose-section.padding-100 {
+            padding-bottom: 65px;
+        }
+        .common-title.padding-top-40.padding-bottom-80 {
+            padding-bottom: 45px;
+        }    
+        .content-item.padding-bottom-100 {
+            padding-bottom: 60px;
+            margin: 0;
+        }
+        .comment-area .comments-title {
+            padding-top: 10px;
+            font-size: 32px;
+            line-height: 42px;
+        } 
+        .flat-icon.padding-bottom-100 {
+            padding-bottom: 80px;
+        } 
+        .latest-stories .carousel-right-area {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .latest-stories .storiest-carousel .item .catousel-content .stories-text {
+            text-align: left;
+        }
+        .accordion-page.padding-top-130.padding-bottom-100 {
+            padding-top: 0px;
+            padding-bottom: 80px;
+        }
+        .font-family.padding-top-130 {
+            padding-top: 0;
+        }
+        .heading-font.padding-top-100 {
+            padding-top: 80px;
+        }
+        .style-right {
+            padding-left: 0;
+            padding-top: 30px;
+        }
+        .style-left .heading-04 {
+            margin: 0;
+            padding-bottom: 30px;
+        }
+        .testimonial-section .testimonials-carousel .testimonial-carousel-img .carousel-items {
+            height: 510px !important;
+        }
+        .service .service-left {
+            padding-top: 0;
+            padding-bottom: 50px;
+        }
+        .padding-50 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .flat-icon.padding-top-100.padding-bottom-50 {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .statistics-section .progress-content {
+            margin-top: 0;
+            padding-right: 0;
+        }
+        .button-section ul li {
+            padding: 20px 0;
+        }
+        .why-choose-section.padding-top-120.padding-bottom-110 {
+            padding-top: 60px;
+            padding-bottom: 20px;    
+        }
+        .quality-section.padding-top-100.padding-bottom-70 {
+            padding-top: 90px;      
+        }
+        .our-mission-section.padding-top-70.padding-bottom-80 {
+            padding-bottom: 30px;
+        }
+        .accordion-wrapper.style-02 .card .card-header a {
+            padding: 15px;
+        }
+        .breadcrumb-area.padding-90 {
+            padding: 40px 20px;
+        }
+        .accordion-page.padding-90, .latest-stories.padding-top-50 {
+            padding-top: 0;
+        }
+        .service-left .padding-top-30.padding-bottom-35 {
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+
+        .latest-stories.padding-top-95.padding-bottom-100 {
+            padding-bottom: 80px;        
+        }
+        .about-us-section .padding-top-20.padding-bottom-40 {
+            padding-top: 5px;
+            padding-bottom: 10px;        
+        }
+        .blog-details-section .blog-details-item p {
+            padding-top: 5px;
+        }
+        .canel-content-area .common-title.padding-bottom-20 {
+            padding-bottom: 10px;
+        }
+        .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content  {
+            padding-right: 20px;
+        }
+
+        /*--------Font Size-------*/
+        .home-slider .slider-content .slider-heading {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .common-title .heading {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .blog-details-section .common-title .heading {
+            font-size: 26px;
+            line-height: 36px;
+        }
+        .author-section .author-area .author-designation-area .name, .comment-area .comment-form-wrap .reply-title {
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+    
+        /* Margin */ 
+        .horizontal-scroll.margin-bottom-100 {
+            margin-bottom: 50px;
+        }
+        .horizontal-scroll.margin-top-60 {
+            margin-bottom: 40px;
+        }
+        .blog-filter-section .content-item {
+            margin: 0 0;
+        }
+        .our-doctor .carousel-inner .carousel-item .doctor-slider-content {
+            margin-top: 12px;
+        }
+        .about-our-doctor .about-doctor .carousel-item .slider-content .main-btn-wrap {
+            margin: 40px 0 40px;    
+        }
+        .our-doctor .carousel-inner .carousel-item .doctor-slider-content{
+            padding-bottom: 20px;
+        }
+        .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content p {
+            margin: 10px 0;
+        } 
+        .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area
+        {    
+            margin-right: 0;
+        }
+        .our-mission-section .mission-img-area, .teeth-canel .canel-content-area .play-area {
+            margin-top: 30px;
+        }
+        .login-section .login-form-wrap .login-form-area .login-form .create-new-member, .help-section .content-area .search-btn { 
+            margin-top: 20px; 
+        }  
+        .login-section .login-form-wrap .login-form-area .login-form .form-btn a {
+            margin-top: 10px;
+        }
+        .accordion-wrapper.style-03, .login-section .login-form-wrap .login-form-area .login-form .form-control { 
+            margin-bottom: 10px;
+        }
+        .slider-p-margin {
+            margin-bottom: 30px;
+        }
+        .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap .heading-02 {
+            margin-bottom: 0;
+        }
+        .icon-alert .alert-box {
+            margin: 20px auto;
+        }
+        .single-couterup {
+            margin: 15px 0;
+        }
+        .modal-design .row, .comment-area .comments-title, .comment-area .comment-form-wrap .form-area .comment-form .main-btn-wrap { 
+            margin: 0;  
+        }
+        header.plastic-header-style-02 .search-area .menu-toggle { 
+            margin-right: -10px; 
+        }
+        .our-doctor .common-title .heading, .why-choose-section .container .why-choose-img,
+        .statistics-section .progress-content .common-title .heading, .our-mission-section .mission-tab-area .tab-navbar-area,
+        .comming-soon .comming-soon-wrap .comming-soon-text, .latest-stories .common-title .heading, .neurology-img-area {
+            margin: auto;
+        }
+        .ophtalmologue-section .container, .margin-left-160, .neurology-section .neurology-content-area{
+            margin-left: 0;
+        }
+        .ophtalmologue-content-area{
+            width: 80%;
+            margin: 50px auto 0;
+        }
+        .neurology-section .neurology-content-area {
+            padding-top: 50px;
+        }
+        .navbar-toggler {
+            left: 100%; transform: translateX(-120%);
+        }
+        .countdown-part .counter-item-wrap .counter-item {
+            height: inherit;  min-width: 120px;
+        } 
+        .about-our-doctor .about-doctor .carousel-item .slider-img {
+            min-height: 700px;
+        }
+        .timeline-section .big-slider-area .timeline-slider-big .items-img {
+            height: 600px;
+        }     
+        .modal-design .address-area .address-content {
+            position: inherit;  top: 0; left: 0; margin: 0 auto 20px;
+            transform: inherit; height: 100%; width: 100%; display: flex;
+            flex-direction: column; align-items: center;
+            justify-content: space-evenly;
+        } 
+        .side-form-popup .address-area {
+            position: inherit; 
+            margin-top: 0px;
+        } 
+        .about-our-doctor .container .about-doctor .carousel-item .slider-img {
+            border-radius: 30px;
+        }
+        .about-our-doctor .container {
+            max-width: inherit; margin-left: 0; 
+        } 
+        header .header-area { 
+            flex-wrap: wrap;
+        }   
+        .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap {
+            position: inherit; transform: inherit;
+        }
+        .comming-soon {
+            height: inherit;
+        }    
+        .comming-soon .comming-soon-wrap {
+            margin-top: 110px;
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            overflow-y: hidden;
+        } 
+        .about-us-section .about-content-area {
+            position: inherit; 
+            transform: translate(0); 
+            top: 0; 
+            padding: 20px 0;
+        }
+        .blog-filter-section .content-item .content-area .blog-content{
+            top: 45%;
+        } 
+        .navbar-area.nav-style-03 .nav-container .navbar-collapse .navbar-nav li a {
+             color: inherit;
+        }
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:first-child a,
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:last-child a,
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:hover > .sub-menu  { 
+             border-radius: 0; 
+        }  
+        .testimonial-section .testimonials-carousel .testimonials-carousel-controller {
+            display: none;
+        }
+        .testimonial-section .testimonials-carousel .testimonial-carousel-img .right_active_item .carousel-items{
+            height: 0 !important;
+        }
+        .testimonial-section.style-02 .testimonials-carousel .testimonials-carousel-controller {
+            top: 6px; text-align: inherit;
+        }
+        .neurology-section .col-lg-6 { 
+             order: 2;
+        }
+        .timeline-section .small-slider-area {
+            left: 35%;
+            bottom: 5%;
+        }
+        .breadcrumb-area .page-title .heading-1 {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .main-btn-wrap a, .main-btn-wrap input[type="submit"], .main-btn-wrap [type="button"], .main-btn-wrap-2 a, 
+        .main-btn-wrap-2 input[type="submit"], .main-btn-wrap-2 [type="button"], .main-btn-wrap-inactive a, 
+        .main-btn-wrap-inactive input[type="submit"], .main-btn-wrap-inactive [type="button"]{
+            padding: 10px 10px;
+            min-width: 200px;
+        }
+        .home-slider .controller-area {
+            bottom: 10%;
+        }
+        .button-section ul li {
+            width: 230px;
+        }    
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li .sub-menu li {
+            border-bottom: none;
+        }
+        .navbar-area .nav-container .navbar-collapse .navbar-nav li .sub-menu li a{
+            display: block !important;
+        }
+       .testimonial-section .testimonials-carousel, .latest-stories.padding-top-20.padding-bottom-100 .carousel-right-area {
+            width: 96%;
+            margin: auto;
+        }
+        .statistics-section .progress-content .heading-3 {
+            margin: 0;
+            font-size: 26px;
+            line-height: 36px;
+        }    
+        .carousel-right-area, .about-our-doctor .container {
+            width: 95%;
+            margin: auto;
+        }
+        .latest-stories .common-title .heading.line-left::before {
+            margin: auto;
+        }
+        .why-choose-section .common-title {
+            padding-top: 30px;        
+        }
+        .footer-area .footer-top {
+            padding: 60px 30px 30px 30px;        
+        }
+        .teeth-canel .container, .carousel-right-area.style-02 {
+            margin: auto;
+        }
+        .another-question-section .question-img {
+            padding-top: 50px;
+        }
+        .our-mission-section .common-title .heading {
+            margin: auto;
+            padding-bottom: 20px;        
+        }
+        .package-section.quality-section {
+            padding-top: 75px;
+        }
+        .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area .main-btn-wrap {
+            padding-left: 15px;
+        }
+        .comment-form-wrap .main-btn-wrap {
+            margin-bottom: 30px;
+        }
+        .blog-details-footer .right {
+            padding-top: 10px;
+        }
+        .blog-page-content .blog-details-footer .list-wrap a {
+            margin-bottom: 10px;
+        }
+        .blog-page-content .blog-details-items .content .title {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+    
+
+
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 768px){ 
+
+   /* width */   
+    .testimonial-section .testimonials-carousel .testimonial-carousel-img, .testimonial-section .testimonials-carousel .testimonial-carousel-content 
+    .carousel-items .content, .testimonial-section .testimonials-carousel .testimonial-carousel-content, 
+    .ophtalmologue-section .container .ophtalmologue-content-area .ophtalmologue-content, .our-mission-section .mission-tab-area .tab-navbar-area,
+    .error-404 .error-404-wrap, .blog-filter-section .content-item .content-area .blog-content, .blog-filter-section .content-item .content-area .blog-img,
+    .appointment-section .container .appointment-content .tab-content .appointment-img-area, .testimonial-section .testimonials-carousel .testimonial-content-wrap,
+    .appointment-section .appointment-content .tab-content .appointment-form-area, .home-slider.slider-style-05 .slider-wrap .slider-right-content {
+        width: 100%;
+    }
+    .dental-section .dental-content-area, .dental-section .dental-content-area, .comming-soon .comming-soon-wrap .comming-soon-text,
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 {
+        width: 90%
+    }   
+    .home-slider.slider-style-04 .slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 80% !important;
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content {
+         width: 75%; 
+    }
+    .home-slider.slider-style-04 .paralax-slider-area .slider-wrapper .slider-items .slider-content-area .slider-content,
+    .login-section .login-form-wrap .login-form-area {
+        width: 60%;
+    }
+    .pricing .pricing-wrap .pricing-column {
+        width: 45%; 
+    }
+    .blog-filter-section .content-item .author-area .author-img {
+        width: 30%
+    }
+    .appointment-section.style-02 .container {
+        max-width: 100%;
+    }
+
+    /* padding */
+    .timeline-section .big-slider-area .year-area ul {
+        padding: 0;    
+    }
+    .appointment-section.padding-top-80.padding-bottom-100 {
+        padding-top: 75px;    
+    }
+    .another-question-section .question-form {
+        padding-right: 0;
+    }
+    .pricing.padding-75 {
+        padding-top: 50px;
+        padding-bottom: 50px;    
+    }
+    .statistics-section.padding-80 {
+        padding-bottom: 0;    
+    }
+    .testimonial-section.padding-80.default-style {
+        padding-bottom: 0;    
+    }
+    .pricing .common-title {
+        padding-bottom: 30px;    
+    }
+    .service .service-left {
+        padding-top: 0;
+    } 
+    .blog-filter-section .content-item .author-area .author-designation-area {
+        padding: 40px;
+    }
+    .rooth-canal-price-section .price-area {
+        padding: 30px; 
+        margin-left: 0;
+    }
+    .author-section .author-area .author-designation-area {
+        padding: 20px;
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content {
+        padding-left: 20px;
+    }
+    .timeline-section .big-slider-area .timeline-slider-big .items-content .heading-03{
+        padding-bottom: 0;
+    }
+    .ophtalmologue-section .container .ophtalmologue-content-area {
+        margin-left: 0px;
+        margin-right: 0;
+        width: 90%;
+    } 
+
+    /*---Spacing Solution---*/
+    .appointment-section .appointment-content .tab-content .appointment-img-area {      
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .appointment-section .appointment-content .tab-content .appointment-img-area img {
+        border-radius: 20px;
+    }
+    .pricing.padding-100 {
+        padding-bottom: 80px;
+    }
+    .our-doctor.padding-top-25 {
+        padding-top: 0;
+    }
+    .testimonial-content-wrap .padding-90 {
+        padding-top: 0;
+    }
+    .testimonial-section .testimonials-carousel .testimonial-carousel-img {
+        padding-bottom: 20px;
+    }
+    .pricing.padding-bottom-100.sergery-style {
+        padding-bottom: 70px;
+    }
+    .pricing.padding-bottom-100.style-02{
+        padding-bottom: 80px;
+    }
+    .another-question-section .question-img {
+        text-align: center;
+    }
+
+    /* Margin */
+    .service-item, .font-family .heading, .heading-font .heading, .inline-element .heading, .countdown-part .heading-02, 
+    .our-mission-section .mission-tab-area .tab-navbar-area,
+    .home-slider.slider-style-04 .paralax-slider-area .slider-wrapper .slider-items .slider-content-area .slider-content .main-btn-wrap a,
+    .subscribe-area .input-group {
+        margin: auto;
+    } 
+    .error-404 .error-404-wrap .page-title::before {
+        margin-bottom: 5px;
+    }
+    .countdown-part .counter-item-wrap .counter-item {
+        margin: 5px;
+    }
+    .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap .heading-02 {
+        margin: 0;
+    } 
+    .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap .heading-02 {
+        padding-top: 20px;
+    }
+    .login-section .login-form-wrap .login-form-area.login-form-style-02 .form-btn {
+        margin-top: 0;
+    } 
+    .pricing .pricing-wrap .pricing-column {
+        margin: 20px auto;
+    }
+
+
+    /* Dinsplay None */
+    .blog-filter-section .content-item .author-area .post-date,
+    .home-slider.slider-style-03 .slider-bottom-area .scroll-down-area .scroll-down-btn a, .modal-area .logo-area img, 
+    .home-slider.slider-style-04 .paralax-slider-area .slider-bottom-area .scroll-down-area .scroll-down-btn a, .home-slider .social-icon, 
+    .home-slider .controller-area, .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .slider-controller-wrapper,
+    .home-slider .scroll-down-area .scroll-down,    
+    .testimonial-section .testimonials-carousel .testimonial-arrow  {
+        display: none !important;
+    }
+
+    /* Text Center */
+    .widget.footer-widget
+    .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap, .font-family .common-title,
+    .heading-font .common-title, .inline-element .common-title, .primary-font, .secondary-font, 
+    .page-header{
+        text-align: center; 
+    }
+    .blog-filter-section .content-item .content-area .blog-content, 
+    .blog-filter-section .content-item .content-area .blog-img {
+        min-height: 450px; margin: 20px 0;
+    }
+    .blog-filter-section .content-item .content-area .blog-img {
+        overflow-x: hidden;   
+    }
+
+    .pricing .pricing-wrap .pricing-column:nth-child(2){
+        transform: inherit;
+    }
+    .testimonial-section .testimonials-carousel .testimonial-content-wrap {  
+        margin: 0; position: inherit; top: 0; 
+        right: 0; transform: translateY(-0%); padding: 0 20px;
+    }
+    .testimonial-section .testimonials-carousel .testimonials-carousel-controller {
+        top: -1%;
+    }
+    .testimonial-section .testimonials-carousel {
+        flex-wrap: wrap;
+    }    
+    .pricing .pricing-wrap {
+        flex-wrap: wrap;
+    }   
+    .countdown-part .counter-item-wrap .counter-item:nth-child(2) {
+        transform: scale(1)
+    } 
+    .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap .heading-02 {
+        font-size: 30px;
+    }
+    .membership-filter .membership-grid .membership-image-section .membership-heading .heading {
+        font-size: 50px;
+    }
+    .testimonial-section.style-02 .testimonials-carousel .testimonials-carousel-controller {
+        top: 7px;
+    }
+    .service .service-right .right-column-two {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .latest-stories .storiest-carousel .slick-next, .latest-stories .storiest-carousel .slick-prev {
+        display: none !important;
+    }
+    .subscribe-area .input-group .form-control {
+        border: 2px solid #FF8686;    
+    }
+    .subscribe-area.style-03 .input-group .form-control {
+        border: 2px solid #2D9BE2;    
+    }
+    .latest-stories.padding-100 .container {
+        max-width: inherit;
+        width: 94%;
+        margin: auto;
+    }
+    .service.three.padding-100 .common-title {
+        margin-top: 80px;
+    }  
+    .blog-filter-section .padding-bottom-100 {
+        padding-bottom: 50px;
+    } 
+    .pricing .pricing-wrap .pricing-column .price-content .price .heading-2 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+    .login-section .login-form-wrap .login-form-area{
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 740px){ 
+    .our-doctor .carousel-control-next, .our-doctor .carousel-control-prev{
+        display: none;
+    }
+    .login-section .login-form-wrap .login-form-area .login-form {
+        padding: 0 15px;
+    }
+    .service .service-right .right-column-two {
+        margin-left: 0;
+    }
+    .home-slider .slider-content .slider-heading, .breadcrumb-area .page-title .heading-1{ 
+        font-size: 30px; 
+        line-height: 40px;
+    } 
+    .comment-area .comments-title {
+        font-size: 30px;
+        line-height: 40px;
+    }  
+    .common-title .heading {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .service .service-left .heading-3, .statistics-section .progress-content .heading-3,
+    .our-mission-section .mission-tab-area .tab-content-area .tab-content .award-area .award-title .heading-03,
+    .timeline-section .big-slider-area .timeline-slider-big .items-content .heading-03,
+    .blog-details-section .common-title .heading,
+    .author-section .author-area .author-designation-area .name, .comment-area .comment-form-wrap .reply-title,
+    .another-question-section .question-form .common-title .heading-03,
+    .quality-section .common-title .heading, .membership-filter .accounting-section .form-bottom .common-title .heading, 
+    .blog-post-single-item .content .title, .blog-page-content .blog-details-items .content .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .our-doctor .carousel-inner .carousel-item .doctor-slider-content .heading-4,
+    .testimonial-section .testimonials-carousel .testimonial-content-wrap .carousel-items .content .heading-4,
+    .about-our-doctor .about-doctor .carousel-item .slider-content .heading-04{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .play-area .play-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .timeline-section .small-slider-area {
+        bottom: 0%;
+    }
+    .timeline-section .big-slider-area .timeline-slider-big .items-content {
+        padding: 0 20px 0;
+    }
+
+
+}
+
+
+/* medium tablet layout 599px */
+@media only screen and (max-width: 599px){
+    .blog-page-content .blog-details-testimonial_wrap {
+        flex-wrap: wrap;
+    }
+    .check-box li {
+        padding-left: 40px;
+    }
+    .blog-page-content .blog-details-testimonial_wrap .thumb {
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .blog-page-content .blog-details-testimonial_wrap .content {
+        width: 100%;
+    }
+    .faq-section.padding-100 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-slider.slider-style-03 .slider-content-area .slider-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home-slider.slider-style-03 .slider-content-area .slider-content,
+    .home-slider.slider-style-04 .paralax-slider-area .paralax-slider-wrapper .slider-items .slider-content-area .slider-content{
+        width: 100%;
+    }
+    .home-slider.slider-style-01 .surgery-slide-wrapper .surgery-slider-items .slider-content-area .slider-content,
+    .home-slider.slider-style-04 .paralax-slider-area .paralax-slider-wrapper .slider-items .slider-content-area {
+        left: 0;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .horizontal-scroll .button-group .button {    
+        padding: 10px 15px;
+    }
+    .comment-area .comment-list .single-comment-wrap, .comment-area .comment-form-wrap .form-area {
+        flex-wrap: wrap;
+    }
+    .comment-area .comment-list .single-comment-wrap .content .title-area {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .comment-area .comment-list li ul.children li {
+        margin-left: 0;
+    }
+    .comment-area .children {
+        padding-left: 0;
+    }
+    .home-slider.slider-style-04 .paralax-slider-area .paralax-slider-wrapper .slick-dots {
+        display: none !important;
+    }
+    .comment-area .comment-form-wrap .form-area .comment-form,
+    .comment-area .comment-list .single-comment-wrap .content {
+        width: 100%;
+    }
+    .about-our-doctor .about-doctor .carousel-item .slider-img {
+        min-height: 600px;
+    }
+    .timeline-section .small-slider-area {
+        bottom: 14%;
+    }  
+    .service.three.padding-100 .common-title {
+        margin-top: 40px;
+    }
+    .form-bottom .main-btn-wrap .main-btn {
+        padding: 10px;
+    }
+    .author-section .author-area {
+        margin: 20px;
+    }
+    .author-section .author-area .author-img {
+        width: 30%;
+    }
+    .modal-design .modal-wrapper .location-popup-design .close-button {
+        top: -15px;
+        right: -15px;
+    }
+    .timeline-section .big-slider-area .timeline-slider-big .items-img img {
+        height: inherit;
+    }
+    .modal-design .address-area .address-content .items { 
+        justify-content: space-around;
+    }
+    .modal-design .modal-wrapper {
+        width: 90%;
+    }
+    .modal-design .modal-image,
+    .side-form-popup #google-map, .side-form-popup #google-map2, .side-form-popup .modal-image, .modal-design .modal-image img, .modal-design #google-map   {
+        display: none;
+    }
+    .modal-design,
+    .opening-popup, .location-popup, .form-popup, .modal-design .address-area {
+        min-height: 300px;
+    }
+    .side-form-popup .address-area .address-content {
+        min-height: 300px;
+    }  
+    .side-form-popup .address-area, .modal-design .address-area {
+        width: 100%;
+    }
+    .opening-popup, .location-popup, .form-popup {
+        width: 90%;
+    }
+    .opening-popup .close-popup, .location-popup .close-popup, .form-popup .close-popup {
+        top: -15px;
+        right: -15px;
+    }
+    .navbar-area .nav-container .navbar-collapse {
+        width: 90%;
+        margin: auto;
+    }
+    .modal-design .appointment-section .appointment-content .tab-content .appointment-form-area .col-lg-6,
+    .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area .row .col-lg-6 {
+        max-width: 100%;    
+    }
+    .side-form-popup .address-area .address-content ul {
+        margin-bottom: 10px;
+    }
+    .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area {
+        padding: 50px 30px;
+    }
+    .side-form-popup .appointment-section .container .appointment-content {
+        margin-top: 0;
+        padding: 0;
+    }
+     /* Width   */
+    .rooth-canal-price-section .price-area .left-column, .rooth-canal-price-section .price-area .right-column, .modal-design, 
+    .timeline-section .big-slider-area .timeline-slider-big .items-img, .timeline-section .big-slider-area .timeline-slider-big .items-content,
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content, .home-slider .home-slider-wrapper {
+        width: 100%;
+    }   
+    .dental-section .dental-content-area {
+        width: 98%
+    }
+    .timeline-section  .small-slider-area .timeline-slider-small .items {
+        width: 95% !important;
+    }
+    .home-slider .home-slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 100%
+    } 
+    .home-slider.slider-style-04 .paralax-slider-area .slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 80%;
+    }
+    .pricing .pricing-wrap .pricing-column {
+        width: 60%
+    }
+
+    /* Padding */
+    .login-section .login-form-wrap .login-form-area .login-form .form-btn input[type="submit"] {
+        padding: 10px 40px;
+    } 
+    .blog-filter-section .content-item .author-area .author-designation-area { 
+        padding: 25px; 
+    }
+    .timeline-section  .small-slider-area .timeline-slider-small .items {
+        padding: 12px;
+    }
+    .membership-filter .container { 
+        padding: 0 30px; 
+    }
+    .timeline-section .common-title .heading, .home-slider .home-slider-wrapper  {
+        padding: 0 20px;
+    }
+    .testimonial-section .testimonials-carousel .testimonial-carousel-img .carousel-items {
+        height: 450px !important;
+    }
+
+   
+    /* Margin */
+    .common-title .center::after, .navbar-area .nav-container, .comment-area .comment-form-wrap .form-area .comment-form .main-btn-wrap,
+    .timeline-section .big-slider-area .timeline-slider-big, .accordion-wrapper.style-02   {
+        margin: 0;
+    }    
+    .home-slider.slider-style-05 .dental-slider .main-btn-wrap a {
+        margin: auto;
+    }
+    .home-slider .slider-content p {
+        margin-bottom: 0px;       
+    }
+    .home-slider-one .slider-content p {
+        display: none;
+    }
+    /* Display None */
+    .timeline-section .big-slider-area .year-area, .home-slider .scroll-down-area, .home-slider .social-icon{
+        display: none;
+    } 
+    .latest-stories .storiest-carousel .slick-prev, .latest-stories .storiest-carousel .slick-next {  
+        display: none !important
+    }
+  
+    /* Text align */
+    .timeline-section .big-slider-area .timeline-slider-big, .timeline-section .big-slider-area {
+        display: flex;
+        justify-content: center;
+    }    
+    .help-section .content-area .search-btn input::placeholder {
+        text-align: left
+    }
+    .home-slider.slider-style-02 .plastic-surgery-slider .slider-arrow-area .arrow-top {
+        top: 15%;
+    }
+    .countdown-part .counter-item-wrap .counter-item {
+        min-width: 130px;  
+        height: 130px;
+    }
+    .countdown-part .counter-item-wrap {
+        flex-wrap: wrap;
+    }
+    .timeline-section .big-slider-area .timeline-slider-big .items-content {
+        position: absolute;
+        padding-top: 17%;   
+        height: 100%;    
+    } 
+    .timeline-section .big-slider-area .timeline-slider-big .items {
+        position: relative;
+    } 
+    .timeline-section  .small-slider-area .timeline-slider-small .items {
+        background: transparent;  
+        border: 1px solid #fff; 
+    }
+    .timeline-section  .small-slider-area .timeline-slider-small .items img {
+        height: inherit
+    }    
+    .timeline-section  .small-slider-area .timeline-slider-small .slick-current.slick-active .items {
+        border: 1px solid #FF8686
+    }
+    .timeline-section  .small-slider-area {
+        left: 50%; 
+        transform: translateX(-50%);
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-child-img {
+        order: 1; 
+        margin: 0 auto;
+        width: 40%;
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content {
+        order: 2; 
+        text-align: center; 
+    }
+    .rooth-canal-price-section .price-area {
+        margin: 0 20px;
+    }
+    .service .service-right {
+        padding-left: 0px;
+    }
+    .latest-stories .carousel-right-area{
+        width: 100%;
+        margin: auto;
+        text-align: center;    
+    }
+
+ 
+}
+
+
+@media screen and (max-height: 480px) {
+    .service.three.padding-100.sergery-style-02{
+        padding-top: 120px;
+    }
+    .side-form-popup .appointment-section .appointment-content .tab-content .appointment-form-area .main-btn-wrap {
+        margin: 0 auto;
+    }
+ }
+
+ @media only screen and (max-width: 480px){  
+    .our-doctor .carousel-inner .carousel-item .doctor-slider-content .main-btn-wrap {
+        padding-left: 5px;
+    }
+    .blog-page-content .blog-details-next-previous .home-btn {
+        display: none;
+    }
+ }
+/* mobile tablet layout 450px */
+@media only screen and (max-width: 450px){ 
+    .horizontal-scroll .button-group {
+        border-bottom: 0;
+    }
+    .home-slider .slider-content .slider-heading, .breadcrumb-area .page-title .heading-1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .subscribe-area .input-group .input-group-append .input-group-text {
+        padding: 0 20px;    
+    }
+    .our-doctor .carousel-inner .carousel-item .doctor-slider-content .main-btn-wrap {
+        padding-right: 0;
+    }
+    .main-btn-wrap .main-btn, .main-btn-wrap-2 .main-btn, .main-btn-wrap-inactive .main-btn { 
+        min-width: 150px;
+    }
+    .mission-tab-area.padding-top-60 {
+        padding-top: 18px;
+    }
+    .comment-area .comment-list .single-comment-wrap .content p {
+        margin: 10px 0;
+    }
+    .doctor-slider .carousel-item .d-flex .main-btn {
+        margin-right: 15px;
+    }
+    .appointment-form-area .margin-15 {
+        margin: 0 0 10px 0;
+    }
+    .appointment-section.style-02 .appointment-content .tab-content .appointment-form-area {
+        padding: 40px 20px;
+    }
+    .our-mission-section .common-title .heading {
+        padding-bottom: 0;
+    }
+    .rooth-canal-price-section .price-area .left-column {
+        padding-right: 0;
+    }
+    .progress-section .title {
+        padding: 0 0 0 20px;
+    } 
+    .common-title.padding-bottom-65, .quality-section .common-title {
+        padding-bottom: 25px;
+    } 
+    .latest-stories.padding-top-95.padding-bottom-100 {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    .our-doctor .carousel-inner .carousel-item .doctor-slider-content {
+        margin-top: 0px;
+    }
+    .doctor-slider-content .padding-60 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .testimonial-content-wrap .padding-90, .pricing.padding-bottom-100.sergery-style {
+        padding-bottom: 50px;
+    }
+    .appointment-section.padding-80 {
+        padding-top: 40px;
+        padding-bottom: 40px;    
+    }
+    .why-choose-section.padding-100 {
+        padding-bottom: 60px;  
+    }
+    .horizontal-scroll.padding-top-100.padding-bottom-50 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .content-item.padding-bottom-100 {
+        padding-bottom: 20px;
+    }
+    .blog-filter-section .content-item .author-area {
+        padding: 10px 0 0 0;
+    }
+    .dental-section .dental-content-area {
+        margin: 50px auto 0;
+    }
+    .ophtalmologue-img, .countdown-section.padding-bottom-100{
+        padding-bottom: 50px;
+    }
+    .neurology-section .padding-top-70 {
+        padding-top: 50px;    
+    }
+    .accordion-page.padding-top-130.padding-bottom-100 {
+        padding-bottom: 50px;
+    }
+    .common-title-wrap .common-title p {
+        margin: 20px 0 0 0;
+    }
+    .heading-font.padding-top-100 {
+        padding-top: 50px;
+    }
+    .custom-date-picker.padding-top-70.padding-bottom-100 {
+        padding-top: 50px;
+    }
+    .heading-one.padding-top-100 {
+        padding-top: 50px;
+    }
+    .common-title.padding-40 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .heading-two.padding-90 {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .heading-three.padding-bottom-100 {
+        padding-bottom: 50px;
+    }
+    .pricing.padding-130 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .rooth-canal-price-section.padding-bottom-100 {
+        padding-bottom: 50px;
+    }
+    .statistics-section.padding-top-100.padding-bottom-90 {
+        padding-bottom: 40px;
+    }
+    .container-fluid.pr-0 {
+        padding-right: 15px !important;
+    }
+    .paragraph-area.padding-top-60.padding-bottom-60 {
+        padding-top: 30px;
+        padding-bottom: 30px;    
+    }
+    .our-mission-section .mission-tab-area .tab-content-area .tab-content .paragraph-area p:nth-child(1) {
+        margin-bottom: 10px;    
+    }
+    .award-title.padding-bottom-70 {
+        padding-bottom: 15px;    
+    }
+    .appointment-section .appointment-content .tab-content .appointment-img-area .doctor-info {
+        padding-bottom: 15px;    
+    }
+    .latest-stories.padding-top-20.padding-bottom-100 .carousel-right-area { 
+        text-align: center;
+    }
+    .latest-stories .storiest-carousel .item .catousel-content .stories-text {
+        padding: 0 20px;
+    }
+    .horizontal-scroll.padding-top-100.padding-bottom-50, .blog-details-section.padding-top-100, 
+    .statistics-section.padding-top-100, .inline-element.padding-top-100 {
+        padding-top: 50px;
+    }
+    .latest-stories.padding-top-20.padding-bottom-100, .custom-date-picker.padding-top-70.padding-bottom-100, .pagination-two.padding-bottom-100,
+    .blog-pagination.padding-bottom-100 {
+        padding-bottom: 50px;
+    }
+    .testimonial-content-wrap .padding-90{
+        padding-bottom: 30px;
+    }
+   .side-form-popup .logo-area, .modal-design .logo-area {
+        display: none;
+    }   
+
+    /* width */
+    .timeline-section .small-slider-area .timeline-slider-small .items img { 
+        width: 100%;  
+    }
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 96%;
+        padding-right: 20px;
+    }
+    .pricing .pricing-wrap .pricing-column, .timeline-section .small-slider-area {
+        width: 80%;
+    }     
+     
+    /* Width and height */
+    .countdown-part .counter-item-wrap .counter-item { 
+        min-width: 90px; 
+        height: 90px; 
+    }
+    .testimonial-section .testimonials-carousel .testimonial-carousel-img .carousel-items {
+        height: 400px !important;
+    }
+    .comming-soon  {
+        min-height: 450px;
+    }
+    .error-404 {
+        min-height: 100%;
+    }
+    .timeline-section .small-slider-area .timeline-slider-small .items img { 
+        height: 100%;
+        border-radius: 50%; 
+        padding: 4px;     
+    }
+    .comming-soon .comming-soon-wrap .comming-soon-text .text-wrap {
+        top: -45px;
+    }
+    .timeline-section .small-slider-area .timeline-slider-small .items { 
+        height: 70px; 
+        width: 70px !important; 
+        border-radius: 50%; 
+        padding: 0;
+    }
+
+    /* Text Center */
+    .timeline-section .small-slider-area { 
+        text-align: center;
+    }
+
+    /* Display None */    
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-img-area .sergery-style  {
+        display: none;
+    }
+
+    /* Padding */
+    .blog-filter-section .content-item .author-area .author-designation-area {
+        padding: 20px;
+    }
+    .author-section .author-area .author-designation-area  {
+        padding: 10px;
+    }
+    .login-section .login-form-wrap .login-form-area .login-form .create-new-member .create-btn a {
+        padding: 8px 15px;
+    }  
+    .our-mission-section .mission-tab-area .tab-navbar-area .nav-tabs .nav-item .nav-link {
+        padding: 20px 10px;
+    }
+    .comment-area .comment-list li ul.children .px-4 {
+        padding: 0 !important;
+    }
+
+    /* Margin */
+    .our-doctor .carousel-inner .carousel-item .doctor-slider-content .heading-4 {
+        margin-top: 20px
+    }
+    .home-slider.slider-style-05 .dental-slider .slider-items .slider-content-area .slider-content {
+        margin-top: 0;
+    }
+    .comment-area .comment-list li ul.children li {
+        margin-left: 0;
+    }
+    .appointment-section .common-title .heading {
+        margin: auto;
+        text-align: center;    
+    }
+
+    /* Font size */
+    .countdown-part .heading-06 {
+        font-size: 18px; 
+        line-height: 25px;
+    }
+    .form-bottom .main-btn-wrap {
+        flex-wrap: wrap;
+    }
+    .breadcrumb-area.style-03 .breadcrumb-content {
+        min-width: 280px;
+    }
+    .timeline-section .small-slider-area {
+        bottom: 10%;
+    }  
+
+    
+}
+
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px){   
+    .footer-area .footer-top {
+        padding: 60px 0px 30px 0px;
+    }
+    .play-area .play-text {
+        margin: auto;
+    }
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+
+}
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+
+
+}
+

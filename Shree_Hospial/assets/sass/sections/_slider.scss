@@ -1,0 +1,1000 @@
+/*--------------------------------------
+            Slider Scss Start Here
+----------------------------------------*/
+
+.home-slider {    
+    padding: 2vh 0 5.9vh 0;
+    overflow: hidden; 
+    /*---------Slick Arrow Start-------------*/
+    .slick-arrow {   
+        .arrow-line {
+            width: 1px;
+            height: 70px;
+            background-color: $pink;
+            display: table;
+            margin: auto;
+        }
+        .arrow-down {
+            position: relative;
+            width: 11px;
+            margin-right: 13px;
+            .caret-down {
+                position: absolute;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 5px solid transparent;
+                border-top: 10px solid $pink;
+            }
+        }
+        .arrow-up {
+            position: relative;
+            width: 12px;
+            .caret-up {
+                position: absolute;
+                top: -10px;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 10px solid $pink;
+            }
+        }
+    }
+    /*---------Slick Arrow End-------------*/
+
+    /*---------Home Slider 01, 05 Controller Start-------------*/
+    .controller-area{
+        width: 100%;
+        position: absolute;
+        bottom: 5%;
+        left: 0;           
+        &.surgery-controller-style{           
+            .surgery-controller {
+                position: absolute;
+                left: 11%;
+                bottom: 20%;               
+                .controller-wrapper { 
+                    margin: inherit;
+                    .active-controller {
+                        color: $skyblue;
+                    }
+                    .total-controller {
+                        color: $skyblue;
+                    }
+                    .home-slider-progressbar {
+                        .home-slider-progress {
+                            background-color: $skyblue;
+                        }                        
+                        .home-slider-progress-active {
+                            background-color: $skyblue;
+                        }
+                    }
+                }
+            }
+        }        
+        .controller-wrapper {
+            position: relative;
+            width: 200px;
+            margin: auto;
+            .active-controller {
+                color: $pink;
+                position: absolute;
+                top: -10px;
+                left: -25px;
+            }
+            .total-controller {
+                color: $pink;
+                position: absolute;
+                top: -10px;
+                right: -25px;
+            }
+            .home-slider-progressbar {
+                position: relative;
+                z-index: 0;
+                width: 200px; 
+                .home-slider-progress {
+                    width: 200px;
+                    height: 1px;
+                    background-color: $pink;
+                    position: absolute; 
+                    }                        
+                .home-slider-progress-active {
+                    position: absolute;
+                    top: -1px;
+                    left: 0;
+                    width: 40px;
+                    height: 3px;
+                    background-color: $pink;
+                }
+            }
+
+        }                        
+    }
+    /*---------Home Slider 01, 05 Controller End-------------*/   
+    &.slider-style-05 {
+        padding: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        .slider-wrap {
+            display: flex;
+            .slider-left-content {
+                width: 10%;
+                height: 100vh;
+                .social-icon {
+                    width: 100%;
+                }
+                .slider-bottom-area {
+                    height: 45vh;
+                    .scroll-down-area {
+                        width: 100%;
+                        height: 73%;
+                        .scroll-down {
+                        transform: rotate(-90deg);
+                        position: absolute;
+                        bottom: 0;
+                        right: 5%;
+                        width: 108px;
+                        }
+                    }
+                }
+            }
+            .slider-right-content {
+                width: 90%;
+                height: 100%;
+            }
+        }
+        .dental-slider {
+            .slick-current, .slick-active {
+                .slider-items {
+                    .slider-content-area {
+                        .slider-content {
+                            .slider-heading {
+                                animation: fadeInDown 2s 0s both;
+                            }  
+                            p {
+                                animation: fadeInUp 2s 0s both; 
+                            } 
+                            .main-btn-wrap {
+                                 animation: fadeInUp 2s 0s both; 
+                            }  
+                        }
+                        .slider-child-img {
+                            animation: fadeInRight 2s 0s both;  
+                        }
+                    }
+                }
+            }
+            .slick-prev.slick-arrow {
+                position: absolute;
+                right: 4%;
+                top: 45%;
+                z-index: 1;
+                height: 9%;
+                width: 12px;
+                cursor: pointer;
+            }
+            .slick-next.slick-arrow {
+                position: absolute;
+                right: 5%;
+                top: 46%;
+                height: 9%;
+                width: 11px;
+                margin-right: 6px;
+                cursor: pointer;
+            }
+            .social-icon {
+                width: 10%;
+                height: 40vh;
+            }
+            .slider-bottom-area {
+                width: 100%;
+                position: absolute;
+                bottom: 9%;
+                left: 1%;
+            }
+            .slider-items {
+                background-repeat: no-repeat;
+                background-size: cover !important;
+                background-position: center center !important;       
+                width: 100%;          
+                height: 100vh;
+                min-height: 550px;
+                position: relative;
+                z-index: 0;
+                overflow: hidden;
+                .slider-content-area {
+                    display: flex;
+                    width: 100%;
+                    position: absolute;
+                    top: 53%;
+                    transform: translateY(-50%);
+                    // min-height: 550px;
+                    // height: 70%;
+                    .slider-content {
+                        width: 35%;
+                        display: grid;
+                        align-content: center;
+                    }
+                    .slider-child-img {
+                        width: 55%;
+                    }
+                }          
+            }
+        }
+    }
+    &.slider-style-04 {    
+        padding: 0;
+        width: 100%;
+        .paralax-slider-area{
+            position: relative;
+            .paralax-slider-wrapper {
+                .slick-current, .slick-active {
+                    .slider-items {   
+                        .slider-content-area { 
+                            .slider-content {
+                                .slider-heading  {
+                                    animation: fadeInDown 2s 0s both;
+                                }
+                                .main-btn-wrap {
+                                    animation: fadeInUp 2s 0s both;
+                                }
+                            }
+                        }
+                     }
+                }
+                .slider-items {                       
+                    background-size: cover;
+                    background-position: center center; 
+                    background-repeat: no-repeat;   
+                    width: 100%;          
+                    height: 100vh;
+                    min-height: 500px;
+                    position: relative;
+                    z-index: 0;               
+                    &:after {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-image: linear-gradient(rgba($black, .5), rgba(#222F3B,.5), rgba(#8596A7,.5));  
+                        width: 100%;
+                        height: 100%;
+                        content: '';          
+                        z-index: -1;
+                    }
+                    .slider-content-area {
+                        z-index: 2;
+                        position: absolute;
+                        top: 50%;
+                        width: 91%;
+                        left: 9%;
+                        transform: translateY(-50%);
+                        .slider-content {
+                            width: 50%;
+                            .slider-heading {
+                                color: $white;
+                            }
+                        }
+                    }                   
+                }
+                .slick-dots {
+                    position: absolute;
+                    right: 4%;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    li {
+                        color: $white;
+                        width: 22px;
+                        height: 22px;
+                        border-radius: 50%;
+                        line-height: 21px;
+                        text-align: center;
+                        padding: 0 7px;
+                        margin: 5px 0;
+                        cursor: pointer;
+                        position: relative;
+                        button {
+                            display: none;
+                        }
+                        &.slick-active {
+                            border: 1px solid $pink;
+                            color: $pink;   
+                            &::after {
+                                background-color: $pink;
+                            }                     
+                        }
+                        &::after {
+                            content: "";
+                            width: 5px;
+                            height: 5px;
+                            line-height: 5px;
+                            text-align: center;
+                            background-color: $white;
+                            display: inline-block;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);   
+                        }
+                    }
+                }
+            }
+            .slider-bottom-area {
+                position: absolute;
+                bottom: 5%;
+                width: 100%;
+                z-index: 1;
+                display: flex;  
+                .scroll-down-area {
+                    width: 50%;                    
+                    .scroll-down-btn { 
+                        position: absolute;
+                        right: 0;
+                        transform: translateX(50%);
+                        a {   
+                            width: 35px; 
+                            height: 70px;                                         
+                            position: relative;
+                            display: block;
+                            &::before {                   
+                                position: absolute;
+                                top: 5px;                            
+                                left: 4px;   
+                                content: '\f116';                            
+                                font-family: Flaticon;   
+                                animation: scrollDown 2s infinite;                            
+                                font-size: 35px;
+                                color: $white;
+                            }
+                        }
+                    } 
+                }
+                .social-icon {
+                    width: 50%;
+                    min-height: inherit;
+                    height: inherit;
+                    display: flex;
+                    flex-direction: row;
+                    padding-right: 4%;
+                    .icon {
+                        color: $white;
+                        border: 1px solid $white;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin: 0 8px;
+                        padding: 10px 0;
+                        &:hover {
+                            background-color: $pink;
+                            border: 1px solid $pink;
+                        }   
+                    }
+                }
+            }
+        }
+    }
+    &.slider-style-03{         
+        padding: 0;
+        width: 100%;
+        height: 100%;   
+        .container-fluid, .row {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .banner-video-area {
+            width: 100%;
+            height: 100%; 
+            position: relative;
+            z-index: -1;    
+            &:after {
+                background-color: rgba($black, .6);              
+                width: 100%;
+                height: 100%;
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+            }          
+        }
+        #myVideo {
+            min-width: 100%; 
+            min-height: 100%; 
+          }
+        .slider-content-area {
+            width: 100%;              
+            .slider-content {
+                width: 51%;
+                padding-left: 9%;  
+                margin: 0;   
+                position: absolute;
+                top: 51.5%;
+                transform: translateY(-50%);                
+                .slider-heading {
+                    color: $white;
+                    margin-bottom: 50px;
+                }
+                .slider-video {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    .video-text {
+                        color: rgba($white, 0.97);
+                        font-size: 14px;
+                        font-family: var(--body-font);
+                        font-weight: 500;
+                        line-height: 18px; 
+                        padding-right: 20px;                   
+                    }
+                }
+            }
+        }
+        .slider-bottom-area {  
+            position: absolute;
+            bottom: 15px;
+            width: 100%;  
+            display: flex;
+            align-items: flex-start;
+            .social-icon {
+                width: 50%;
+                min-height: inherit;
+                height: inherit;
+                text-align: inherit;
+                display: inherit;
+                flex-direction: inherit;
+                justify-content: inherit;
+                padding-left: 8.5%;
+                .icon {
+                    color: #859db5;
+                    &:hover {                    
+                        color: $pink;                    
+                    }
+                }
+            }
+            .scroll-down-area {
+                width: 35px;
+                .scroll-down-btn { 
+                    a {   
+                        width: 16px; 
+                        height: 30px;
+                        border: 1px solid $white;
+                        border-radius: 8px;                                          
+                        position: relative;
+                        display: block;
+                        &::before {                   
+                            position: absolute;
+                            top: 3px;
+                            left: 4px;
+                            content: '';
+                            width: 6px;
+                            height: 10px;
+                            border-radius: 5px;
+                            background-color: $white;
+                            animation: scrollDown 2s infinite;                            
+                            
+                        }
+                    }
+                }     
+            }  
+        }
+    } 
+    &.slider-style-02 {
+        padding: 0;
+        .plastic-surgery-slider {
+            display: flex;
+            width: 100%;
+            .slider-arrow-area {
+                width: 9%;
+                position: relative;
+                .arrow-top {
+                    position: absolute;
+                    top: 12%;
+                    left: 0%;
+                    font-size: 7vw;
+                    color: rgba($sliderBg, .25);
+                    font-weight: 500;
+                }
+            }
+            .surgery-slider-area-02 {              
+                width: 86%;
+                position: relative;
+                .surgery-slider-wrapper {
+                    .slick-current, .slick-active {
+                        .slider-items {
+                            .slider-content-area {
+                                .slider-content {
+                                    .slider-heading {
+                                        animation: fadeInDown 2s 0s both;
+                                    }  
+                                    p {
+                                        animation: fadeInUp 2s 0s both; 
+                                    } 
+                                    .main-btn-wrap {
+                                         animation: fadeInUp 2s 0s both; 
+                                    } 
+                                }
+                            }
+                        }   
+                    }
+                    .slick-dots {
+                        display: flex;
+                        position: absolute;
+                        left: -8%;
+                        bottom: 5%;
+                        li {
+                            width: 2px;
+                            height: 45px;
+                            background: rgba($hotgray, .5);
+                            margin: 10px  10px 0;
+                            cursor: pointer;
+                            @include transition($transition);
+                            button {
+                                display: none;
+                            }
+                            &.slick-active {
+                                width: 2px;
+                                height: 55px;
+                                margin-top: 0;
+                                background: $sliderBg;
+                            }
+                        }
+                    }
+                    .slider-items {
+                        display: flex !important;
+                        width: 100%;
+                        position: relative;
+                        .slider-content-area {
+                            width: 42%;
+                            margin-right: 8%;
+                            min-height: 600px;
+                            .slider-content {                                
+                                width: 40%;
+                                position: absolute;
+                                top: 53%;
+                                transform: translateY(-50%);
+                                z-index: 2;                      
+                            }
+                        }
+                        .slider-img-area {
+                            position: relative;
+                            width: 50%;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                            height: 100vh;  
+                            min-height: 600px;
+                            .sergery-style {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                z-index: 2;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+                }                  
+                .slider-controller-wrapper {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    .slider-controller {
+                        display: flex;
+                        flex-wrap: nowrap;
+                        width: 465px;
+                        height: 225px;
+                        position: relative;
+                        .left-controller {
+                            width: 50%;
+                            height: 100%;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                        .right-controller {
+                            width: 50%;
+                            height: 100%;
+                            background-color: rgba($hotgray, .80);
+                            color: $white;
+                            .content {
+                               .heading-03 {
+                                color: $white;
+                                font-size: 14px;
+                                line-height: 20px;
+                                font-weight: 400;
+                                font-family: var(--body-font);
+                                padding: 50px 25px 0 25px;
+                               }
+                            }
+                            .number {
+                                font-size: 35px;
+                                line-height: 40px;
+                                font-weight: 300;
+                                font-family: var(--body-font);
+                                padding: 50px 0 0 30px;
+                            }
+                        }
+                        .slider-arrow-wrappr {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            .slider-arrow-items {
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+                                .slick-next, .slick-prev {                                    
+                                    position: absolute;
+                                    color: $white;
+                                    font-size: 20px;
+                                    cursor: pointer;
+                                } 
+                                .slick-next {
+                                    bottom: 20px;
+                                    right: 20px;                                 
+                                }
+                                .slick-prev {
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                        }
+                    } 
+                }
+            }
+            .social-icon-area {
+                width: 5%;
+                ul {
+                    padding: 15vh 0 0 0;
+                    li {
+                        line-height: 20vh;
+                        transform: rotate(-90deg);
+                        text-transform: uppercase;
+                        padding: 20px 0;
+                        color: $lightblack2;
+                        font-weight: 500;
+                        font-size: 14px;
+                        @include transition($transition);
+                        &:hover {
+                            color: $sliderBg;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.slider-style-01 {       
+        position: relative;
+        padding-top: 0;
+        .slick-prev.slick-arrow {
+            cursor: pointer;
+            position: absolute;
+            right: 6%;
+            z-index: 9;
+            bottom: 2%;
+            transform: rotate(-90deg);
+        }
+        .slick-next.slick-arrow {
+            cursor: pointer;
+            position: absolute;
+            right: 7%;
+            z-index: 9;
+            transform: rotate(-90deg);
+            bottom: 5%
+        }
+        .slick-arrow {
+            .arrow-line {
+               background-color: $white;
+            }
+            .arrow-down{
+                margin-right: 1px;
+                .caret-down{
+                    border-top: 10px solid $white;
+                }
+            }
+            .arrow-up{
+                .caret-up {
+                    border-bottom: 10px solid $white;
+                }
+            } 
+        }  
+        .surgery-slide-wrapper {           
+            width: 100%;
+            .slick-current, .slick-active {
+                .surgery-slider-items {
+                    .slider-content-area {
+                        .slider-content {
+                            .slider-heading {
+                                animation: fadeInDown 2s 0s both;
+                            }  
+                            p {
+                                animation: fadeInUp 2s 0s both; 
+                            } 
+                            .main-btn-wrap {
+                                 animation: fadeInUp 2s 0s both; 
+                            } 
+                        }
+                    }
+                }   
+            }            
+            .surgery-slider-items {
+                display: flex !important;
+                flex-wrap: wrap;
+                position: relative;
+                .slider-content-area {
+                    width: 30%;
+                    .slider-content {
+                        position: absolute;
+                        top: 44%;
+                        left: 8.5%;
+                        margin: 0;
+                        width: 35%;
+                        transform: translateY(-50%);         
+                    }
+                }
+                .slider-img-area {
+                    // background-color: $sliderBg;
+                    background-image: linear-gradient(to right, #ffffff, #f4f4f4, #e8e8ea, #dddddf, #d1d2d5);
+                    width: 70%;                  
+                    min-height: 500px;
+                    height: 80vh;
+                    .slider-img {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: top center;
+                        height: 100%;
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }      
+        .surgery-controller-style {  
+            position: inherit; 
+            bottom: inherit;
+            left: inherit;  
+            .surgery-controller {
+                bottom: 16%;
+            } 
+            .social-icon {
+                width: 5%;
+                position: absolute;
+                right: 2%;
+                top: 45%;
+                transform: translateY(-50%); 
+                min-height: inherit; 
+                height: inherit; 
+                .icon {
+                    color: $white;
+                    &:hover {
+                        color: $pink;
+                    }
+                }
+            }
+        }
+    }   
+    /*-------------- Scroll Done Start Here ------------*/  
+    
+    .scroll-down-area {  
+        width: 12%;
+        position: relative;         
+        .carousel-dots-area {
+            .slick-dots {               
+                padding: 0;
+                text-align: center; 
+                position: absolute;
+                top: 45%;
+                left: 28%;
+                transform: translateY(-50%);               
+                li {
+                    position: relative;
+                    z-index: 0;
+                    height: 40px;
+                    &:not(:last-child):after{   
+                        position: absolute;
+                        left: 48%;
+                        top: 80%;
+                        width: 5px;
+                        height: 5px;
+                        line-height: 5px;
+                        content: "";  
+                        background-color: rgba($semiblack, .37);
+                        border-radius: 50%;
+                        cursor: pointer;                        
+                    }
+                    button {
+                        transform: rotate(90deg);
+                        @include transition($transition);
+                        color: rgba($semiblack, .37) ;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-family: var(--body-font);
+                        font-weight: 400;
+                    }
+                    &.slick-active{
+                        button {
+                            transform: rotate(0deg); 
+                            font-size: 18px;
+                            color: var(--heading-color);
+                            font-weight: 500;
+                            padding: 1px 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .slider-bottom-area {
+            width: 100%;
+            position: absolute;
+            bottom: 4%;   
+        }
+
+        .scroll-down {
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 27px;
+            right: 15%;
+            width: 108px;
+            a{
+                color: var(--heading-color);
+                font-family: $raleway;
+                font-size: 13.4px;
+                line-height: 25px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                position: relative;
+                -webkit-transition: 1s;
+                -o-transition: 1s;
+                transition: 1s;
+
+                &::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                    width: 70px;
+                    height: 2px;
+                    background: $pink;
+                    -webkit-transition: 1s;
+                    -o-transition: 1s;
+                    transition: 1s;
+                    position: absolute;
+                    bottom: 6px;
+                    right: 104px;
+                }
+            }
+        }          
+    } 
+    /*-------------- Scroll Done End Here ------------*/
+    .slider-content {
+        padding-left: 5px;
+        .slider-heading {
+            color: var(--heading-color);                
+            font-size: 46px;
+            line-height: 56px;
+            font-weight: 600;
+            font-family: var(--body-font);
+            margin: 0;      
+        }
+        p{
+            color: var(--paragraph-color);
+            font-size: 14px;
+            line-height: 28px;                       
+            font-weight: 400;
+            font-family: var(--body-font);               
+        }
+    }    
+    .home-slider-wrapper {
+        width: 80%;
+        border-radius: 20px;
+        overflow: hidden;
+        .slick-current, .slick-active {
+            .slider-items {
+                .slider-content-area {
+                    .slider-content {
+                        .slider-heading {
+                            animation: fadeInDown 2s 0s both;
+                        }  
+                        p {
+                            animation: fadeInUp 2s 0s both; 
+                        } 
+                        .main-btn-wrap {
+                             animation: fadeInUp 2s 0s both; 
+                        }                     
+                    }
+                }
+            }   
+        }
+        .slider-items{
+            position: relative;
+            display: flex !important;
+            .slider-content-area {
+                width: 25%;
+                .slider-content {
+                    width: 40%;
+                    position: absolute;
+                    top: 49.5%;
+                    transform: translateY(-50%);   
+                }
+            }
+            .slider-img {
+                width: 75%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                height: 76vh;
+                min-height: 500px;
+                border-radius: 20px;
+            }
+        }
+    }                  
+    .social-icon {
+        width: 8%;
+        min-height: 300px;
+        height: 55vh;
+        text-align: center;     
+        display: flex;
+        z-index: 2;
+        flex-direction: column;
+        justify-content: flex-end;
+        .icon {            
+            color: $semiblack;
+            padding: 10px;
+            font-size: 13px;
+            @include transition($transition);
+            &:hover {
+                color: $pink;
+            }                
+        }   
+    }
+}
+
+@media(max-width: 1520px){
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area {width: 42%;}
+    .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-img-area {width: 50%;}
+}
+@media(max-width: 1450px){
+    .home-slider {
+        .home-slider-wrapper .slider-items .slider-content-area .slider-content {
+            width: 40%;
+        }
+    }
+    .home-slider.slider-style-01 .surgery-slide-wrapper .surgery-slider-items .slider-content-area .slider-content {
+        width: 50%;
+    }
+    .home-slider.slider-style-04 .slider-wrapper .slider-items .slider-content-area .slider-content {
+        width: 33%;
+    }   
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        transform: translate(0, 12px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

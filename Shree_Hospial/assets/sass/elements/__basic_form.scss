@@ -1,0 +1,91 @@
+.basic-form {
+    input[type="text"]:focus {
+        border: none;
+    }
+    .form-column-one {
+        .form-control {
+           background-color: #E4EAED;
+        }
+    }
+    .form-column-two {
+        .form-control {
+           background-color: $bordercolor;
+        }
+    }
+    .form-column-three {
+        .form-control {
+           background-color: $bordercolor;
+        }
+    }
+}
+.same-style {    
+    .form-control {
+        padding: 10px 30px;
+        border: none;
+        margin: 30px 0 0 0;
+        resize: none;
+        display: block;
+        height: inherit;
+        &::placeholder {
+            color: $lightblack;
+            font-size: 15px;
+            line-height: 26px;
+            font-family: var(--body-font);
+            font-weight: 500;
+        }
+    }
+    input {
+        &.form-control {
+            border-radius: 50px;
+        }
+    }
+    textarea {
+        &.form-control {
+            border-radius: 20px;
+        } 
+    }
+}
+
+
+
+/*--------------------------------------
+          Valid State Input
+----------------------------------------*/
+.state-input {
+    .form-column-one {
+        .form-control {
+            border: 1px solid #E4EAED;
+         }
+    }
+    .error-column {
+        .form-control {
+            border: 1px solid var(--main-color-one);
+         }
+         .error-column-input, .errow-column-textarea{
+             position: relative;
+             z-index: 0;
+             &:after {
+                 content: "\f11d"; 
+                 font-family: Flaticon;
+                 position: absolute;         
+                 right: 10px; 
+                 z-index: 1;      
+                 font-size: 18px;
+                 color: var(--main-color-one);
+             }
+         }
+         .error-column-input{
+            &:after { 
+                top: 50%;
+                transform: translateY(-50%);
+            }
+         }
+          .errow-column-textarea{
+                &:after {
+                    bottom: 10px;
+                }
+          }
+
+    }    
+
+}

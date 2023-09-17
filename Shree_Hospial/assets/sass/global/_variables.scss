@@ -1,0 +1,74 @@
+
+//== Template Main Color
+
+$danger : #dc3545;
+
+//== social media colors
+$facebook: #3b5999;
+$twitter: #55acee;
+$dribbble: #ea4c89;
+$behance: #131418;
+$google-plus: #dd4b39;
+$linkedin: #0077B5;
+$instagram: #e4405f;
+
+
+
+// $headingcolor: #003367;
+
+$white: #FFFFFF;
+$white2: #F2F5F7;
+$white3: #F5F8F9;
+$white4: #F7F9FA;
+$white5: #E9EEF1;
+$white6: #DEE5EA;
+
+$semiwhite: #F5F8F9;
+$lightgray: #CED8DB;
+$bordercolor: #D6D6D6;
+$senigray: #8394A5;
+$semiblack2: #4E4D4D;
+
+$pink: #FF8686;
+$lightwhite: #F8FAFB;
+$hotwhite: #D8D8D8;
+$lightblack: #838282;
+$semiblack: #626262;
+$hotblack: #585858;
+
+$black2 : #363636;
+
+$hotgray: #8596A7;
+$black: #000000;
+$iconcolor: #585858;
+$shadow: #CBC9C9;
+$lightblack2: #8596A7;
+$inputcolor: #DEE5E9;
+$gray2: #707070;
+$gray3: #A7A7A7;
+$gray4: rgba(227, 233, 237, 0.34);
+$gray5: #777474;
+$titlecolor: #71C1C7;
+$sliderBg: #6BCAE2;
+$skyblue: #3DBBD7;
+$skyblue2: #3EBCD8;
+$skyblue3: #2D9BE2;
+$skyblue5: #14606E;
+
+
+
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+
+
+/*-----------------
+    # Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700&display=swap');
+
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

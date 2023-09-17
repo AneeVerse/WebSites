@@ -1,0 +1,124 @@
+.pricing { 
+    background-color: $white;
+    &.style-02 {
+        .pricing-column {             
+            &::after {
+                content: "";
+                background-image: linear-gradient(rgba(#71C1C7,0.49), rgba(#71C1C7,0.49) );
+            }
+        }
+    }
+    &.sergery-style {
+        .pricing-column {             
+            &::after {
+                content: "";
+                background-image: linear-gradient(rgba(#333333,0.49), rgba(#333333,0.49) );
+            }
+        }
+    }
+    .common-title {
+        .heading {
+            margin: auto;
+            text-transform: capitalize;
+        }
+    }  
+    .pricing-wrap {
+        display: flex;
+        width: 100%;
+    
+        .pricing-column {
+            width: 31.33%;
+            margin: 0 1%;
+            border-radius: 20px;
+            background-size: cover;
+            background-position: center center;
+            transition: .5s;
+            @include transition($transition);
+            cursor: pointer;      
+            position: relative;
+            z-index: 0;
+            &::after {
+                content: "";
+                background-image: linear-gradient(rgba(131,148,165,0.49), rgba(131,148,165,0.49) );
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+            }
+            .price-content {
+                padding: 70px 0 85px;
+                text-align: center;
+                color: $white;    
+                ul {
+                    padding-left: 0;
+                }            
+                .heading-6 { 
+                    text-transform: uppercase;
+                    font-size: 16px;                      
+                    line-height: 46px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    color: $white;
+                    margin: 0;
+                    @include transition($transition);
+                } 
+                .price {
+                        overflow: hidden; 
+                        position: relative;  
+                        min-width: 140px;
+                        display: inline-block;                 
+                        .heading-2 {
+                            color: $white;  
+                            font-size: 60px;
+                            line-height: 70px;
+                            font-weight: 600;
+                            margin: 0;
+                            padding: 10px 0 15px 0; 
+                        } 
+                        .year {
+                            text-transform: capitalize;
+                            font-size: 15px;  
+                            line-height: 30px;                          
+                            font-weight: 500;
+                            position: absolute;
+                            right: 8px;
+                            bottom: 0;
+                        }            
+                    }
+                    ul {
+                        padding-top: 18px;
+                        li {
+                            list-style-type: disc;
+                            list-style-position: inside;
+                            font-size: 14px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            font-family: $montserrat;
+                        }
+                    }                  
+                    .main-btn-wrap{
+                        margin: 35px auto 0;
+                        a {
+                            transition: .5s;
+                            margin: auto;
+                        }
+                    }               
+                
+            }
+            &:nth-child(2){
+                transform: scaleY(1.1); 
+            }            
+            &:hover .main-btn-wrap {
+                a {
+                visibility: visible;
+                opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+

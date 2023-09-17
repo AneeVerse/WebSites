@@ -1,0 +1,32 @@
+/*-----------------------------
+    Accordion Item
+-----------------------------*/
+.accordion-wrapper .card {
+  border: none;
+  background-color: transparent; }
+  .accordion-wrapper .card + .card {
+    margin-top: 20px; }
+  .accordion-wrapper .card .card-header {
+    background-color: transparent;
+    padding: 0;
+    border: none; }
+    .accordion-wrapper .card .card-header a {
+      display: block;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 700;
+      background-color: #f4f7fc;
+      padding: 14px 30px;
+      cursor: pointer;
+      position: relative; }
+      .accordion-wrapper .card .card-header a:after {
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        content: "\f107";
+        font-family: "fontawesome"; }
+      .accordion-wrapper .card .card-header a[aria-expanded="false"]:after {
+        content: "\f106"; }
+  .accordion-wrapper .card .card-body {
+    background-color: #f4f7fc;
+    padding: 0 30px 20px; }

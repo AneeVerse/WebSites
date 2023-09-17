@@ -1,0 +1,155 @@
+/*
+Theme Name: Moristan - Hospital & Clinic HTML Template
+Theme URI: http://zwin.io/html/moristan
+Author: Zwin
+Author URI: http://zwin.io/
+Description: Moristan is a Hospital & Clinic HTML Template For the Crazy Design Lover build with Bootstrap 4 framework.
+Version: 1.0.0
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Typography
+# Normalize
+# Accessibility
+# Globals
+# Alignments
+# Clearings
+# Posts and pages
+# Captions
+# Galleries
+# Unit test
+# guterberg
+# Gutenberg	Default Style
+# Block Color Palette Colors
+# Sections
+    ## Breadcrumb
+    ## Comments
+    ## Widgets
+    ## Nav Bar
+    ## Top Bar
+    ## Info Bar
+    ## Selectbox
+    ## Header
+    ## Navbar 
+    ## Slider Area    
+    ## Service Area
+    ## Pricing Area
+    ## Doctor Area
+    ## Statistics Area
+    ## Appointment Area
+    ## Map Area
+    ## Latest Stories Area
+    ## Footer Area
+    ## About Us Area
+    ## About Our Doctor Area
+    ## Why Choose Area
+    ## About Our Mission Area
+    ## Time Line Area
+    ## Service Neurology Area
+    ## Service Dental Area
+    ## Service Ophtalmologue Area
+    ## Service Teeth Canel Area
+    ## Service Teeth Quality Area
+    ## Service Canal Price Area
+    ## Error 404
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Search Popup
+    ## Video Popup
+    ## Button
+    ## Section Title
+    ## Counter Item
+
+# Pages 
+    ##
+    ##
+    ##
+    ##
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_gutenberg";
+
+//== Sections
+@import "sections/_breadcrumb";
+@import "sections/_comments";
+@import "sections/_widgets";
+@import "sections/_info_bar";
+@import "sections/__selectbox";
+
+@import "sections/_header";
+@import "sections/_navbar";
+@import "sections/_slider";
+@import "sections/_service";
+@import "sections/_pricing";
+@import "sections/_doctor";
+@import "sections/_statistics";
+@import "sections/_appointment";
+@import "sections/_map";
+@import "sections/_latest-stories";
+@import "sections/_footer";
+
+//== About Page
+@import "sections/_about_us";
+@import "sections/_about_our_doctor";
+@import "sections/_why_choose";
+@import "sections/__about_our_mission";
+@import "sections/_time_line";
+
+//== Service Page
+@import "sections/_service_neurology";
+@import "sections/_service_dental";
+@import "sections/_service_ophtalmologue";
+
+//== Service Page 2
+@import "sections/_service_teeth_canel";
+@import "sections/_service_teeth_quality";
+@import "sections/_service_canal_price";
+@import "sections/_error_404";
+
+//== Elements
+@import "elements/_back_top";
+@import "elements/_preloader";
+@import "elements/_search_popup";
+@import "elements/_button";
+@import "elements/_section_title";
+@import "elements/_accordion";
+@import "elements/_counter_item";
+@import "elements/_testimonial";
+@import "elements/__modal";
+@import "elements/_countdown";
+@import "elements/__comming_soon";
+@import "elements/__progressbar";
+@import "elements/__basic_form";
+@import "elements/_button";
+@import "elements/__icons";
+@import "elements/__alert";
+@import "elements/_contact";
+@import "elements/_custom_calender";
+
+
+
+//== Blog Page
+@import "sections/_blog";
+@import "sections/_blog-details";
+//== Login Page
+@import "sections/_login";
+//== Gallery Page
+@import "sections/_gallery";
+//== Help Page
+@import "sections/_help";
+//== Membership Page
+@import "sections/__membership";
+//== Typhography Page
+@import "sections/__typography";
+
+

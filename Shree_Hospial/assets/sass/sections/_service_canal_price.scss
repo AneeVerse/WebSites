@@ -1,0 +1,67 @@
+.rooth-canal-price-section {
+    font-family: var(--body-font);
+    .price-area {
+        margin-left: 15px;
+        background: linear-gradient(to right, rgba(226, 241, 255, 0.4), rgba(225, 244, 255, 0.8));
+        border-radius: 20px;
+        padding: 100px 80px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        .left-column {
+           width: 50%;
+           padding-right: 50px;
+            .heading-6 {
+                color: $semiblack2;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18px;
+            }
+            .price {
+                color: $semiblack2;
+                font-size: 38px;
+                font-weight: 700;
+                line-height: 50px;
+                padding: 3px 0 12px 0;
+            }
+            .common-title {
+                padding-bottom: 0;
+                .heading {                    
+                    color: $semiblack2;
+                    font-weight: 500;
+                    text-transform: inherit;
+                    font-size: 30px;
+                }
+            }
+        }  
+        .right-column {
+            width: 50%;
+            ul {
+                li {
+                    color: $hotgray;
+                    font-size: 15px;                    
+                    font-weight: 500;
+                    line-height: 19px;                    
+                    display: flex;
+                    @include transition($transition);
+                    &:not(:last-child){
+                        border-bottom: 1px solid rgba($lightblack2, 0.3);
+                    }                    
+                    .left{
+                          width: 50%;
+                          padding: 20px 0;
+                      }
+                    .right{
+                          width: 50%;
+                          text-align: center;
+                          border-left: 1px solid  rgba($lightblack2, 0.3);
+                          padding: 20px 0;
+                      } 
+                      &:hover {                          
+                          color: rgba($hotgray, 0.8);
+                      }                   
+                }
+            }
+        }
+    }
+}

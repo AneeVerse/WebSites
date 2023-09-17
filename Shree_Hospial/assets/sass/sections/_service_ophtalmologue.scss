@@ -1,0 +1,33 @@
+.ophtalmologue-section {
+    .container {
+        margin-right: 0;
+        max-width: 1505px;
+        padding-right: 0;
+
+        .ophtalmologue-img {     
+          img{
+              border-radius: 20px;
+          }
+        }
+        .ophtalmologue-content-area {
+            // background: #E9EEF1;
+            // padding: 80px 60px;
+            // border-radius: 20px 0 0 20px;
+            margin-left: 220px;
+            .common-title {
+                .heading {
+                    margin: 0;
+                    word-break: break-all;
+                }
+            }
+            .ophtalmologue-content {
+                width: 55%;
+                p {
+                    color: $hotblack;
+                    line-height: 30px; 
+                }
+            }
+        }
+
+    }
+}

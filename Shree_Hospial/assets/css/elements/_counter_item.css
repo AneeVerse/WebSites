@@ -1,0 +1,17 @@
+/*-----------------------
+Counter Item 
+---------------------*/
+.single-couterup {
+  border: 1px solid #8596A7;
+  border-radius: 30px;
+  text-align: center;
+  padding: 50px 0 45px; }
+  .single-couterup .icon {
+    width: 60px;
+    height: 60px;
+    background: #F5F7F8;
+    border-radius: 50%;
+    line-height: 60px;
+    margin: auto; }
+    .single-couterup .icon i {
+      font-size: 35px; }

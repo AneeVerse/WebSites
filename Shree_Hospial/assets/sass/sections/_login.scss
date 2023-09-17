@@ -1,0 +1,175 @@
+.login-section {
+    .login-form-wrap {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        width: 100%;
+        min-height: 500px;
+        height: 90vh;
+        .login-form-area {
+            position: relative;
+            width: 50%;
+            background-color: rgba($white, .98);
+            height: 100%;
+            z-index: 0;
+            &.login-form-style-02 {
+                float: right;
+                .login-form { 
+                    p, label{
+                    color: $semiblack;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin: 8px 0;
+                        a {
+                            color: $pink;
+                        }
+                    }
+                }  
+            }
+            .login-form{               
+                width: 100%;
+                padding: 0 100px;                
+                display: grid;                
+                align-content: center;                
+                height: 100%;
+                z-index: 1;
+                .common-title {
+                    padding-bottom: 30px;
+                    p {
+                        color: #626262;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin: 8px 0;
+                        a{
+                            color: var(--main-color-one);
+                        }
+                    }
+                }
+                .form-control {
+                    border: none;
+                    background: rgba($hotgray, .15);
+                    border-radius: 25px;
+                    margin-bottom: 20px;
+                    padding: 10px 20px;
+                }
+                input::placeholder {
+                    color: $hotblack;
+                    font-size: 12px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    font-family: var(--body-font);
+                    font-style: italic;
+                }
+                .form-btn {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    input[type="submit"]{
+                        background-color: rgba($pink, .9);
+                        color: $white;
+                        padding: 10px 60px;
+                        border-radius: 50px;
+                        box-shadow: 0px 6px 20px -8px rgba($pink, .9);
+                        @include transition($transition);
+                        &:hover {
+                              box-shadow: 0px 10px 20px -8px rgba($pink, 1);
+                              background-color: $pink;
+                         }
+                    }
+                    a {
+                        color: $hotblack;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 500;
+                        font-family: var(--body-font);
+                        border-bottom: 2px solid $pink;
+                        padding-bottom: 8px;
+                    }
+                }
+                .create-new-member {                    
+                    margin-top: 120px;
+                    .heading {
+                        color: $hotblack;
+                        font-size: 30px;
+                        line-height: 40px;
+                        font-family: var(--body-font);
+                        font-weight: 600;
+                    }
+                    .create-btn {
+                        a {
+                            padding: 10px 40px;
+                            display: block;
+                        }
+                        color: $hotblack;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-family: var(--body-font);
+                        font-weight: 500;
+                        border: 1px solid $pink;
+                        border-radius: 50px;
+                        // padding: 10px 40px;
+                        display: table;
+                        margin-top: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+/*------------------------
+    Custom Checkbox
+--------------------------*/
+.checkbox{
+    position: absolute;
+    left: -9999px;    
+    & + label {
+        position: relative;
+        display: inline-block;
+        padding: 1px 24px;
+
+        &:before,
+        &:after{
+            position: absolute;
+            top: 0;
+            content: '';
+            border-radius: 1px;
+        }        
+        &:before{
+            top: 4px;
+            left: 0;
+            height: 15px;
+            width: 15px;
+            border: 1px solid rgba($hotgray,.4);
+            border-radius: 4px;
+        }        
+        &:after{
+            width: 0;
+            height: 0; 
+        }       
+    }    
+    &:checked {
+        & + label{
+            &:before{
+              border-color: $white;
+              background-color: var(--main-color-one);
+            }          
+            &:after{
+              width: 6px;
+              height: 13px;
+              top: 3px;
+              left: 5px;              
+              color: $white;
+              border-top: 2px solid transparent;
+              border-left: 2px solid transparent;
+              border-right: 2px solid $white;
+              border-bottom: 2px solid $white;
+              transform: rotate(37deg);
+            }
+        }
+    } 
+}

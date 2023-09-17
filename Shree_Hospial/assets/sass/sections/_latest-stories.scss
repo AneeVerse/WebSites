@@ -1,0 +1,257 @@
+.carousel-right-area {
+    width: 79%;
+    margin-right: 0;
+    margin-left: 21%;
+    max-width: 1500px;     
+    &.style-02 {
+        width: 80%;
+        margin-left: 20%;
+    }
+} 
+.latest-stories {    
+        background-color: $white;   
+        .common-title {
+            .heading {
+                margin: 0;
+            }
+        }
+        .storiest-carousel {
+            border-radius: 20px;
+            overflow: hidden;
+            &.style-02 {
+                .item {
+                    .catousel-content {
+                        &:hover {
+                            background-image: linear-gradient(to bottom, rgba($titlecolor, .50), rgba($titlecolor, .50));
+                        }
+                    } 
+                }
+                .slick-next, .slick-prev {
+                    &:hover {
+                        background-color: #3EBCD8;
+                    }
+                }
+            }
+            .item {
+                background-size: 100% 100%;
+                background-repeat: no-repeat; 
+                opacity: 1;
+                max-width: 335px;
+                border-radius: 20px;
+                position: relative;
+                overflow: hidden;
+                // margin: 0 15px;
+                width: 95% !important;  
+                // .carousel-img {
+                //     border-radius: 20px;
+                // }              
+                .catousel-content {
+                    position: absolute;
+                    background-image: linear-gradient(to bottom, rgba($white, .45), rgba($black, .55));
+                    height: 100%;
+                    width: 100%;
+                    bottom: 0;
+                    @include transition($transition);
+                    
+                   .hover-icon {                     
+                        color: $white;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        border: 2px solid $white;                     
+                        width: 75px;
+                        height: 75px;
+                        text-align: center;
+                        line-height: 75px;
+                        border-radius: 50%;
+                        transition: 0.7s;
+                        visibility: hidden;
+                        opacity: 0;                            
+                        .icon {
+                            font-size: 22px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    
+                    }                    
+                    .stories-text {
+                        position: absolute;
+                        bottom: 0;                       
+                        padding: 0 40px 20px 40px;
+                        @include transition($transition);
+                        .date {
+                            color: $white;
+                            font-size: 14px;
+                            font-family: $raleway;
+                            font-weight: 300;
+                            line-height: 35px;
+                        }
+                        .text {
+                            .heading-06 {
+                                color: $white;
+                                font-family: $montserrat;
+                                font-size: 16px;
+                                line-height: 26px;
+                                font-weight: 500;
+                            }
+                        }
+                    }                    
+                    &:hover {
+                        cursor: pointer;                         
+                        background-image: linear-gradient(to bottom, rgba($white, .60), rgba($black, .70));
+                        .hover-icon {                            
+                            visibility: visible;
+                            opacity: 1;                                                    
+                        }
+                        .stories-text {
+                            visibility: hidden;
+                            opacity: 0;
+                        }
+                    }  
+                }
+             }          
+            
+            .slick-next, .slick-prev {
+                position: absolute; 
+                background: $white;
+                width: 60px;
+                line-height: 60px;
+                height: 60px;
+                border-radius: 50%;
+                transform: translate(-50%, -50%);
+                top: 47%;
+                box-shadow: 0 0 10px rgba($black, 0.30);
+                text-align: center;
+                z-index: 9;
+                cursor: pointer;
+                @include transition($transition);
+                span {
+                    font-size: 50px; 
+                }
+                &:hover {
+                    color: $white;
+                    background-color: $pink;
+                }
+            }
+            .slick-next {               
+                left: 74%;
+            }
+            .slick-prev {
+                left: 24%;
+            }
+        
+         }
+}
+@media(max-width: 1700px){
+    .carousel-right-area, .about-our-doctor .container, .ophtalmologue-section .container {
+        width: 83%;
+        margin-left: 17%;       
+    }  
+    .teeth-canel .container, .carousel-right-area.style-02, .ophtalmologue-section .container {
+        width: 84%;
+        margin-left: 16%;    
+    }
+}
+@media(max-width: 1600px){
+    .carousel-right-area, .about-our-doctor .container, .ophtalmologue-section .container {
+        width: 85%;
+        margin-left: 15%;       
+    }
+    .teeth-canel .container, .carousel-right-area.style-02, .ophtalmologue-section .container {
+        width: 86%;
+        margin-left: 14%;    
+    }
+}
+@media(max-width: 1550px){
+    .carousel-right-area{
+        width: 87%;
+        margin-left: 13%;   
+    }
+    .about-our-doctor .container, .ophtalmologue-section .container {
+        width: 88%;
+        margin-left: 12%;      
+    }
+    .teeth-canel .container, .carousel-right-area.style-02, .ophtalmologue-section .container {
+        width: 88%;
+        margin-left: 12%;    
+    }
+}
+@media(max-width: 1500px){
+    .carousel-right-area, .about-our-doctor .container, .ophtalmologue-section .container {
+        width: 87%;
+        margin-left: 13%;      
+    }
+    .teeth-canel .container, .carousel-right-area.style-02, .ophtalmologue-section .container {
+        width: 88.5%;
+        margin-left: 11.5%;    
+    }
+}
+@media(max-width: 1450px){
+    .carousel-right-area{
+        width: 89%;
+        margin-left: 11%;   
+    }
+    .about-our-doctor .container, .ophtalmologue-section .container, .teeth-canel .container, 
+    .carousel-right-area.style-02{
+        width: 90%;
+        margin-left: 10%;     
+    }
+    // .teeth-canel .container, .carousel-right-area.style-02 {
+    //     width: 91%;
+    //     margin-left: 9%;    
+    // }
+}
+@media(max-width: 1400px){
+    .carousel-right-area, .about-our-doctor .container{
+        width: 90%;
+        margin-left: 10%;     
+    }
+    .teeth-canel .container, .carousel-right-area.style-02{
+        width: 91%;
+        margin-left: 9%;    
+    }
+    .ophtalmologue-section .container {
+        width: 92%;
+        margin-left: 8%;
+    }
+}
+@media(max-width: 1350px){
+    .carousel-right-area, .about-our-doctor .container{
+        width: 92%;
+        margin-left: 8%;     
+    }
+    .teeth-canel .container, .carousel-right-area.style-02{
+        width: 93%;
+        margin-left: 7%;    
+    }
+    .ophtalmologue-section .container {
+        width: 94%;
+        margin-left: 6%;
+    }
+}
+@media(max-width: 1300px){ 
+    .carousel-right-area, .about-our-doctor .container{
+        width: 93%;
+        margin-left: 7%;   
+    } 
+   .ophtalmologue-section .container  {
+        width: 95%;
+        margin-left: 5%;    
+    }
+    .teeth-canel .container, .carousel-right-area.style-02{
+        width: 94%;
+        margin-left: 6%;   
+    }
+    .about-our-doctor .container {
+        width: 90%;
+        margin-left: 10%;   
+    }  
+}
+@media(max-width: 1100px){
+    .about-our-doctor .container .about-doctor .carousel-item .slider-content {
+         width: 100%; 
+     }    
+ }

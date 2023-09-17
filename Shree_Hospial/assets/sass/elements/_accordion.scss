@@ -1,0 +1,114 @@
+/*-----------------------------
+    Accordion Item
+-----------------------------*/
+.accordion-wrapper{
+    &.style-03 {
+        .card {
+            +.card {
+                margin-top: 10px;
+            }
+            .card-header {
+                a {
+                  background: none;
+                  border: 1px solid $lightblack2;
+                  padding: 20px;
+                  @include transition($transition);
+                  &:hover {
+                      background: #E7ECEF;
+                  }
+                  &:after{
+                    font-size: 20px;
+                    }
+                    &[aria-expanded="false"]{
+                        &:after{
+                        font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.style-02 {
+        width: 100%;
+        margin-left: 15px;
+        .card {
+            +.card {
+                margin-top: 30px;
+            }
+            .card-header {
+                a {
+                  background: none;
+                  border: 1px solid $lightblack2;
+                  padding: 30px;
+                  @include transition($transition);
+                  &:hover {
+                      background: #E7ECEF;
+                  }
+                  &:after{
+                    font-size: 30px;
+                    }
+                    &[aria-expanded="false"]{
+                        &:after{
+                        font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .card{
+        +.card{
+            margin-top: 10px;
+        }
+        border: none;
+        background-color: transparent;
+        .card-header{
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            a{
+                display: block;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 500;
+                background-color: rgba(231, 236, 239, 0.6);
+                padding: 12px 30px;
+                cursor: pointer;
+                position: relative;
+                border-radius: 60px;
+                color: $semiblack;
+                &:after{
+                    position: absolute;
+                    right: 30px;
+                    content: "-";
+                    font-family: "fontawesome";
+                }
+                &[aria-expanded="false"]{
+                    &:after{
+                        content: "+";
+                    }
+                }
+            }
+        }
+        .card-body{
+            p{
+                color: #777474;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 300;
+                padding: 0 !important;
+            }
+            padding: 15px 30px 5px;             
+            .rating-area {
+                i {
+                    font-size: 20px;
+                    color: $pink;
+                }
+            }
+            
+        }
+    }
+}
+
+
+

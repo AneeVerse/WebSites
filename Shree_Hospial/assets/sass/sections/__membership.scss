@@ -1,0 +1,125 @@
+section.membership-filter-section {
+    overflow-x: hidden;
+}
+.membership-filter {
+    overflow-x: hidden;
+    width: 100%;
+    .package-section {
+       .check-box-area {
+           li {
+            padding: 0 0 20px 0;
+           }
+       } 
+    }
+    .membership-grid {
+        width: 100%;
+        .membership-image-section {
+            position: relative;
+            z-index: 0;
+            width: 75%;
+            margin: auto;
+            img {
+                border-radius: 20px;
+                width: 100%;
+            }
+            .membership-heading {
+                .heading {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 2;
+                    color: $white;
+                    font-size: 100px;
+                    line-height: 50px;
+                    font-family: var(--body-font);
+                    font-weight: 600;
+                    text-transform: capitalize;
+                }
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                background-color: rgba($hotgray, .4);
+                border-radius: 20px;
+            }
+        }
+    }
+    .quality-section {
+        .common-title {
+            padding-bottom: 0px;
+        }
+    }
+    .package-section {
+        .service-items {
+            ul {
+                padding-left: 0;
+                li {
+                    color:  $gray5;
+                    font-size: 14px;
+                    font-family: var(--body-font);
+                    line-height: 24px;
+                    font-weight: 400;
+                    padding-bottom: 5px;
+                    &::after { 
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+    .accounting-section {
+        .form-bottom {
+            .common-title {
+                .heading {
+                    color: var(--heading-color);
+                    font-size: 26px;
+                    line-height: 36px;
+                    font-weight: 500;
+                    font-family: var(--body-font);       
+                }
+                p {
+                    color:  $gray5;
+                    font-size: 14px;
+                    font-family: var(--body-font);
+                    line-height: 24px;
+                    font-weight: 400;
+                    padding-bottom: 5px;
+                }                    
+                a {
+                    color: var(--main-color-one);
+                }                     
+            }
+            .form {
+                input {
+                    &::placeholder {
+                        color: $iconcolor;
+                        font-size: 12px;
+                        line-height: 22px;
+                        font-family: var(--body-font) ;
+                        font-weight: 500;
+                        font-style: italic;
+                    }
+                }
+                .main-btn-wrap {
+                    .main-btn {
+                        width: inherit;
+                        margin: 25px 0;
+                        box-shadow: none;
+                        &:hover {
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .question-img img{
+        border-radius: 20px;
+    }
+}

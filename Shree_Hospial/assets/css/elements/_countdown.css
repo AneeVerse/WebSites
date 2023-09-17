@@ -1,0 +1,5 @@
+.countdown-part {
+  background-color: #14606E;
+  border-radius: 0 50px 50px 0; }
+  .countdown-part .counter-item {
+    color: red; }

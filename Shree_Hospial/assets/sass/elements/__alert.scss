@@ -1,0 +1,79 @@
+.icon-alert { 
+    .alert-box {
+        position: relative;
+        z-index: 0;
+        box-shadow: 0 8px 15px $hotgray;
+        text-align: center;
+        border-radius: 20px;
+        padding: 20px 75px;
+        max-width: 380px;
+        min-height: 360px;
+        // margin: 20px auto;
+        .close-btn {
+            top: 5%;
+            right: 5%;
+            width: 35px;
+            height: 35px; 
+            line-height: 35px;
+        }
+    }
+}
+.alert-box {  
+    .close-btn {
+        position: absolute;
+        z-index: 1;
+        border-radius: 50%;
+        background-color: $white;
+        text-align: center;
+        box-shadow: 0 0 6px $semiblack;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .alert-content {
+        p{
+            color: $hotgray;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 500;
+            font-family: var(--body-font);
+            margin: 0;
+        }
+        .icon {
+            font-size: 90px;
+        }
+    }
+    &.warning {
+        .alert-content {
+            p {
+                color: var(--main-color-one);
+            }
+            .icon {
+                color: var(--main-color-one);
+            }
+        }
+    }
+}
+
+/*---------------------------------
+       Basic Alert SCSS
+-----------------------------------*/
+.basic-alert {
+    .alert-box {
+        position: relative;
+        z-index: 0;
+        box-shadow: 0 0 10px #E2EEF7;
+        border-radius: 20px;
+        padding: 35px 50px;
+        .close-btn {
+            top: 50%;
+            right: 3%;
+            width: 30px;
+            height: 30px; 
+            line-height: 30px;
+            transform: translateY(-50%);
+        }
+        &.warning {
+            box-shadow: 0 0 5px var(--main-color-one);
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.appointment-section {
+    &.sergery-style {
+        .appointment-form-area {
+            .select-items div:hover {
+              background: $skyblue2;
+            }
+            
+        }
+    } 
+}
+
+.appointment-form-area, .select-box-area { 
+  .custom-select {
+    position: relative;
+    padding: 0;
+    border: none;
+    height: 50px;
+  }
+  .custom-select select {
+    display: none; 
+  }
+  .select-selected {
+    border-radius: 24px;
+    background-color: #DEE5E9;
+    &::after {
+      content: '';
+      clear: both;
+      display: inline-block;
+    }
+  }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 22px;
+    right: 18px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-color: #626262 transparent transparent transparent;
+  }
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #626262 transparent;
+    top: 11px;
+  }
+  .select-items div,.select-selected {
+    color: #626262;
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 17px 30px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s;
+  }
+  .select-items {
+    position: absolute;
+    background-color: rgba(#DEE5E9, 1);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 24px;
+    box-shadow: 0 0 4px;
+  }
+  .select-hide {
+    display: none;
+  }
+  .select-items div{
+    &:first-child{
+      border-radius: 24px 24px 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 24px 24px;
+    }
+  }
+  .select-items div:hover, .same-as-selected {
+    background-color: var(--main-color-one);
+    color: $white;
+  }
+  .margin-15 {
+    margin: 0 0 15px 0;
+    display: block;
+  }
+
+  &.remove-bg{
+    .select-selected, .select-items {
+      background-color: $white;
+      border: 1px solid #DEE5EA
+    }
+  }
+}

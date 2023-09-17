@@ -1,0 +1,28 @@
+.teeth-canel {
+    .container {
+        max-width: 1520px;
+        margin-right: 0;
+        overflow-x: hidden;
+    } 
+    .canel-content-area {
+        padding: 0px 50px 0 0;
+        display: grid;        
+        align-content: center;        
+        height: 100%;
+        .common-title {
+            .heading {
+                font-family: var(--body-font);
+                font-weight: 500;
+                text-transform: inherit;
+            }
+        }
+        .play-area {
+            margin: 50px 0;
+        }
+    }
+    .canel-img-area {
+        img {
+            border-radius: 20px 0 0 20px;
+        }
+    }
+}

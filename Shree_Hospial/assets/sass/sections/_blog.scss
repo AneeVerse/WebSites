@@ -1,0 +1,232 @@
+/*--------------------------------
+        Blog Page 01 Start
+----------------------------------*/
+
+.blog-page-content {
+    .widget_search .search-form{
+        .submit-btn:hover {
+            background-color: rgba($pink, .9);
+        }
+        .form-group{
+            .form-control {
+                border: none;
+                box-shadow: 0px 0px 6px 1px #dcd9d9;
+            }
+        } 
+    } 
+    .widgets-area {
+      .widget {
+          border-radius: 20px;
+          background-color: #F6F8F9;
+          .widget-title {
+              font-size: 20px;
+              &::after {
+                  content: "";
+                  width: 50px;
+                  height: 2px;
+                  background-color: $pink;
+                  display: block;
+                  margin-top: 5px;
+              }
+          }
+        .recent_post_item{
+            li.single-recent-post-item{
+                .thumb {
+                    width: 80px;
+                    height: 80px;
+                    margin-right: 0;
+                    img {
+                        border-radius: 20%;
+                    }
+                }
+            } 
+        } 
+        &.widget_recent_posts {
+            .single-recent-post-item {                
+            .content{
+                .title {
+                    line-height: 26px;
+                    margin-bottom: 0;
+                    font-weight: 500;
+                }
+                .time {
+                    padding-bottom: 10px;
+                    display: block;
+                }
+            }  
+            }
+        }
+        &.widget_category {
+            ul {
+                padding-left: 0;
+                a {
+                    border: 1px solid rgba(#034FBE, .10);
+                    padding: 10px 15px;
+                    display: block;
+                    border-radius: 5px;
+                    display: block;
+                    margin-top: 10px;
+                    .right {
+                        float: right;
+                    }
+                    &:hover {
+                        background-color: $white;
+                        border: 1px solid transparent;
+                        box-shadow: 1px 4px 6px rgba(#27277A, .10);
+                    }
+                }
+            }
+        }
+        &_follow_us {
+            ul{
+                padding-left: 0;
+                display: flex;                
+            }
+            .social-icon {
+                color: #111112;
+                border: 1px solid #909090;
+                width: 40px;
+                height: 40px;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                @include transition($transition);
+                &:hover {
+                    background-color: $pink;
+                    color: $white;
+                    border: 1px solid $pink;
+                }
+            }
+        }
+        &_archive {
+           .form-control {
+               height: 50px;
+               padding: 10px 20px;
+               border: 1px solid #909090;
+           }
+            .caret-icon {
+                font-size: 18px;
+                padding-right: 10px;
+            }        
+        }
+        &_instagram {
+            &_items {
+                padding-left: 0;
+                display: flex;
+                flex-wrap: wrap;
+                // justify-content: space-between;
+                .instagram-thumb {
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 20px;
+                        padding: 10px;
+                        display: block;
+                    }
+                }
+            }
+        }
+        &_tags {
+            .tagcloud {
+                display: flex;
+                flex-wrap: wrap;
+                a {
+                    color: $lightblack;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    font-family: var(--body-font);
+                    border: 1px solid #707070;
+                    padding: 10px 20px;
+                    display: block;
+                    margin: 10px;
+                    min-width: 125px;
+                    text-align: center;
+                    @include transition($transition);
+                    &:hover {
+                        color: $white;
+                        background-color: $pink;
+                        border: 1px solid $pink;
+                    } 
+                }
+            }
+        }
+      }  
+      .add-widget {
+        img {
+            border-radius: 20px;
+        }
+    }
+    }  
+    .icon {
+        color: var(--main-color-one);
+        margin-right: 5px;
+    }  
+}
+.blog-post-single-item {
+    .thumb {
+        position: relative;
+        padding-bottom: 25px;
+        .play-area {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0;
+        }
+        img {
+            border-radius: 20px;            
+        }
+    } 
+    .content {
+        .post-meta {
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+            li {                
+                margin-right: 20px;
+                margin-bottom: 10px;
+                a {
+                    color: #111112;
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: var(--body-font);
+                    font-weight: 400;
+                    display: block;
+                    @include transition($transition);     
+                }
+            }
+            &.two {
+                padding-bottom: 20px;
+                li {                               
+                    a {
+                        color: $lightblack;  
+                        border: 1px solid #EFEFEF;
+                        border-radius: 30px;   
+                        padding: 8px 16px;                       
+                    } 
+                    &:hover {
+                        a {
+                            color: #111112; 
+                        }  
+                    }
+                }
+
+              
+            }
+        }
+        .title {
+            font-size: 26px;
+            line-height: 36px;
+            font-family: var(--heading-font);
+            font-weight: 500;
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+

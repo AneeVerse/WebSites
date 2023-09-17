@@ -1,0 +1,73 @@
+.service {  
+    background-color: $semiwhite; 
+    &.sergery-style-02 {
+        background-color: $white; 
+    }   
+    &.style-02 {
+        background-color: $white;
+    }          
+    .common-title {
+        .heading {
+            margin: auto;
+            text-transform: capitalize;
+        }
+    }
+    .service-left {
+        padding-top: 110px;     
+        padding-bottom: 50px;       
+        .heading-3 {
+            color: var(--heading-color);
+            font-size: 30px;
+            line-height: 40px;
+            font-family: $raleway;
+            font-weight: 600;           
+            text-transform: capitalize;
+            margin: 0;
+        } 
+        p {
+            margin: 0;
+        }
+    }
+    .service-right {        
+        padding-left: 55px;     
+        .service-item{
+            &:nth-child(2){
+                margin-top: 40px;
+            }  
+        }   
+        .right-column-two {
+            margin-top: 80px;
+            margin-left: -55px;
+        }   
+    } 
+}
+
+.service-item {
+    width: 250px;
+    background: $white;
+    padding: 45px 40px;
+    border-radius: 20px;
+    margin: 0 35px;
+    text-align: center;
+    border: 1px solid rgba($white6, .5);
+    @include transition($transition);
+    &:hover {
+        box-shadow: 0 0 15px $shadow;
+    }                
+    img {
+        height: 55px;
+    }
+    .heading-6{
+        color: $hotblack;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-top: 10px;
+        word-break: break-all;       
+    }
+    p {
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,45 @@
+.why-choose-section {
+    background-color: $gray4;
+    .why-choose-img {
+        margin: 0 85px 0 30px;
+        img {
+            border-radius: 20px;
+        }
+    }   
+    
+}
+.check-box-area {
+    ul {padding: 0}
+    li {
+        padding: 0 0 40px 0;
+        color: $gray5;
+        font-size: 14px;
+        font-family: var(--body-font);
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+.check-box {
+    li {
+        position: relative;
+        z-index: 0;
+        padding-left: 50px;
+        &::after {
+            position: absolute;
+            z-index: 1;
+            content: '\f10f';
+            clear: both;
+            display: table;
+            font-family: "Flaticon";
+            left: 0;
+            top: 0;
+            color: $pink;
+            font-size: 30px;
+        }
+    }
+}
+.why-choose-content {
+    display: grid;
+    place-content: center;
+    height: 100%;
+}

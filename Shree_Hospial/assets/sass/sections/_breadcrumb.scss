@@ -1,0 +1,107 @@
+
+/*---------------------
+    ## Breadcumb 
+----------------------*/
+.breadcrumb-area {
+    padding-left: 85px;
+    padding-right: 85px;
+    &.style-04 {
+        .page-title {
+            .heading-1 {
+                text-transform: capitalize;
+                color: $white;
+                @include transition($transition);
+            }
+        }
+        .page-list {
+            li {
+                color: $white;
+                &:first-child {
+                    a{
+                        color: var(--main-color-one);
+                        &:hover {
+                            color: $white;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    &.style-03 {
+        min-height: 350px;
+        position: relative;
+        .breadcrumb-content {
+            background: $white;
+            border-radius: 20px 20px 0 0;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            min-width: 400px;
+            text-align: center;
+            .page-title {
+                .heading-1 {
+                    font-size: 46px;
+                    line-height: 56px;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+    &.style-02{
+        background-size: cover !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        .breadcrumb-content {
+            padding-left: 40px;
+        }
+    }
+    .page-title {        
+        .heading-1 {
+            color: var(--heading-color);
+            font-size: 46px;
+            line-height:56px;
+            font-weight: 600;
+            font-family: var(--heading-font);
+            margin-bottom: 15px;
+            text-transform: capitalize;  
+        }
+    }
+    .page-list {
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            position: relative;
+            padding-left: 30px;
+            color: $gray3;
+            font-size: 14px;
+            line-height: 25px;
+            font-family: var(--body-font);
+            font-weight: 500;
+            @include transition($transition);
+
+            &:first-child {
+                padding-left: 0;
+                a{
+                    color: var(--main-color-one);
+                    &:hover {
+                        color: $gray3;
+                    } 
+                }
+                &:after {
+                    display: none;
+                }
+            }
+            &:after {
+                position: absolute;
+                left: 10px;
+                top: 0;
+                content: "/";
+                font-family:'fontawesome';
+            }            
+        }
+    }
+}
+
+

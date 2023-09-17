@@ -1,0 +1,79 @@
+.our-mission-section {
+    .mission-tab-area {
+        .tab-navbar-area {
+            width: 44%;
+            .nav-tabs {
+                border-bottom: 1px solid rgba($pink, 0.3);
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                .nav-item {
+                    margin-bottom: -1px;
+                    position: relative;
+                    z-index: 0;
+                    .nav-link {
+                        color: $semiblack;
+                        font-size: 18px;
+                        font-family: var(--heading-font);
+                        line-height: 24px;
+                        font-weight: 500;
+                        padding: 20px 35px;
+                        border: none;
+                        position: relative;
+                        &:after {
+                            position: absolute;
+                            left: 0;
+                            bottom: -1px;
+                            width: 100%;
+                            height: 3px;
+                            background-color: $pink;
+                            content: '';
+                            visibility: hidden;
+                            opacity: 0;
+                        }
+                        &.active{
+                            &:after {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        } 
+                    }
+                }    
+            }
+        }
+        .tab-content-area {
+            .tab-content {
+                display: flex;
+                flex-wrap: wrap;
+                .paragraph-wrap {
+                    padding-right: 50px;
+                }
+                .award-area {
+                    width: 100%;
+                    .award-title {                        
+                        .heading-03{
+                            font-size: 26px;   
+                            line-height: 36px;
+                            font-weight: 600;                         
+                            text-transform: capitalize;
+                        }
+                    }
+                    .award-purpose {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+    .mission-img-area {
+        margin-top: -100px;
+       img{
+        border-radius: 20px;    
+       }        
+    }
+
+
+}
+
+
+

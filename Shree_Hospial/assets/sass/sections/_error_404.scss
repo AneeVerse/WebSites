@@ -1,0 +1,52 @@
+/*-----------------------
+    Error 404 Page
+-----------------------*/
+.error-404 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    .error-404-wrap {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        .error-img {
+            margin-bottom: 20px;
+        }
+        .page-title {
+            color: $semiblack;
+            font-size: 22px;
+            line-height: 34px;
+            font-weight: 500;
+            font-family: var(--body-font);  
+            margin-bottom: 20px;          
+            &::before {
+                content: "";
+                display: table;
+                width: 200px;
+                height: 6px;
+                background-color: var(--main-color-one);
+                margin: auto;
+                margin-bottom: 40px;
+            }
+        }
+        .page-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .main-btn-wrap-2 a {margin-bottom: 20px;}
+            .main-btn-wrap-2, .main-btn-wrap{
+                width: 230px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

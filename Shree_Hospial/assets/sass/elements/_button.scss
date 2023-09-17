@@ -1,0 +1,72 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+
+.button-section {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+            width: 33.33%;
+            padding: 50px 0;
+        }
+    }
+}
+
+
+.main-btn-wrap, .main-btn-wrap-2, .main-btn-wrap-inactive  {
+    .main-btn{     
+        font-size: 15px;
+        font-family: var(--body-font);         
+        line-height: 30px;            
+        border-radius: 40px;
+        font-weight: 400;
+        padding: 15px 20px;
+        display: table;
+        @include transition($transition);
+        text-transform: capitalize;
+        min-width: 230px;
+        text-align: center;
+    }
+}
+.main-btn-wrap { 
+    &.surgery-btn {
+        .main-btn{        
+            background: rgba($skyblue, 0.9);
+            box-shadow: 0px 6px 20px -8px rgba($skyblue, 0.9);
+            &:hover {
+             box-shadow: 0px 10px 20px -8px $skyblue;
+             background: $skyblue;
+            }
+         }
+    }
+    .main-btn{    
+        color: $white;
+        background: rgba($pink, 0.9);
+        box-shadow: 0px 6px 20px -8px rgba($pink, .9);            
+        &:hover {
+            box-shadow: 0px 10px 20px -8px rgba($pink, 1);
+                background: $pink;
+        }
+    }
+}
+.main-btn-wrap-2 {
+    .main-btn{    
+        color: $pink;
+        border: 1px solid $pink;
+    }
+    &.modal-btn {
+        a {
+            min-width: inherit;
+            padding: 5px 20px;
+        }
+    }
+}
+.main-btn-wrap-inactive {
+    .main-btn{     
+        color: $white;
+        background: rgba($pink, 0.6);
+        box-shadow: 0px 6px 20px -8px rgba($pink, .9);            
+    }
+}

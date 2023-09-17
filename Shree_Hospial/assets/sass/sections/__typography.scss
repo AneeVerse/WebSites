@@ -1,0 +1,187 @@
+.common-title-wrap {
+    .common-title {
+        .heading {
+            color: $gray2;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 600;
+            font-family: var(--body-font);
+        }
+        p {
+            color: $hotgray;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 500;
+            font-family: var(--body-font);
+            margin: 30px 0 0 0;
+            
+        }
+    }
+}
+/* ----------------------
+    Secondary Font
+-------------------------*/
+.secondary-font {  
+    .style-left {
+        .heading-04 {
+            font-family: var(--heading-font);
+        }
+        .heading-style {
+            .heading-02 {
+                font-family: var(--heading-font); 
+            }
+            p {
+                font-family: var(--heading-font);
+            }
+        }
+    }
+    .style-right {
+        .heading-04 {
+            font-family: var(--heading-font);
+        }
+        .heading-style {
+            .medium, .semi-bold, .extra-bold {
+                font-family: var(--heading-font);
+            }
+        }
+    }
+}
+
+.style-left {
+    .heading-04 {
+        color: $semiblack;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        text-transform: capitalize; 
+    }
+    .heading-style {
+        background-color: #F5F7F8;
+        border-radius: 30px;
+        text-align: center;
+        padding: 20px 40px;
+        .heading-02 {
+            color: var(--main-color-one);
+            font-size: 90px;
+            line-height: 100px;
+            font-weight: 500;
+        }
+        p {
+            color: $gray3;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+    }
+}
+.style-right {
+    padding-left: 8%;
+    .heading-04 {
+        color: $lightblack;
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .heading-style {
+        padding-top: 10px;
+        .regular, .medium, .semi-bold {
+            color: $semiblack;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .regular {
+            font-weight: 400;
+        }
+        .medium {
+            font-weight: 500;
+        }
+        .semi-bold {
+            font-weight: 600;
+        }
+        .extra-bold {
+            font-weight: 700;
+        }
+    }
+}
+
+/*---------------------------------
+        Heading Font 
+-----------------------------------*/
+.heading-font {
+    .heading-wrap {
+        padding: 30px 0 0 0;
+        .title {
+            color: $semiblack;
+            font-size: 26px;
+            line-height: 36px; 
+            padding-left: 60px;              
+            margin-bottom: 30px;       
+            font-weight: 500;      
+            .pixel {
+                color: $lightblack;
+                padding-left: 10px;
+            }
+        }
+        .heading {
+            border: 1px solid #B0C4D9;
+            border-radius: 70px;
+            padding: 30px 60px;
+            h1, h2, h3, h4, h5, h6 {              
+                color: $lightblack;
+                margin: 0;
+            }
+            h1 {
+                font-size: 46px;
+                line-height: 57px;  
+            }
+            h2{
+                font-size: 40px;
+                line-height: 49px; 
+            }
+            h3 {
+                font-size: 34px;
+                line-height: 42px;  
+            }
+            h4 {
+                font-size: 28px;
+                line-height: 34px;  
+            }            
+            h5 {
+                font-size: 24px;
+                line-height: 29px;  
+            }
+            h5 {
+                font-size: 20px;
+                line-height: 24px;  
+            }
+        }
+    }
+}
+
+/*---------------------------------
+        Heading Element 
+-----------------------------------*/
+.inline-element {
+    .inline-element-wrap {
+        padding: 0 0 0 50px;
+        p {
+            color: $gray3;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 20px 0 0 0;
+            margin: 0;
+        }
+    }
+}
+mark {
+    background-color: var(--main-color-one);
+    color: $white;
+    border-radius: 4px;
+}
+.common-title {
+    .center {
+        &::after{
+            margin: 10px auto;
+        }
+    }
+}

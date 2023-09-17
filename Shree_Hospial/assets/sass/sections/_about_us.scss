@@ -1,0 +1,37 @@
+.about-bg {
+    min-height: 420px !important;
+    height: 40vh !important;
+}
+
+.about-us-section {
+    .about-img-area {
+        padding-right: 120px;
+        img {
+            border-radius: 0 20px 20px 0;
+        }
+    }
+    .about-content-area {
+        width: 55%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        .heading-04 {
+            color: var(--main-color-one);
+            font-size: 20px;
+            line-height: 30px;
+            font-family: var(--body-font);         
+            font-weight: 500;
+            margin-bottom: 0;
+            padding-bottom: 10px;
+        }
+        .common-title {  
+            .heading{
+                font-family: var(--body-font);
+                font-weight: 600;
+                span {
+                    color: $gray3;
+                }
+            }
+        }
+    }
+}

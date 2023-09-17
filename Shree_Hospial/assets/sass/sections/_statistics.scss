@@ -1,0 +1,78 @@
+
+.statistics-section {
+    .progress-content {
+        display: grid;
+        place-content: center;
+        height: 100%;
+        .heading-3 {          
+            color: var(--heading-color);
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 500;
+            text-transform: inherit;             
+        }
+     }
+}
+
+.progress-section {
+    &.sky {
+        .percentCount {    
+           color: #3EBCD8;             
+        } 
+    }
+    .single-progressbar {
+        position: relative;
+    }
+    .title{
+        color: $semiblack;
+        padding: 0 50px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: $montserrat; 
+        position: absolute;
+        z-index: 9;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+    .proggress{
+        height: 90px !important;
+        border-radius: 170px;
+        line-height: 35px;               
+        text-align: left;
+        background-image: linear-gradient(to right, $white2, $white3);
+        padding: 30px 0;
+        border-radius: 170px !important;
+    }
+    .percentCount {
+        font-size: 16px;
+        color: $pink;
+        position: absolute;
+        right: 20px;
+        font-family: $montserrat; 
+        font-weight: 600;
+        &.sky {
+            color: #3EBCD8; 
+        }
+    }
+    .percentCount {
+        float: none;
+        margin-top: 0;
+        clear: both;
+        position: absolute !important;
+        top: 50%;
+        right: auto;
+        transform: translateY(-50%);
+    }
+    &.sergery-style {
+        .percentCount {             
+           color: $skyblue2;        
+        }
+    } 
+}
+
+
+
+
+

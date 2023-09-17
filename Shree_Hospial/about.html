@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Moristan - Hospital & Clinic HTML Template</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png" sizes="20x20" type="image/png"> 
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Fonts Awesome Icons -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--Video Popup-->
+    <link rel="stylesheet" href="assets/css/rpopup.min.css">     
+    <!--Slick Carousel-->
+    <link rel="stylesheet" href="assets/css/slick.css">    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive Stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+      
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!--Search Popup Start Here-->
+    <div class="searchOverlay">
+        <div class="sidenav-wrap">
+            <div class="logo-area">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/img/logo-2.png" alt="logo">
+                    </a>
+                </div>
+            </div><!--Logo End-->
+            <div class="overlay-content">
+                <span class="closebtn" title="Close Overlay">×</span>              
+                <form>
+                    <div class="Search-section">
+                        <input type="text" placeholder="What can we help you with?" name="search">	  
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Search Popup End Here-->  
+
+    <!--Side Nav Start Here-->
+    <div class="sidenav">
+        <div class="sidenav-wrap">
+            <div class="logo-area">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/img/logo-2.png" alt="logo">
+                    </a>
+                </div>
+            </div><!--Logo End-->
+            <div class="overlay-content">
+                <span class="closebtn" title="Close Overlay">×</span>              
+                <div class="overlay-menu">
+                    <ul class="side-menu">
+                        <li class="items"><a  class="itme-nav" href="#">Useful Links</a></li>
+                        <li class="items"><a  class="itme-nav" href="#">Home</a></li>
+                        <li class="items"><a class="itme-nav" href="#">Login</a></li>
+                        <li class="items"><a  class="itme-nav" href="#">Blog</a></li>
+                        <li class="items"><a  class="itme-nav" href="#">Help Center</a></li>
+                    </ul>
+                    <div class="social-icon">
+                        <a class="icon" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>                        
+                        <a class="icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>                           
+                        <a class="icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a>                            
+                        <a class="icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Side Nav End Here--> 
+
+    <!--Side Form Popup Start Here-->
+    <div class="side-form-popup">
+        <div class="popup-wrapper">
+            <div class="logo-area">
+                <a href="index.html">
+                    <img src="assets/img/logo-2.png" alt="Nav Logo">
+                </a>
+            </div>
+            <!--// Popup Logo Area End-->
+            <div class="opening-popup">
+                <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
+                </div>
+                <div class="row">
+                    <div class="modal-image">
+                        <img src="assets/img/modal/modal-02.png" alt="img">
+                    </div>  
+                    <!--// Modal Image-->
+                    <div class="address-area">
+                        <div class="address-content">
+                            <h4 class="heading-04 padding-10">Visiting Hours</h4>
+                            <ul>
+                                <li class="items"><span class="days">Monday - Friday</span> <span class="timing">2 PM to 4 PM</span> </li>
+                                <li class="items"><span class="days">Saturday</span> <span class="timing">1 PM to 4 PM</span> </li>
+                                <li class="items"><span class="days">Sunday</span> <span class="timing">3 PM to 4 PM</span> </li>
+                            </ul>    
+                            <h4 class="heading-04 padding-10">Phone Number</h4>
+                            <ul>
+                                <li class="items">+230 453 38463</li>
+                                <li class="items">+230 345 24463</li>
+                            </ul>
+                        </div>                              
+                    </div>
+                    <!--// Modal Address Area-->
+                </div>
+            </div>
+            <div class="location-popup">
+                <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
+                </div>
+                <div class="row">
+                    <div id="google-map2"></div>  
+                    <div class="address-area">
+                        <div class="address-content">
+                            <h4>Address</h4>
+                            <p class="padding-30">24 Impasse Edgar, Rose Hill</p>
+                            <div class="main-btn-wrap-2 modal-btn">
+                                <a href="#" class="main-btn">Get Direction</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-popup">
+                <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
+                </div>
+                <div class="row">
+                    <!--Appointment Section Start Here-->
+                    <div class="appointment-section  style-02">
+                        <div class="container">
+                            <div class="row">                
+                                <div class="col-lg-12 col-md-12">                               
+                                    <!--// Appoing Title End Here-->
+                                    <div class="appointment-content">                           
+                          
+                                        <div class="tab-content">                                     
+                                            <div class="appointment-img-area"> 
+                                                <img src="assets/img/04.png" alt="img">          
+                                                <div class="doctor-info">
+                                                    <div class="name">
+                                                        <h6 class="heading-06"> Dr George Abdreas Pompeia</h6>
+                                                    </div>
+                                                    <div class="designation">
+                                                        <span>Specialist cardiologue</span>
+                                                    </div>
+                                                </div>  
+                                            </div>
+                                            <div class="appointment-form-area"> 
+                                                <form>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <input type="text" name="your_name" placeholder="Your Name" class="form-control margin-15">
+                                                            <input type="email" name="your_email" placeholder="Your Email" class="form-control margin-15">                                            
+                                                            <div class="custom-select margin-15">
+                                                                <select>
+                                                                    <option>Doctor Name</option>
+                                                                    <option>Doctor Name</option>
+                                                                    <option>Doctor Name</option>
+                                                                    <option>Doctor Name</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="custom-select margin-15">
+                                                                <select>   
+                                                                    <option selected>Your Gender</option>
+                                                                    <option>Male</option>
+                                                                    <option>Female</option>
+                                                                </select> 
+                                                            </div>                                                
+                                                            <div class="calendar-icon margin-15">
+                                                                <span class="calendar">
+                                                                    <label for="datepicker">
+                                                                        <input type="text" id="datepicker" class="form-control" autocomplete="off" placeholder="Date">
+                                                                    </label>                                                
+                                                                    </span>
+                                                                <span class="icon"><i class="fas fa-calendar-week"></i></span>
+                                                            </div>    
+                                                            <div class="custom-select margin-15">
+                                                                <select>   
+                                                                    <option selected>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                </select>
+                                                            </div>  
+                                                        </div>
+                                                    </div>                                          
+                                                    <div class="main-btn-wrap style-02">
+                                                        <input class="main-btn" type="submit" value="Make Appointment">
+                                                    </div> 
+                                                </form>
+                                          
+                                            </div>        
+                                        </div>                            
+                                    </div>
+                                </div>                    
+                            </div>
+                        </div>
+                    </div>
+                    <!--Appointment Section End Here-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Side Form Popup End Here-->
+ 
+    <!--Header Start Here-->
+    <header>
+        <div class="container-fluid">
+          <div class="row">  
+            <div class="header-area">         
+                <div class="logo-area">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="Nav Logo">
+                    </a>
+                </div>
+                <nav class="navbar navbar-area navbar-expand-lg">
+                        <div class="container nav-container">
+                            <div class="responsive-mobile-menu">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fortis_main_menu" 
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <!-- <span class="navbar-toggler-icon"> </span> -->
+                                    <span class="cross-menu">
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                        <span class="bar3"></span> 
+                                    </span>  
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="fortis_main_menu">
+                                <ul class="navbar-nav">
+                                    <li class="menu-item-has-children">
+                                        <a href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="index.html">Home 01</a></li>
+                                            <li><a href="index-2.html">Home 02</a></li>
+                                            <li><a href="index-3.html">Home 03</a></li>
+                                            <li><a href="index-4.html">Home 04</a></li>
+                                            <li><a href="index-5.html">Home 05</a></li>
+                                            <li><a href="index-6.html">Home 06</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="current-menu-item"><a href="about.html">about</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="about.html">services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="service.html">services 01</a></li>
+                                            <li><a href="service-2.html">services 02</a></li>
+                                        </ul>
+                                    </li>                      
+                                    
+                                    <li class="menu-item-has-children">
+                                        <a href="#">pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="faq.html">faqs</a></li>                                        
+                                            <li><a href="login.html">Sign In</a></li>
+                                            <li><a href="login-2.html">Sign Up</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="help-center.html">Help Center</a></li>
+                                            <li><a href="membership.html">Membership</a></li> 
+                                        </ul>
+                                    </li> 
+                                    <li><a href="contact.html">contact</a></li>              
+                                </ul>
+                            </div>
+                        </div>
+                </nav>
+                <!--Navbar area end here-->
+                <div class="search-area">    
+                    <div class="openSearchBtn"> 
+                        <div class="search-icon">
+                            <i class="flaticon-search"></i> 
+                        </div>   
+                    </div>                        
+                    <div class="open-side-menu">                       
+                        <div class="menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>                    
+                    </div>             
+                </div>              
+                <!--Search area end here-->
+            </div>                  
+          </div>
+        </div>
+    </header>    
+    <!--Header Area End Here-->
+
+    <!--Main Area Start Here-->
+    <main>   
+
+        <!--Breadcrumb Section Start Here-->
+        <section class="breadcrumb-area padding-90" style="background-image: url(assets/img/bg/breadcrumb-bg.png)">
+            <div class="container-fluid">        
+                <div class="row">
+                    <div class="breadcrumb-content">
+                        <div class="col-12 px-0">
+                            <div class="page-title">
+                                <h1 class="heading-1">About us</h1>
+                            </div>
+                        </div>
+                        <ul class="page-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li> About us</li>
+                        </ul> 
+                    </div>
+                </div>       
+            </div>
+        </section>
+        <!--Breadcrumb Section End Here-->
+
+        <!--About Us Section Start Here-->
+        <section class="about-us-section padding-top-100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 px-0">
+                        <div class="about-img-area">
+                           <img src="assets/img/about/11.png" alt="img">
+                        </div>                    
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-content-area">
+                            <h4 class="heading-04">About us</h4>
+                            <div class="common-title">
+                                <h2 class="heading line-none">Welcome to Fortis hospital </h2>
+                            </div>    
+                            <div class="padding-top-20 padding-bottom-40">                       
+                                <p>Lorem ipsum dolor sit amet, ad vix fuisset assentior Vim maiorum postulant has ex. Has dicam singulis ut, 
+                                delicata ipsum dolor sit amet, ad vix uisset assentior Vim dicit lobortis molestiae no, maiorum .</p>
+                            </div>
+                                <!-- video popup toggler -->  
+                            <div class="play-area">     
+                                <a href="https://www.youtube.com/watch?v=oHJR0zZ5uRU" class="hosted-popup">
+                                    <div  class="play-btn">
+                                        <i class="icon flaticon-play-button"></i> 
+                                    </div>  
+                                </a>     
+                                <div class="play-text">Play This Video</div>
+                            </div>                 
+                        </div> 
+                        <!--Side Form Icons-->                      
+                        <div id="service_info_item" class="side-form-icons">   
+                            <i class="icon flaticon-phone-call" id="open-opening-popup"></i>
+                            <i class="icon flaticon-placeholder" id="open-location-popup"></i>
+                            <i class="icon flaticon-clock-circular-outline" id="open-form-popup"></i>
+                        </div>  
+                    </div>  
+                    
+                </div>
+            </div>
+        </section>
+        <!--About Us Section End Here-->
+
+        <!--About Page Doctor Section Start Here-->       
+        <section  class="about-our-doctor our-doctor padding-100">
+            <div class="container-fluid px-0">
+                <div class="container px-0">
+                    <div class="row">
+                        <!--Common Title-->
+                        <div class="col-lg-9">
+                            <div class="common-title padding-bottom-40">
+                                <h2 class="heading">our doctors</h2>
+                            </div>
+                        </div>                                  
+                        <div class="col-12 about-doctor px-lg-0">                        
+                            <div id="aboutPageDoctorIndicators" class="carousel slide" data-ride="carousel">  
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">             
+                                    <div class="col-lg-4 col-md-12">
+                                        <div class="slider-content">
+                                            <h4 class="heading-04">Roman Atkinson</h4>
+                                            <h6 class="heading-06">Neurologist</h6>
+                                            <div class="social-icon">
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>                        
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>                           
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a>                            
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>                               
+                                            </div>
+                                            <p>Dr Roman Atkinson one of the best Nurologiest in Bangladesh, In the world, In the Galaxy.There are many variations of passages of Lorem psum available, but the majority alteration in some form,by injected humour. Dr Roman Atkinson one of the best Nurologiest in Bangladesh, In the world, In the Galaxy.</p>  
+                                            <!-- Accordion Wrapper Start Here -->
+                                            <div class="accordion-wrapper">
+                                                <div id="accordion">
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingOne">
+                                                            <h5 class="mb-0">
+                                                            <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                Surgeries
+                                                            </a>
+                                                            </h5>
+                                                        </div>                                            
+                                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p> 
+                                                                <div class="rating-area">                     
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i>   
+                                                                </div>                                                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwo">
+                                                            <h5 class="mb-0">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                Rating
+                                                            </a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p>  
+                                                                <div class="rating-area">
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingThree">
+                                                            <h5 class="mb-0">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                Experience
+                                                            </a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p>  
+                                                                <div class="rating-area">
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Accordion Wrapper End Here -->
+                                            <div class="main-btn-wrap">
+                                                <a href="#" class="main-btn">Make Appointment</a>
+                                            </div>  
+                                        </div>                                    
+                                    </div>
+                                    <div class="col-lg-8 col-md-12 slider-img px-0" style="background-image: url(assets/img/about/doc1.jpg)">                                       
+                                    </div> 
+                                </div>
+                                <!--// Carousel Item one-->
+                                <div class="carousel-item">
+                                    <div class="col-lg-4 col-md-12">
+                                        <div class="slider-content">
+                                            <h4 class="heading-04">Beatrice A. Ramsey</h4>
+                                            <h6 class="heading-06">Cardiology</h6>
+                                            <div class="social-icon">
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>                        
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>                           
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a>                            
+                                                <a class="icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>   
+                                            </div>
+                                            <p>Dr Beatrice A. Ramsey one of the best Cardiology in Bangladesh, In the world, In the Galaxy.There are many variations of passages of Lorem psum available, but the majority alteration in some form,by injected humour. Dr Beatrice A. Ramsey one of the best Cardiology in Bangladesh, In the world, In the Galaxy.</p>  
+                                            <!-- Accordion Wrapper Start Here -->
+                                            <div class="accordion-wrapper">
+                                                <div id="accordionTwo">
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTowOne">
+                                                            <h5 class="mb-0">
+                                                            <a role="button" data-toggle="collapse" data-target="#collapseTowOne" aria-expanded="true" aria-controls="collapseTowOne">
+                                                                Surgeries
+                                                            </a>
+                                                            </h5>
+                                                        </div>                                            
+                                                        <div id="collapseTowOne" class="collapse show" aria-labelledby="headingTowOne" data-parent="#accordionTwo">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p>     
+                                                                <div class="rating-area">                     
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i>   
+                                                                </div>                                                            
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTowTwo">
+                                                            <h5 class="mb-0">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTowTwo" aria-expanded="false" aria-controls="collapseTowTwo">
+                                                                Rating
+                                                            </a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTowTwo" class="collapse" aria-labelledby="headingTowTwo" data-parent="#accordionTwo">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p>  
+                                                                <div class="rating-area">
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card">
+                                                        <div class="card-header" id="headingTwoThree">
+                                                            <h5 class="mb-0">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTowThree" aria-expanded="false" aria-controls="collapseTowThree">
+                                                                Experience
+                                                            </a>
+                                                            </h5>
+                                                        </div>
+                                                        <div id="collapseTowThree" class="collapse" aria-labelledby="headingTwoThree" data-parent="#accordionTwo">
+                                                            <div class="card-body">
+                                                                <p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</p>  
+                                                                <div class="rating-area">
+                                                                    <i class="flaticon-rate-star-button"></i>
+                                                                    <i class="flaticon-rate-star-button"></i>        
+                                                                    <i class="flaticon-rate-star-button"></i> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Accordion Wrapper End Here  -->
+                                            <div class="main-btn-wrap">
+                                                <a href="#" class="main-btn">Make Appointment</a>
+                                            </div>  
+                                        </div>                          
+                                    </div> 
+                                    <div class="col-lg-8 col-md-12 slider-img px-0" style="background-image: url(assets/img/about/doc2.jpg)">                                      
+                                    </div> 
+                                </div>    
+                                <!--// Carousel Item Two-->                                                 
+                            </div>                
+                            </div>                        
+                        </div>                        
+                    </div>
+                </div>
+                <!--Carousel Indicators -->
+                <a class="carousel-control-prev" href="#aboutPageDoctorIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"> <i class="fas fa-chevron-left"></i> </span>
+                </a>
+                <a class="carousel-control-next" href="#aboutPageDoctorIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"> <i class="fas fa-chevron-right"></i> </span>
+                </a>   
+                </div>         
+        </section>            
+        <!--About Page Doctor Section End Here-->
+
+        <!--Why Patient Choose Section Start Here-->
+        <section class="why-choose-section padding-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 offset-lg-1">
+                        <div class="why-choose-img">
+                            <img src="assets/img/about/07.png" alt="img">
+                        </div>                                
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="why-choose-content">
+                            <div class="common-title padding-bottom-30">
+                                <h2 class="heading line-none">Why Patients Choose Our Hospital ? </h2>
+                            </div>  
+
+                            <div class="check-box-area">
+                                <ul class="check-box">
+                                    <li>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</li>
+                                    <li>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</li>
+                                    <li>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</li>
+                                    <li>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</li>
+                                    <li>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do.</li>
+                                </ul>
+                            </div>
+                        </div>                                
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Why Patient Choose Section End Here-->
+
+        <!--Coundown Section Start Here-->
+        <section class="coundown-section padding-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-couterup">
+                            <div class="icon">
+                                <img src="assets/img/about/icon-01.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <span class="count-num">25</span>
+                                <h4 class="title">Years Experience</h4>
+                            </div>
+                        </div>
+                    </div>                            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-couterup">
+                            <div class="icon">
+                                <i class="flaticon-favorite-heart-button"></i>
+                                <!-- <i class="flaticon-rate-star-button"></i> -->
+                            </div>
+                            <div class="content">
+                                <span class="count-num">2321</span>
+                                <h4 class="title">Happy Patients</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-couterup">
+                            <div class="icon">
+                                <img src="assets/img/about/icon-03.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <span class="count-num">154</span>
+                                <h4 class="title">Number Of Doctors</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-couterup">
+                            <div class="icon">
+                                <img src="assets/img/about/icon-04.png" alt="img">
+                            </div>
+                            <div class="content">
+                                <span class="count-num">276</span>
+                                <h4 class="title">Number Of Staffs</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Coundown Section End Here-->
+
+        <!--Our Mission Section Start Here-->
+        <section class="our-mission-section">
+            <div class="container">
+                <div class="row">
+                    <!--Common Title-->
+                    <div class="col-12">
+                        <div class="common-title padding-bottom-20">
+                            <h2 class="heading line-left m-auto">Our Mission</h2>
+                        </div>
+                    </div>                            
+                    <div class="col-lg-12 col-md-12">
+                        <!--Mission Tab Area-->
+                        <div class="mission-tab-area padding-top-60">
+                            <!-- <div class="col-lg-6 col-md-12"> -->
+                                <div class="tab-navbar-area">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Creation</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Analysis</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Strategy</a>
+                                        </li>
+                                    </ul>
+                                </div>            
+                                <div class="tab-content-area">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <div class="tab-content">
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="paragraph-wrap">
+                                                        <div class="paragraph-area padding-30">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. 
+                                                            </p>     
+                                                            <p>
+                                                                Has dicam singulis qualisque ut, delicata qualisque ei eum. Lorem ipsum dolor sit amet, assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. Has dicam singulis qualisque ut, delicata qualisque ei eum.
+                                                            </p>
+                                                        </div>
+                                                        <div class="award-area">
+                                                            <div class="award-title padding-bottom-30">
+                                                                <h3 class="heading-03">Awards & Recognitions</h3>
+                                                            </div>
+                                                            <div class="award-purpose">
+                                                                <div class="column-one">
+                                                                    <h5>Exellence</h5>
+                                                                    <p>Execellence in Surgery</p>
+                                                                </div>
+                                                                <div class="column-two">
+                                                                    <h5>Winner</h5>
+                                                                    <p>Hospital Caring Award / 2015</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>   
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="mission-img-area">
+                                                        <img src="assets/img/about/creation.jpg" alt="img">
+                                                    </div>                               
+                                                </div>
+                                            </div>                                           
+                                        </div>    
+                                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <div class="tab-content">
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="paragraph-wrap">
+                                                        <div class="paragraph-area padding-30">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. 
+                                                            </p>     
+                                                            <p>
+                                                                Has dicam singulis qualisque ut, delicata qualisque ei eum. Lorem ipsum dolor sit amet, assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. Has dicam singulis qualisque ut, delicata qualisque ei eum.
+                                                            </p>
+                                                        </div>
+                                                        <div class="award-area">
+                                                            <div class="award-title padding-bottom-30">
+                                                                <h3 class="heading-03">Awards & Recognitions</h3>
+                                                            </div>
+                                                            <div class="award-purpose">
+                                                                <div class="column-one">
+                                                                    <h5>Exellence</h5>
+                                                                    <p>Execellence in Surgery</p>
+                                                                </div>
+                                                                <div class="column-two">
+                                                                    <h5>Winner</h5>
+                                                                    <p>Hospital Caring Award / 2015</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>  
+                                                    </div>                                                     
+                                                </div>
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="mission-img-area">
+                                                        <img src="assets/img/about/analysis.jpg" alt="img">
+                                                    </div>                               
+                                                </div>
+                                                </div>  
+                                        </div>
+                                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                            <div class="tab-content">
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="paragraph-wrap">
+                                                        <div class="paragraph-area padding-30">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. 
+                                                            </p>     
+                                                            <p>
+                                                                Has dicam singulis qualisque ut, delicata qualisque ei eum. Lorem ipsum dolor sit amet, assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. Has dicam singulis qualisque ut, delicata qualisque ei eum.
+                                                            </p>
+                                                        </div>
+                                                        <div class="award-area">
+                                                            <div class="award-title padding-bottom-30">
+                                                                <h3 class="heading-03">Awards & Recognitions</h3>
+                                                            </div>
+                                                            <div class="award-purpose">
+                                                                <div class="column-one">
+                                                                    <h5>Exellence</h5>
+                                                                    <p>Execellence in Surgery</p>
+                                                                </div>
+                                                                <div class="column-two">
+                                                                    <h5>Winner</h5>
+                                                                    <p>Hospital Caring Award / 2015</p>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                    </div>                                                      
+                                                </div>
+                                                <div class="col-lg-6 col-md-12">
+                                                    <div class="mission-img-area">
+                                                        <img src="assets/img/about/strategy.jpg" alt="img">
+                                                    </div>                               
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>                                                
+                            <!-- </div>    -->
+                        </div>
+                        <!--Mission Tab Area End-->
+                    </div>                  
+                </div>
+            </div>
+        </section>
+        <!-- // Our Mission Section End Here-->
+
+        <!--Our Hospital Time line Start Here-->
+        <section class="timeline-section padding-100">
+            <div class="container">
+                <div class="row">
+                    <!--Common Title-->
+                    <div class="col-12">
+                        <div class="common-title padding-bottom-50">
+                            <h2 class="heading line-left m-auto">Our hospital’s timelines</h2>
+                        </div>
+                    </div>                        
+                    <div class="col-lg-12">                                      
+                        <div class="time-line-area">
+                            <div class="big-slider-area">
+                                <div class="year-area">
+                                    <ul>
+                                        <li data-slide-index="0" class="active">2019</li>
+                                        <li data-slide-index="1">2010</li>
+                                        <li data-slide-index="2">2005</li>
+                                        <li data-slide-index="3">2000</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-slider-big"> 
+                                    <div class="items">
+                                        <div class="d-flex">
+                                            <div class="items-img"> 
+                                                <img src="assets/img/about/time-line05.png" alt="img">      
+                                            </div>
+                                            <div class="items-content">
+                                                <h3 class="heading-03">2019 Hospital Report</h3>
+                                                <p>“Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex.
+                                                    Hassingulis qualisque ut, delicata qualisque ei eum. Lorem dolor sit amet, ad vix fuisset assentior.
+                                                        Vim dicit molestiae ,postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.</p>
+                                            </div> 
+                                        </div>                                         
+                                    </div>
+                                    <div class="items">
+                                        <div class="d-flex">
+                                            <div class="items-img"> 
+                                                <img src="assets/img/about/time-line06.png" alt="img">      
+                                            </div>
+                                            <div class="items-content">
+                                                <h3 class="heading-03">2010 Hospital Report</h3>
+                                                <p class="animated bounceInDown slower">“Lorem ipsum dolor sit amet, ad vix fuisset assentior.
+                                                    Vim dicit lobortis molestiae no, maiorum postulant has ex. Hassingulis qualisque ut, delicata qualisque ei eum.
+                                                    Lorem dolor sit amet, ad vix fuisset assentior. Vim dicit molestiae ,postulant has ex. dicam singulis qualisque ut,
+                                                    delicata qualisque ei eum. </p>
+                                            </div> 
+                                        </div>                                         
+                                    </div>
+                                    <div class="items">
+                                        <div class="d-flex">
+                                            <div class="items-img"> 
+                                                <img src="assets/img/about/time-line07.png" alt="img">     
+                                            </div>
+                                            <div class="items-content">
+                                                <h3 class="heading-03">2005 Hospital Report</h3>
+                                                <p class="animated bounceInDown slower">“Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis
+                                                    molestiae no, maiorum postulant has ex. Hassingulis qualisque ut, delicata qualisque ei eum. Lorem dolor sit amet, 
+                                                    ad vix fuisset assentior. Vim dicit molestiae ,postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.
+                                                </p>
+                                            </div> 
+                                        </div>                                         
+                                    </div>  
+                                    <div class="items">
+                                        <div class="d-flex">
+                                            <div class="items-img"> 
+                                                <img src="assets/img/about/time-line08.png" alt="img">      
+                                            </div>
+                                            <div class="items-content">
+                                                <h3 class="heading-03">2000 Hospital Report</h3>
+                                                <p class="animated bounceInDown slower">“Lorem ipsum dolor sit amet, ad vix fuisset assentior.
+                                                    Vim dicit lobortis molestiae no, maiorum postulant has ex. Hassingulis qualisque ut, delicata qualisque ei eum. 
+                                                    Lorem dolor sit amet, ad vix fuisset assentior. Vim dicit molestiae ,postulant has ex. dicam singulis qualisque ut, 
+                                                    delicata qualisque ei eum.</p>
+                                            </div> 
+                                        </div>                                         
+                                    </div>           
+                                </div>
+                            </div>
+                            <!--// Big Slider Area End-->
+                            <div class="small-slider-area">
+                                <div class="timeline-slider-small">
+                                    <div class="items">
+                                        <img src="assets/img/about/time-line01.png" alt="img">    
+                                    </div>
+                                    <div class="items">
+                                        <img src="assets/img/about/time-line02.png" alt="img">
+                                    </div>
+                                    <div class="items"> 
+                                        <img src="assets/img/about/time-line03.png" alt="img">
+                                    </div>
+                                    <div class="items">
+                                        <img src="assets/img/about/time-line04.png" alt="img">    
+                                    </div>                               
+                                </div>
+                            </div> 
+                            <!--// Small Slider Area End-->   
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </section>
+
+        <!-- // Our Hospital Time line End Here-->
+    </main>
+
+    <!-- footer area start -->
+    <footer class="footer-area">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget widget logo-widget">                       
+                            <a href="index.html">
+                                <img src="assets/img/logo.png" alt="Nav Logo">
+                            </a>                            
+                            <ul>                                
+                                <li>
+                                    <span class="icon"><i class="far fa-envelope"></i></span> fortis@gmail.com
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-phone"></i></span>+230 437 4438
+                                </li>
+                                <li>
+                                   <span class="icon"> <i class="fas fa-map-marker-alt"></i></span>Gladstone, Rose hill
+                                </li> 
+                            </ul>                        
+                            <div class="footer-social-icon">
+                                <a class="icon" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>                        
+                                <a class="icon" href="#" target="_blank"><i class="fab fa-instagram"></i></a>                           
+                                <a class="icon" href="#" target="_blank"><i class="fab fa-twitter"></i></a>                            
+                                <a class="icon" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                            </div>                                             
+                        </div>                       
+                    </div>
+                    <div class="col-lg-2 col-md-6">                           
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h4 class="widget-title">Talk to us</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">Registration</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>                           
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-widget widget widget_nav_menu">                       
+                            <h4 class="widget-title">Support</h4>                  
+                             <ul>
+                                 <li><a href="#">documentation </a></li>
+                                 <li><a href="#">FAQs </a></li>
+                                 <li><a href="#"> Conditions</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="subscribe-area">
+                                <div class="footer-widget widget">                         
+                                    <h4 class="widget-title">Newsletter</h4>                    
+                                <p>Get our offers & News in your inbox</p>  
+                                <form>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Enter email">
+                                        <div class="input-group-append">
+                                        <div class="input-group-text">
+                                            <input type="submit" value="Subscribe">
+                                        </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>  
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area-inner">
+                                &copy; Copyright 2019 Moristan - Made with <span class="coypright-icon"><i class="fas fa-heart"></i></span> by 
+                                <a href="http://zwin.io/" target="_blank">Zwin</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+    
+    
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="flaticon-up-arrow"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+    
+
+  
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--Jquery Migrate-->
+    <script src="assets/js/jquery-migrate.min.js"></script> 
+    <!--Jquery UI-->
+    <script src="assets/js/jquery-ui.js"></script>   
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--Waypoints-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!--Slick Carousel-->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- wow -->
+    <script src="assets/js/wow.min.js"></script>
+    <!--Custom Select Box-->
+    <script src="assets/js/selectbox.min.js"></script>
+    <!--Custom Video Popup-->
+    <script src="assets/js/jquery.rPopup.js"></script>
+    <!-- countdown -->
+    <script src="assets/js/jquery.countdown.min.js"></script> 
+    <!--Counter--> 
+    <script src="assets/js/jQuery.rcounter.js"></script>
+    <!--Google Map API-->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVyNXoXHkqAwBKJaouZWhHPCP5vg7N0HQ&callback=initMap" async defer></script> -->
+    <!-- google map activate js -->
+    <script src="assets/js/goolg-map-activate.js"></script>
+    <!-- imageloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    
+    </body>
+    </body>
+    </html>
