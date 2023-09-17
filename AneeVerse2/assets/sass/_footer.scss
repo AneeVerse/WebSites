@@ -1,0 +1,137 @@
+.main-footer {
+    background-color: $ogency-black2;
+    position: relative;
+    padding: 60px 0 105px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    @media (max-width: 767px) {
+        padding-bottom: 60px;
+    }
+}
+
+.main-footer__top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid RGBA($ogency-white-rgb, 0.1);
+    padding-bottom: 60px;
+    margin-bottom: 88px;
+
+    @media (max-width: 360px) {
+        display: block;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 50px;
+    }
+}
+
+.main-footer__social {
+    position: relative;
+
+    a {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        background-color: $ogency-black;
+        color: $ogency-white;
+        line-height: 55px;
+        border-radius: 50%;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 7px;
+
+        @media (max-width: 360px) {
+            margin: 30px 7px 0 0;
+        }
+
+        &:hover {
+            background-color: $ogency-base;
+        }
+    }
+}
+
+.main-footer__about {
+    position: relative;
+
+    p {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: -.96px;
+        line-height: 40px;
+        margin-bottom: 9px;
+
+        @media (max-width: 767px) {
+            font-size: 22px;
+        }
+    }
+
+    a {
+        display: inline-block;
+        color: $ogency-white;
+        font-size: 60px;
+        letter-spacing: -2.4px;
+        line-height: 1;
+        font-weight: 800;
+
+        &:hover {
+            color: $ogency-base;
+        }
+
+        @media (max-width: 991px) {
+            font-size: 34px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 30px;
+            letter-spacing: -1px;
+        }
+    }
+}
+
+.main-footer__navmenu {
+    position: relative;
+
+    @media (max-width: 767px) {
+        margin-top: 30px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            display: block;
+            font-size: 16px;
+            line-height: 36px;
+            font-weight: 400;
+            color: $ogency-color;
+
+            a {
+                color: inherit;
+                display: inline-block;
+
+                &:hover {
+                    color: $ogency-base;
+                }
+            }
+        }
+    }
+}
+
+.main-footer__copyright {
+    margin: 14px 0 0;
+    font-size: 16px;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $ogency-base;
+        }
+    }
+}

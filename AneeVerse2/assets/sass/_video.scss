@@ -1,0 +1,131 @@
+.video-one {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: $ogency-black;
+    padding: 50px 0;
+
+    @media (max-width: 767px) {
+        padding-top: 20px;
+    }
+}
+
+.video-one__banner {
+    position: relative;
+    overflow: hidden;
+    background-color: $ogency-black;
+
+    @media (min-width: 1300px) {
+        margin: 0 -59px;
+    }
+
+    >img {
+        width: 100%;
+        height: auto;
+        mix-blend-mode: luminosity;
+
+        @media (max-width: 767px) {
+            min-height: 300px;
+            object-fit: cover;
+        }
+    }
+
+    &__shape {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        @media (max-width: 767px) {
+            right: -35px;
+        }
+
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    &__curved-circle-box {
+        position: absolute;
+        right: 168px;
+        bottom: 64px;
+        display: inline-block;
+        height: 175px;
+        width: 175px;
+        border-radius: 50%;
+        z-index: 2;
+
+        @media (max-width: 1199px) {
+            right: 130px;
+        }
+
+        @media (max-width: 991px) {
+            right: 90px;
+            bottom: 30px;
+        }
+
+        @media (max-width: 767px) {
+            right: 25px;
+            bottom: 25px;
+        }
+
+        .curved-circle {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            height: 175px !important;
+            width: 175px !important;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            color: $ogency-white;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: textRotate 20s linear 0s forwards infinite alternate;
+
+            .curved-circle-item {
+                height: 175px !important;
+                width: 175px !important;
+
+                span {
+                    letter-spacing: .25em;
+                }
+            }
+
+            @keyframes textRotate {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+        .video-popup {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 95px;
+            height: 95px;
+            background-color: $ogency-white;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $ogency-black;
+            border-radius: 50px;
+
+            &:hover {
+                background-color: $ogency-base;
+                color: $ogency-white;
+            }
+        }
+    }
+}

@@ -1,0 +1,322 @@
+.contact-one{
+    background-color: $ogency-black2;
+    position: relative;
+    overflow: hidden;
+
+    &__bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: left top;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: color-burn;
+        opacity: .3;
+    }
+}
+.contact-one__left{
+    position: relative;
+    padding: 120px 0;
+
+    @media (max-width: 991px){
+        padding-bottom: 50px;
+    }
+    @media (max-width: 767px){
+        padding-top: 80px;
+    }
+
+    .section-title{
+        margin-bottom: 40px;
+    }
+}
+.contact-one__form-box {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.contact-one__form {
+    position: relative;
+    display: block;
+
+    .row {
+        --bs-gutter-x: 10px;
+    }
+}
+  
+  
+  
+.contact-one__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+
+    input[type="text"], input[type="email"] {
+        height: 63px;
+        width: 100%;
+        border: none;
+        background-color: $ogency-black;
+        padding-left: 30px;
+        padding-right: 30px;
+        outline: none;
+        font-size: 14px;
+        color: $ogency-color;
+        font-family: $ogency-font;
+        display: block;
+        font-weight: 500;
+    }
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        position: relative;
+        display: block;
+        width: 100% !important;
+        font-family: $ogency-font;
+    }
+    .bootstrap-select>.dropdown-toggle::after {
+        display: none;
+    }
+    .bootstrap-select>.dropdown-toggle {
+        position: relative;
+        height: 63px;
+        outline: none !important;
+        border-radius: 0;
+        border: 0;
+        background-color: $ogency-black !important;
+        margin: 0;
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: $ogency-color !important;
+        font-size: 14px;
+        line-height: 63px;
+        font-weight: 500;
+        box-shadow: none !important;
+        background-repeat: no-repeat;
+        background-size: 14px 12px;
+        background-position: right 25.75px center;
+    }
+    .bootstrap-select>.dropdown-toggle:before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 30px;
+        font-family: "Font Awesome 5 Free";
+        content: "\f107";
+        font-weight: 900;
+        font-size: 14px;
+        color: $ogency-color;
+    }
+    .bootstrap-select .dropdown-menu>li+li>a {
+        border-top: 1px solid $ogency-black3;
+    }
+    .bootstrap-select .dropdown-menu>li>a {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 30px;
+        color: $ogency-color;
+        background-color: $ogency-black;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .bootstrap-select .dropdown-menu>li:hover>a, .bootstrap-select .dropdown-menu>li.selected>a {
+        background: $ogency-base;
+        color: $ogency-white;
+        border-color: $ogency-base;
+    }
+    textarea {
+        font-size: 14px;
+        font-weight: 500;
+        color: $ogency-color;
+        height: 130px;
+        width: 100%;
+        background-color: $ogency-black;
+        font-family: $ogency-font;
+        padding: 20px 30px 30px;
+        border: none;
+        outline: none;
+        margin-bottom: 0px;
+    }
+    &.text-message-box {
+        height: 130px;
+    }
+}
+.ogency-stretch-element-inside-column{
+    overflow: hidden;
+    height: 100%;
+}
+.ogency-stretch__image{
+    position: relative;
+    margin-left: auto;
+    background-color: $ogency-black2;
+    max-width: 890px;
+    height: 100%;
+    overflow: hidden;
+
+    @media (max-width: 1400px){
+        margin-left: 0;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        margin-left: 0;
+    }
+    @media (max-width: 767px){
+        height: 500px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
+    }
+    &__angle-top{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 160px 120px 0 120px;
+        border-color: $ogency-base transparent transparent transparent;
+        position: absolute;
+        left: -1px;
+        top: 0;
+        display: block;
+        -webkit-animation: movebounce2 3s linear infinite;
+        animation: movebounce2 3s linear infinite;
+    }
+    @keyframes movebounce2 {
+        0% {
+            transform: translateX(0px); }
+        50% {
+            transform: translateX(-20px); }
+        100% {
+            transform: translateX(0px); }
+    }
+    @media (max-width: 767px){
+        border-width: 70px 70px 0 70px;
+    }
+    &__angle-middle{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 317px 0 420px 235px;
+        border-color: transparent transparent transparent $ogency-black2;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+
+        @media (max-width: 767px){
+            border-width: 250px 0 250px 250px;
+        }
+    }
+    &__angle-bottom{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 102px 182px 102px;
+        border-color: transparent transparent #f6f6f6 transparent;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+
+        @media (min-width: 768px) and (max-width: 991px){
+            left: 57px;
+        }
+        @media (max-width: 767px){
+            border-width: 0 70px 110px 110px;
+        }
+    }
+}
+.contact-info{
+    position: relative;
+    background-color: $ogency-black;
+
+    &__wrapper{
+        position: relative;
+        z-index: 2;
+        background-color: $ogency-black2;
+        padding: 57px 40px 61px 60px;
+        margin-bottom: -110px;
+
+        @media (max-width: 1199px){
+            padding-bottom: 31px;
+        }
+
+        @media (max-width: 991px){
+            padding: 57px 20px 31px 25px;
+        }
+    }
+    &__item{
+        position: relative;
+        min-height: 97px;
+        padding: 2px 0 0 117px;
+
+        @media (max-width: 1199px){
+            margin-bottom: 30px;
+        }
+
+        &__icon{
+            width: 97px;
+            height: 97px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $ogency-base;
+            font-size: 49px;
+            background-color: $ogency-black;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            span{
+                display: inline-block;
+                transition: all 500ms linear;
+                transition-delay: 0s;
+                transition-delay: 0s;
+                transition-delay: 0.1s;
+                transform: scale(1);
+            }
+        }
+        &:hover &__icon span{
+            transform: scale(0.9);
+        }
+        &__title{
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -.72px;
+            margin: 0 0 1px;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: -.72px;
+            color: $ogency-color;
+            margin: 0 0 0;
+
+            a{
+                display: block;
+                color: inherit;
+
+                &:hover{
+                    color: $ogency-base;
+                }
+            }
+        }
+    }
+}
+.google-map{
+    position: relative;
+    background-color: $ogency-black;
+
+    &__one{
+        position: relative;
+        display: block;
+        border: none;
+        height: 483px;
+        width: 100%;
+        mix-blend-mode: luminosity;
+    }
+}
+

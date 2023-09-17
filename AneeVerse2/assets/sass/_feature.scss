@@ -1,0 +1,176 @@
+.feature-one{
+    position: relative;
+    background-color: $ogency-black;
+    padding: 19px 0 120px;
+
+    @media (max-width: 991px) {
+      padding-bottom: 60px;
+    }
+}
+.feature-one__item{
+  position: relative;
+
+  @media (max-width: 991px){
+    margin-bottom: 30px;
+  }
+
+  &__img{
+    position: relative;
+    background-color: $ogency-black;
+  
+    img{
+      width: 100%;
+      height: auto;
+      mix-blend-mode: luminosity;
+    }
+  }
+  &__content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+    width: calc(100% - 40px);
+    background-color: RGBA($ogency-black-rgb, 0.9);
+    padding: 19px 30px 25px;
+    -webkit-transition: -webkit-transform 400ms ease;
+    transition: -webkit-transform 400ms ease;
+    transition: transform 400ms ease;
+    transition: transform 400ms ease, 
+    -webkit-transform 500ms ease;
+
+    @media (max-width: 360px){
+        padding: 15px 20px 21px;
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199px){
+        padding-left: 20px;
+    }
+
+    &--title{
+      font-size: 22px;
+      letter-spacing: -.88px;
+      margin: 0;
+    }
+    &--icon{
+      width: 55px;
+      height: 55px;
+      background-color: $ogency-base;
+      border-radius: 50%;
+      color: $ogency-white;
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 20px;
+      top: -27px;
+
+      @media (max-width: 360px){
+          right: 15px;
+          top: -35px;
+      }
+    }
+  }
+  &:hover &__content{
+    background-position: bottom left;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+  }
+  &__hover-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: RGBA($ogency-black-rgb, 0.9);
+    padding: 35px 40px 25px;
+    background-position: bottom left;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+    -webkit-transition: -webkit-transform 500ms ease;
+    transition: -webkit-transform 500ms ease;
+    transition: transform 500ms ease;
+    transition: transform 500ms ease, 
+    -webkit-transform 500ms ease;
+    z-index: 2;
+    
+    @media (max-width: 767px){
+        padding: 25px 30px 25px;
+    }
+    @media (max-width: 360px){
+        padding: 16px 25px 20px;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        padding: 25px;
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+        padding: 20px;
+    }
+
+    &--title{
+      font-size: 22px;
+      letter-spacing: -.88px;
+      margin: 0 0 16px;
+
+      @media (max-width: 360px){
+        margin-bottom: 6px;
+      }
+      @media (min-width: 992px) and (max-width: 1199px){
+        margin-bottom: 8px;
+      }
+    }
+    &--text{
+      margin: 0 0 10px;
+      padding: 0 0 31px;
+      border-bottom: 1px solid RGBA($ogency-white-rgb, 0.1);
+
+      @media (max-width: 360px){
+        margin: 0 0 5px;
+        padding: 0 0 8px;
+        line-height: 24px;
+      }
+      @media (min-width: 768px) and (max-width: 991px){
+          padding-bottom: 20px;
+      }
+      @media (min-width: 992px) and (max-width: 1199px){
+          padding-bottom: 15px;
+          font-size: 14px;
+          line-height: 24px;
+      }
+    }
+    &__btn{
+      display: inline-block;
+      color: $ogency-white;
+      font-size: 14px;
+      text-transform: capitalize;
+
+      span{
+        display: inline-block;
+        font-size: 22px;
+        margin: 0 0 0 11px;
+        top: 5px;
+        position: relative;
+        transition: transform 400ms ease;
+      }
+      &:hover{
+        color: $ogency-base;
+
+        span{
+            transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+  &:hover &__hover-content{
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}

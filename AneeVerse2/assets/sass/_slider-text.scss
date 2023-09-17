@@ -1,0 +1,107 @@
+.slider-text-one{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: $ogency-black;
+    padding: 52px 0;
+    border-top: 1px solid RGBA($ogency-white-rgb, 0.1);
+
+    .slider-text-one__animate-text{
+        animation: text-scrolling 28s linear infinite;
+        animation-direction: reverse;
+        will-change: transform;
+        display: block;
+        position: relative;
+        white-space: nowrap;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+
+        span{
+            font-size: 180px;
+            letter-spacing: -7.2px;
+            line-height: 1;
+            margin: 0;
+            color: $ogency-white;
+            font-weight: 800;
+            display: inline-block;
+            min-width: auto;
+
+            @media (max-width: 991px) {
+                font-size: 120px;
+                letter-spacing: -5px;
+            }
+            @media (max-width: 767px) {
+                font-size: 80px;
+                letter-spacing: -4px;
+            }
+
+            span{
+                color: $ogency-base;
+            }
+        }
+    }
+    @keyframes text-scrolling {
+        0% { transform: translate3d(-100%, 0, 0); }
+        100% { transform: translate3d(0%, 0, 0); }
+    }
+}
+
+/*--Sliding Text 2 --*/
+.sliding-text{
+    position: relative;
+    display: block;
+    background-color: $ogency-base;
+
+    &--white{
+        background-color: $ogency-black2;
+    }
+    
+    &__wrap {
+        position: relative;
+        display: block;
+        padding: 21px 0 9px;
+        white-space: nowrap;
+    }
+    &__list {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        -moz-animation: text-scrolling2 19s linear infinite;
+        -webkit-animation: text-scrolling2 19s linear infinite;
+        animation: text-scrolling2 19s linear infinite;
+        will-change: transform;
+        flex-wrap: nowrap;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+
+        li{
+            position: relative;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            color: $ogency-white;
+            letter-spacing: 2px;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 1;
+            margin: 0 20px;
+        }
+    }
+    @keyframes text-scrolling2 {
+        from {
+          transform: translateX(0%);
+        }
+      
+        to {
+          transform: translateX(-100%);
+        }
+    }
+}
+
+

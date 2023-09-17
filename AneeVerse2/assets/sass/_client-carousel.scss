@@ -1,0 +1,109 @@
+.client-carousel {
+  padding-bottom: 80px;
+  background-color: $ogency-black;
+
+  &--without-title{
+    padding-bottom: 100px;
+
+    @media (max-width: 767px){
+      padding-bottom: 80px;
+    }
+
+    .client-carousel__tilte{
+      display: none;
+    }
+  }
+  &--about{
+    padding-bottom: 100px;
+  }
+  &--service-page{
+    padding-bottom: 100px;
+
+    @media (max-width: 767px){
+      padding-bottom: 80px;
+    }
+  }
+
+  &__tilte{
+    text-align: center;
+    display: block;
+    color: $ogency-color;
+    font-weight: 500;
+    border-bottom: 1px solid RGBA($ogency-white-rgb, 0.1);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    margin-bottom: 99px;
+
+    @include mobile {
+      margin-bottom: 49px;
+    }
+    @media (max-width: 1199px) {
+      margin-bottom: 69px;
+    }
+
+    span{
+      display: inline-block;
+      background-color: $ogency-black;
+      padding: 5px 24px;
+      z-index: 2;
+      position: relative;
+      top: 13px;
+    }
+  }
+
+  &__has-border-top {
+    border-top: 1px solid #e9e7e2;
+  }
+
+  &__has-top-shadow {
+    box-shadow: 0px -1px 0px 0px RGBA(227, 227, 227, 0.004);
+  }
+
+  .client-carousel__one{
+    position: relative;
+
+    .client-carousel__one__item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        transition: 500ms;
+        opacity: 0.2;
+        max-width: 100%;
+        width: auto;
+    
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+.client-carousel__about-page {
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/shapes/ripped-paper-white-up.png);
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    z-index: 10;
+    transform: rotate(0deg);
+    background-size: auto;
+
+    @media (min-width: 1700px) {
+      background-size: 100%;
+      bottom: -15px;
+    }
+  }
+
+  .container {
+    position: relative;
+  }
+}

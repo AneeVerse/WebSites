@@ -1,0 +1,40 @@
+@mixin ogencyBtn($bgColor: $ogency-base, $color: $ogency-white, $padding: 16px 50px 17px) {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  border: none;
+  outline: none !important;
+  background-color: $bgColor;
+  color: $color;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: $ogency-font;
+  padding: $padding;
+  transition: 500ms;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+
+  &::after{
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: -1;
+    background: $ogency-white;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  }
+  &:hover::after{
+    height: 450%;
+    transition: all 1s ease 0s;
+  }
+  &:hover{
+    color: $ogency-base;
+  }
+}

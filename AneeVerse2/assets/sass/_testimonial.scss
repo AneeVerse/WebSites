@@ -1,0 +1,422 @@
+.testimonial-one{
+    background-color: $ogency-black;
+    position: relative;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 105px 0 0;
+
+    @media (max-width: 767px){
+        padding: 80px 0 0;
+    }
+}
+.testimonial-one__carousel{
+    position: relative;
+    border-bottom: 1px solid $ogency-black3;
+    padding: 0 0 54px;
+
+    &.owl-carousel{
+        .owl-nav{
+            position: absolute;
+            right: 0;
+            bottom: 120px;
+            margin: 0;
+
+            @media (max-width: 1199px){
+                bottom: 90px;
+            }
+
+            @media (max-width: 991px){
+                bottom: 40px;
+            }
+            @media (max-width: 767px){
+                position: relative;
+                bottom: 0;
+            }
+    
+            button{
+                transition: all 400ms ease;
+                width: 57px;
+                height: 57px;
+                outline: none;
+                box-shadow: none;
+                border: none;
+                background-color: $ogency-black2;
+                border-radius: 50%;
+                display: inline-block;
+                color: $ogency-white;
+                line-height: 59px;
+                font-size: 16px;
+                margin: 0 0 0 10px;
+                text-align: center;
+
+                &:hover{
+                    background-color: $ogency-base;
+                }
+            }
+        }
+    }
+}
+.testimonial-one__item{
+    position: relative;
+    padding: 0 0 55px 300px;
+    min-height: 253px;
+
+    @media (max-width: 767px){
+        padding-left: 0;
+    }
+
+    &__author-thumb{
+        position: absolute;
+        left: 0;
+        top: 15px;
+        width: 253px;
+        height: 253px;
+        border-radius: 50%;
+        background-color: $ogency-black;
+
+        @media (max-width: 767px){
+            position: relative;
+            top: 0;
+            margin-bottom: 25px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            mix-blend-mode: luminosity;
+        }
+        span{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: $ogency-base;
+            display: block;
+            text-align: center;
+            color: $ogency-white;
+            font-size: 100px;
+            line-height: 132px;
+            font-weight: 600;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    &__content{
+        position: relative;
+    }
+    &__quote{
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 300;
+        margin-bottom: 34px;
+        
+        @media (max-width: 991px){
+            font-size: 29px;
+            line-height: 45px;
+            margin-bottom: 30px;
+        }
+        @media (max-width: 767px){
+            line-height: 42px;
+            margin-bottom: 30px;
+        }
+    }
+    &__meta{
+        color: $ogency-white;
+        font-size: 24px;
+        font-weight: 800;
+
+        span{
+            font-size: 13px;
+            color: $ogency-base;
+            font-weight: 500;
+            letter-spacing: 1.3px;
+            display: inline-block;
+            text-transform: uppercase;
+            margin-left: 11px;
+        }
+    }
+}
+
+/*-- Testimonial two --*/
+.testimonial-two{
+    background-color: $ogency-black;
+    position: relative;
+    padding: 91px 0 108px;
+
+    &__bg{
+        position: absolute;
+        top: -95px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 767px){
+        padding: 80px 0;
+    }
+    &__carousel__wrapper{
+        position: relative;
+    }
+}
+.testimonial-two__carousel__wrapper{
+    position: relative;
+
+    .tns-controls, .tns-visually-hidden{
+        display: none;
+    }
+}
+.testimonial-two__carousel__thumb{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 0 25px;
+    padding: 0;
+
+    &__item{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        margin: 0 5px;
+        overflow: hidden;
+        object-fit: cover;
+        background-color: $ogency-black;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.4s ease;
+
+        &::after{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 90%;
+            height: 90%;
+            content: '';
+            border-radius: 50%;
+            margin: auto;
+            visibility: hidden;
+            opacity: 0;
+            border: 3px solid $ogency-base;
+            transition: all 0.4s ease;
+        }
+        &:hover::after, &.tns-nav-active::after{
+            height: 100%;
+            width: 100%;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            mix-blend-mode: luminosity;
+        }
+    }
+}
+.testimonial-two__carousel{
+    position: relative;
+}
+
+.testimonial-two__item{
+    position: relative;
+    text-align: center;
+
+    &__quote{
+        max-width: 845px;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 300;
+        margin: 0 auto;
+    }
+    &__meta{
+        color: $ogency-white;
+        font-size: 24px;
+        font-weight: 800;
+        margin: 33px 0 0;
+
+        span{
+            font-size: 13px;
+            color: $ogency-base;
+            font-weight: 500;
+            letter-spacing: 1.3px;
+            display: inline-block;
+            text-transform: uppercase;
+            margin-left: 11px;
+        }
+    }
+}
+
+/*-- Testimonial three --*/
+.testimonial-three{
+    background-color: $ogency-black;
+    position: relative;
+    padding: 52px 0 0;
+
+    @media (max-width: 767px){
+        padding: 40px 0 0;
+    }
+}
+.testimonial-three__carousel{
+    position: relative;
+
+    &.owl-carousel{
+        .owl-nav{
+            position: absolute;
+            right: 0;
+            top: -152px;
+            margin: 0;
+
+            @media (max-width: 767px){
+                position: relative;
+                top: 0;
+                margin-top: 30px;
+            }
+    
+            button{
+                transition: all 400ms ease;
+                width: 57px;
+                height: 57px;
+                outline: none;
+                box-shadow: none;
+                border: none;
+                background-color: $ogency-black2;
+                border-radius: 50%;
+                display: inline-block;
+                color: $ogency-white;
+                line-height: 59px;
+                font-size: 16px;
+                margin: 0 0 0 10px;
+                text-align: center;
+
+                &:hover{
+                    background-color: $ogency-base;
+                }
+            }
+        }
+    }
+}
+.testimonial-three__item{
+    position: relative;
+    border: 1px solid $ogency-black2;
+    background-color: $ogency-black;
+    padding: 33px 190px 35px 39px;
+
+    @media (min-width: 991px) and (max-width: 1199px){
+        padding: 33px 170px 35px 29px;
+    }
+    @media (max-width: 767px){
+        padding: 33px 29px 35px 26px;
+    }
+
+    &__border{
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        width: 262px;
+        height: 41px;
+        border: 1px solid $ogency-black2;
+        border-top: 1px solid $ogency-black;
+        border-right: 1px solid $ogency-black;
+
+        @media (min-width: 991px) and (max-width: 1199px){
+            width: 205px;
+        }
+        @media (max-width: 767px){
+            width: 125px;
+        }
+    }
+
+    &__name{
+        font-size: 24px;
+        letter-spacing: -.96px;
+        margin-bottom: 16px;
+    }
+    &__quote{
+        color: $ogency-color;
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0;
+
+        @media (max-width: 991px){
+            max-width: 390px;
+        }
+    }
+    &__meta{
+        position: absolute;
+        right: 39px;
+        top: -1px;
+        text-align: center;
+
+        @media (min-width: 991px) and (max-width: 1199px){
+            right: 27px;
+        }
+        @media (max-width: 767px){
+            position: relative;
+            right: 0;
+            margin: 25px 0 0;
+            max-width: 137px;
+        }
+
+        &__thumb{
+            width: 137px;
+            height: 137px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 1px solid $ogency-base;
+            padding: 9.5px;
+            background-color: $ogency-black;
+            position: relative;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+                mix-blend-mode: luminosity;
+            }
+            &::after{
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                width: calc(100% - 19px);
+                height: calc(100% - 19px);
+                border-radius: 50%;
+                content: '';
+                border: 5px solid $ogency-white;
+                transition: all 0.4s ease;
+            }
+        }
+        &__ratings{
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            color: $ogency-base;
+            letter-spacing: 2.8px;
+            margin: 18px 0 5px;
+        }
+        &__reviews{
+            font-size: 14px;
+            line-height: 26px;
+            margin: 0;
+        }
+    }
+    &:hover .testimonial-three__item__meta__thumb::after{
+        border-color: $ogency-base;
+    }
+}
+
+

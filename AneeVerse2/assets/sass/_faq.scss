@@ -1,0 +1,164 @@
+.faq-page{
+    background-color: $ogency-black;
+    position: relative;
+    padding: 120px 0 110px;
+
+    @media (max-width: 767px){
+        padding: 80px 0 70px;
+    }
+    &__help{
+        position: relative;
+        background-color: $ogency-base;
+        padding: 40px 40px 41px;
+
+        @media (max-width: 991px){
+            margin-bottom: 30px;
+        }
+
+        &__bg{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: .10;
+            mix-blend-mode: luminosity;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+        &__icon{
+            position: relative;
+            z-index: 2;
+            width: 45px;
+            height: 45px;
+            background-color: $ogency-black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: $ogency-base;
+            margin-bottom: 12px;
+
+            span{
+                display: inline-block;
+                transition: all 500ms linear;
+                transition-delay: 0s;
+                transition-delay: 0s;
+                transition-delay: 0.1s;
+                transform: scale(1);
+            }
+        }
+        &:hover &__icon span{
+            transform: scale(0.9);
+        }
+        &__title{
+            position: relative;
+            z-index: 2;
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -.96px;
+            margin-bottom: 24px;
+        }
+        &__text{
+            position: relative;
+            z-index: 2;
+            font-size: 13px;
+            line-height: 1;
+            font-weight: 600;
+            color: $ogency-white;
+            margin-bottom: 8px;
+        }
+        &__number{
+            position: relative;
+            z-index: 2;
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 600;
+            color: $ogency-white;
+            margin-bottom: 0;
+
+            a{
+                color: inherit;
+            }
+        }
+    }
+}
+.faq-page__accrodion{
+    position: relative;
+
+    .accrodion {
+        position: relative;
+        display: block;
+        margin-bottom: 10px;
+        background-color: $ogency-black2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+
+        &.active{
+            .accrodion-title h4{
+                color: $ogency-base;
+                &::before{
+                    content: "\e91e";
+                    color: $ogency-white;
+                }
+            }
+        }
+    }
+    .accrodion-title{
+        position: relative;
+        display: block;
+        cursor: pointer;
+        padding: 19px 30px 23px;
+        transition: all 200ms linear;
+        transition-delay: 0s;
+        transition-delay: 0.1s;
+
+        h4{
+            margin: 0;
+            padding-right: 30px;
+            font-size: 18px;
+            letter-spacing: -.72px;
+            line-height: 28px;
+            position: relative;
+            -webkit-transition: all 500ms ease;
+            transition: all 500ms ease;
+
+            &::before{
+                content: "\e91d";
+                font-family: 'icomoon' !important;
+                font-size: 12px;
+                color: $ogency-base;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                line-height: 15px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+                text-align: center;
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+    .accrodion-content {
+        position: relative;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        p{
+            margin: 0;
+            line-height: 30px;
+        }
+    }
+}

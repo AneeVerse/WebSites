@@ -1,0 +1,326 @@
+.why-choose {
+    background-color: $ogency-black;
+    position: relative;
+    padding: 90px 0 0;
+
+    @media (max-width: 767px) {
+        padding-top: 50px;
+    }
+
+    .section-title {
+        margin-bottom: 32px;
+    }
+}
+
+.why-choose__box {
+    position: relative;
+    padding: 0 0 0 90px;
+    margin-bottom: 33px;
+
+    @media (max-width: 767px) {
+        padding-left: 80px;
+    }
+
+    &__icon {
+        width: 58px;
+        height: 58px;
+        background-color: $ogency-black2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $ogency-base;
+        font-size: 21px;
+        position: absolute;
+        left: 0;
+        top: 7px;
+        -webkit-transition: all 0.4s linear;
+        -o-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+    }
+
+    &:hover &__icon {
+        background-color: $ogency-base;
+        color: $ogency-white;
+    }
+
+    &__title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -.80px;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        line-height: 30px;
+        margin: 0;
+    }
+}
+
+.why-choose__image {
+    position: relative;
+    margin: 0 0 0 70px;
+    max-width: 598px;
+    text-align: center;
+
+    @media (max-width: 1199px) {
+        margin: 0 0 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin: 0 0 60px;
+    }
+
+    &__shape {
+        position: relative;
+
+        img {
+            max-width: 100%;
+            animation: rotated 5s infinite linear;
+        }
+
+        @keyframes rotated {
+            0% {
+                transform: rotate(0);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    &__author {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 44px;
+        left: 0;
+        margin: auto;
+        max-width: 495px;
+        max-height: 457px;
+        background-color: $ogency-black;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 50%;
+        height: auto;
+
+        @media (max-width: 767px) {
+            top: 15px;
+            bottom: 15px;
+            right: 25px;
+            left: 15px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            top: 20px;
+            bottom: 20px;
+            right: 44px;
+            left: 20px;
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            mix-blend-mode: luminosity;
+        }
+    }
+
+    .video-one__banner__curved-circle-box {
+        width: 173px;
+        height: 173px;
+        background-color: $ogency-white;
+        right: auto;
+        left: 13px;
+        bottom: -39px;
+
+        @media (max-width: 767px) {
+            bottom: -100px;
+            left: 0;
+        }
+
+        .curved-circle {
+            color: $ogency-black;
+            line-height: 1;
+
+            .curved-circle---item span {
+                letter-spacing: .25em;
+            }
+        }
+
+        .video-popup {
+            background-color: $ogency-black;
+            color: $ogency-white;
+
+            &:hover {
+                background-color: $ogency-base;
+            }
+        }
+    }
+}
+
+/*-- Why chooose tow --*/
+.why-choose-two {
+    background-color: $ogency-black;
+    position: relative;
+    padding: 0 0 120px;
+
+    @media (max-width: 767px) {
+        padding-bottom: 80px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    &__left {
+        position: relative;
+        display: block;
+    }
+
+    &__img {
+        position: relative;
+        display: block;
+        max-width: 280px;
+        margin-bottom: 22px;
+        background-color: $ogency-black2;
+
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            max-width: 240px;
+        }
+
+        img {
+            width: 100%;
+            mix-blend-mode: luminosity;
+        }
+    }
+
+    &__img-2 {
+        position: relative;
+        display: block;
+        max-width: 280px;
+        background-color: $ogency-black2;
+
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            max-width: 240px;
+        }
+
+        img {
+            width: 100%;
+            mix-blend-mode: luminosity;
+        }
+    }
+
+    &__img-3 {
+        position: absolute;
+        top: 68px;
+        left: 300px;
+        background-color: $ogency-black2;
+
+        @media (max-width: 767px) {
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-top: 22px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            width: 240px;
+            left: 255px;
+        }
+
+        img {
+            width: auto;
+            mix-blend-mode: luminosity;
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            @media (min-width: 992px) and (max-width: 1199px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__right {
+        margin: 26px 0 0 -30px;
+
+        @media (max-width: 991px) {
+            margin: 50px 0 0;
+        }
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            margin-top: 0;
+        }
+
+        &--text {
+            line-height: 30px;
+            margin: 0 0 31px;
+        }
+    }
+
+    .ogency-btn {
+        margin-top: 40px;
+
+        @media (max-width: 767px) {
+            margin-top: 10px;
+        }
+    }
+}
+
+.why-choose-two__box {
+    position: relative;
+    min-height: 81px;
+    padding: 16px 0 0 101px;
+
+    @media (max-width: 767px) {
+        margin: 0 0 30px;
+    }
+
+    &__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 81px;
+        height: 81px;
+        background-color: $ogency-black2;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $ogency-base;
+        font-size: 32px;
+        -webkit-transition: all 0.4s linear;
+        -o-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+
+        span {
+            display: inline-block;
+            transition: all 500ms linear;
+            transition-delay: 0s;
+            transition-delay: 0s;
+            transition-delay: 0.1s;
+            transform: scale(1);
+        }
+    }
+
+    &:hover &__icon span {
+        transform: scale(0.9);
+    }
+
+    &__title {
+        font-size: 20px;
+        letter-spacing: -.80px;
+        max-width: 150px;
+        margin: 0;
+    }
+}

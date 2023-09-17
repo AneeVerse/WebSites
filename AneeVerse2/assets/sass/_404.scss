@@ -1,0 +1,124 @@
+.error-page{
+    background-color: $ogency-black;
+    position: relative;
+    padding: 230px 0 120px;
+
+    @media (max-width: 767px){
+        padding: 120px 0 80px;
+    }
+    &__content{
+        position: relative;
+        text-align: center;
+    }
+    &__404{
+        display: inline-block;
+        position: relative;
+        font-size: 250px;
+        line-height: 1;
+        margin: 0 0 19px;
+
+        @media (max-width: 991px){
+            font-size: 180px;
+        }
+        @media (max-width: 767px){
+            font-size: 100px;
+        }
+
+        img{
+            max-width: 100%;
+            position: absolute;
+            right: -190px;
+            top: -111px;
+            -webkit-animation: movebounce3 3s linear infinite;
+            animation: movebounce3 3s linear infinite;
+
+            @media (max-width: 991px){
+                right: -172px;
+                max-width: 220px;
+            }
+            @media (max-width: 767px){
+                right: -72px;
+                max-width: 100px;
+                top: -45px;
+            }
+        }
+        @keyframes movebounce3 {
+            0% {
+                transform: translateY(0px); }
+            50% {
+                transform: translateY(-20px); }
+            100% {
+                transform: translateY(0px); }
+        }
+    }
+    &__title{
+        font-size: 40px;
+        letter-spacing: -1.6px;
+        margin-bottom: 12px;
+
+        @media (max-width: 767px){
+            font-size: 32px;
+        }
+    }
+    &__text{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    &__form{
+        position: relative;
+        display: block;
+        margin: 0 auto 20px;
+
+        &-input{
+            position: relative;
+            display: block;
+            max-width: 550px;
+            width: 100%;
+            margin: 0 auto;
+
+            input[type="search"] {
+                height: 63px;
+                width: 100%;
+                border: none;
+                background-color: $ogency-black2;
+                padding-left: 50px;
+                padding-right: 50px;
+                outline: none;
+                font-size: 14px;
+                color: $ogency-color;
+                display: block;
+                font-weight: 500;
+
+                @media (max-width: 767px){
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+            }
+            button{
+                background-color: transparent;
+                color: $ogency-white;
+                font-size: 22px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                width: 72px;
+                outline: none;
+                border: medium none;
+                display: flex;
+                align-items: center;
+                padding: 0px;
+                transition: all 0.4s ease;
+
+                @media (max-width: 767px){
+                    width: 50px;
+                }
+
+                &:hover{
+                    color: $ogency-base;
+                }
+            }
+        }
+    }
+
+}
